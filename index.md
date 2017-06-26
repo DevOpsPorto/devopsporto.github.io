@@ -10,5 +10,8 @@ The community is regularly present in Slack, so get on there ASAP and join in on
 
 ## Want to present at the meetup?
 
-Please fill out our [Call for speakers form] (https://goo.gl/forms/LpS4noS5a3iA0vw83) with your talk idea. We'll get back to you afterwards to perform our [follow up process](speakerfollowup).
+Interested in presenting at a Meetup? We're interested in having you there. Checkout the how the talk [submission process works](speakerfollowup.html). Afterwards, please fill out our [Call for speakers form] (https://goo.gl/forms/LpS4noS5a3iA0vw83) with your talk idea.
 
+## Code of Conduct
+
+Please keep in mind our [code-of-conduct](code-of-conduct.html) when participating in the community. We believe this code is essential to a healthy community and clearly in line with the values of DevOps.
