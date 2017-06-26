@@ -10,5 +10,5 @@ The community is regularly present in Slack, so get on there ASAP and join in on
 
 ## Want to present at the meetup?
 
-Please fill out our [Call for speakers form] (https://goo.gl/forms/LpS4noS5a3iA0vw83) with your talk idea. We'll get back to you afterwards.
+Please fill out our [Call for speakers form] (https://goo.gl/forms/LpS4noS5a3iA0vw83) with your talk idea. We'll get back to you afterwards to perform our [follow up process](speakerfollowup).
 
