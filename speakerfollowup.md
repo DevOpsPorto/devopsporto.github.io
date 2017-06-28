@@ -1,3 +1,6 @@
+---
+layout: default
+---
 #DevOps Porto Speaker Process
 
 We've got a simple process in place in order to validate talks that you may want to present.

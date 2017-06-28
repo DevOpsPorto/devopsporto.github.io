@@ -1,3 +1,6 @@
+---
+layout: default
+---
 #DevOps Porto Code-Of-Conduct
 
 Like most community related organizations, we've decided to adopt a code of conduct for the organized activities. As such, we have decided to adopt the code of conduct brought forth by the Devopsdays community.

@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Devops Porto
 
 ## Join us at the next meetup
@@ -14,4 +17,4 @@ Interested in presenting at a Meetup? We're interested in having you there. Chec
 
 ## Code of Conduct
 
-Please keep in mind our [code-of-conduct](code-of-conduct.html) when participating in the community. We believe this code is essential to a healthy community and clearly in line with the values of DevOps.
+Please keep in mind our [code-of-conduct](codeofconduct.html) when participating in the community. We believe this code is essential to a healthy community and clearly in line with the values of DevOps.
