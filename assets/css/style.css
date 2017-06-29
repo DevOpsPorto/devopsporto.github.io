@@ -47,11 +47,38 @@ table {
 }
 
 /* page specific */
-.page-header {
-	height:200px;
-	background-color: purple
-}
-
 h1 { font-size:24pt; margin-bottom:20px; margin-top:20px}
 h2 { font-size:20pt; margin-bottom:20px; margin-top:20px}
 h3 { font-size:16pt; margin-bottom:20px; margin-top:20px}
+
+.container {
+	margin:auto;
+}
+
+	.container section{
+		width: 960px;
+		margin:auto;
+	}
+.page-header {
+	height:200px;
+	border-bottom: solid 3px #510d51;
+}
+
+.menu {
+	height:50px;
+	background-color: #510d51;
+	color: white;
+	font-size: 16pt;
+}
+	.menu nav{
+		width:960px;
+		margin:auto;
+	}
+	.menu li{
+		display: inline-block;
+		margin: 0 20px;
+	}
+	.menu a{
+		color: white;
+		text-decoration: none;
+	}
