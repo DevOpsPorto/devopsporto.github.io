@@ -2,17 +2,81 @@
 
 <head>
     <title>DevOps Porto Community</title>
-    <link rel="stylesheet" href="/assets/css/style.css?v=d12cd39be3b3445b5c8f8e424ca021611e248560">
+    <!--<link rel="stylesheet" href="/assets/css/bulma.css">-->
+    <link rel="stylesheet" href="/assets/css/bulma.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
 <body>
-    <div class="container">
-        <section class="page-header">
-            <h1 class="project-name">devopsporto.github.io</h1>
-            <h2 class="project-tagline">Building Bridges</h2>
-        </section>
-    </div>
-    <section class="menu">
+    <section>
+        <nav class="nav">
+            <div class="nav-left">
+                <a class="nav-item">
+                    <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
+                </a>
+            </div>
+            <div class="nav-center">
+                <a class="nav-item">
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                </a>
+                <a class="nav-item">
+                    <span class="icon">
+                        <i class="fa fa-twitter"></i>
+                    </span>
+                </a>
+            </div>
+
+            <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+            <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+            <span class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+
+            <!-- This "nav-menu" is hidden on mobile -->
+            <!-- Add the modifier "is-active" to display it on mobile -->
+            <div class="nav-right nav-menu">
+                <a class="nav-item" href="meetups.html">
+                    Meetups
+                </a>
+                <a class="nav-item" href="speakerfollowup.html">
+                    Call for speakers
+                </a>
+                <a class="nav-item" href="codeofconduct.html">
+                    Code of conduct
+                </a>
+
+                <div class="nav-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                            <a class="button">
+                                <span class="icon">
+                                <i class="fa fa-twitter"></i>
+                                </span>
+                                <span>Tweet</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    DevOps Porto
+                </h1>
+                <h2 class="subtitle">
+                    Building Bridges
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="nav">
         <nav>
             <ul>
                 <li><a href="pastmeetups.html">Past Meetups</a></li>
@@ -22,7 +86,7 @@
         </nav>
     </section>
     <div class="container">
-            <section class="main-content">
+        <section class="main-content">
             {{ content }}
         </section>
     </div>
