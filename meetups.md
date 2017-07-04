@@ -1,8 +1,16 @@
-# Past Meetups
+---
+layout: default
+---
+<h1>2017 Meetups</h1>
+{% include meetup2017006.html %}
 
-## 5 - Monitoring 
+{% include meetup2017005.html %}
 
-## 4 - 
+{% include meetup2017004.html %}
+
+{% include meetup2017003.html %}
+
+
 
 ## 3 - 
 
