@@ -3,67 +3,14 @@
 <head>
     <title>DevOps Porto Community</title>
     <!--<link rel="stylesheet" href="/assets/css/bulma.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/bulma.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
 <body>
-    <section>
-        <nav class="nav">
-            <div class="nav-left">
-                <a class="nav-item" href="index.html">
-                    <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
-                </a>
-            </div>
-            <div class="nav-center">
-                <a class="nav-item">
-                    <span class="icon">
-                        <i class="fa fa-github"></i>
-                    </span>
-                </a>
-                <a class="nav-item">
-                    <span class="icon">
-                        <i class="fa fa-twitter"></i>
-                    </span>
-                </a>
-            </div>
+    {% include header.html %}
 
-            <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-            <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-            <span class="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </span>
-
-            <!-- This "nav-menu" is hidden on mobile -->
-            <!-- Add the modifier "is-active" to display it on mobile -->
-            <div class="nav-right nav-menu">
-                <a class="nav-item" href="meetups.html">
-                    Meetups
-                </a>
-                <a class="nav-item" href="speakerfollowup.html">
-                    Call for speakers
-                </a>
-                <a class="nav-item" href="codeofconduct.html">
-                    Code of conduct
-                </a>
-
-                <div class="nav-item">
-                    <div class="field is-grouped">
-                        <p class="control">
-                            <a class="button">
-                                <span class="icon">
-                                <i class="fa fa-twitter"></i>
-                                </span>
-                                <span>Tweet</span>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </section>
     <section class="hero is-primary">
         <div class="hero-body">
             <div class="container">
