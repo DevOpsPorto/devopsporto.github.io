@@ -1,11 +1,4 @@
-<section class="hero is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">Meetup #5 - Monitoring</h1>
-      <h2 class="subtitle">13/06/2017; Hosted by Blip.pt</h2>
-    </div>
-  </div>
-</section>
+{% include components/meetuptitle.html number=5 title="Monitoring" date="13/06/2017" host="Blip.pt" %}
 
 <div class="columns content">
   <div class="column is-one-third">
@@ -24,18 +17,13 @@
 
     <div class="box">
       <article class="media">
-        <div class="media-left">
-          <figure class="image is-128x128">
-            <img src="assets/images/speakers/m005_pedroaraujo.jpg" alt="Image">
-          </figure>
-        </div>
+        {% include components/speakerimage.html imagename="m005_pedroaraujo.jpg" %}
         <div class="media-content">
           <div class="content">
             <h3>Monitoring</h3>
+            {% include components/speakerhandle.html name="Pedro Araújo" twitter="phcrva" linkedin="pharaujo" %}
             <p>
-              <strong>Pedro Araújo</strong> <small><a href="https://twitter.com/phcrva">@phcrva</a><a href="https://www.linkedin.com/in/pharaujo/">LinkedIn</a></small>
-            </p>
-            <p>Not having the ability to know exactly how your production system behaves can be costly - both in terms of missed
+              Not having the ability to know exactly how your production system behaves can be costly - both in terms of missed
               opportunities as well as recovery time when disaster strikes. However, the overall complexity of today's systems
               and their interactions makes it ever more difficult to have visibility into their health and performance.</p>
             <p>

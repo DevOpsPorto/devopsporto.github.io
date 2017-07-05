@@ -1,11 +1,4 @@
-<section class="hero is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">Meetup #6 - Security / Culture</h1>
-      <h2 class="subtitle">Hosted by Euronext Tech Center, Porto</h2>
-    </div>
-  </div>
-</section>
+{% include components/meetuptitle.html number=6 title="Security / Culture" date="11/07/2016" host="Euronext Tech Center" %}
 
 <div class="content">
   <p>
@@ -19,7 +12,7 @@
       <h3>Agenda:</h3>
       <ul>
         <li>Session Intro</li>
-        <li>Talk #1: <strong>Security in the wildby (Renato Rodrigues)</strong></li>
+        <li>Talk #1: <strong>Security in the wild (Renato Rodrigues)</strong></li>
         <li>Networking break</li>
         <li>Talk#2: <strong>Culture: a gentle introduction. (Nuno Rafael Gomes)</strong></li>
         <li>Wrap-up</li>
@@ -30,17 +23,12 @@
 
     <div class="box">
       <article class="media">
-        <div class="media-left">
-          <figure class="image is-128x128">
-            <img src="assets/images/speakers/m006_renato.jpg" alt="Image">
-          </figure>
-        </div>
+        {% include components/speakerimage.html imagename="m006_renato.jpg" %}
+        
         <div class="media-content">
           <div class="content">
             <h3>Security in the wild</h3>
-            <p>
-              <strong>Renato Rodriques</strong> <small><a href="https://twitter.com/simps0n">@simpsOn</a></small>
-            </p>
+            {% include components/speakerhandle.html name="Renato Rodrigues" twitter="simps0n" linkedin="" %}
             <p>
               With 0xOPOSEC (@oposec) community as partner, we are happy and grateful for having Renato Rodrigues (@simps0n) as invited
               speaker. For Renato and for a modern software house, security is a top priority. It is a fast-paced working
@@ -67,17 +55,11 @@
     </div>
     <div class="box">
       <article class="media">
-        <div class="media-left">
-          <figure class="image is-128x128">
-            <img src="assets/images/speakers/m006_nunogomes.jpg" alt="Image">
-          </figure>
-        </div>
+        {% include components/speakerimage.html imagename="m006_nunogomes.jpg" %}
         <div class="media-content">
           <div class="content">
             <h3>Culture: a gentle introduction</h3>
-            <p>
-              <strong>Nuno Rafael Gomes</strong> <small><a href="https://twitter.com/nrgomes">@nrgomes</a></small>
-            </p>
+            {% include components/speakerhandle.html name="Nuno Rafael Gomes" twitter="nrgomes" linkedin="" %}
             <p>Nuno's talk will cover the following topics:</p>
             <ul>
               <li>What is a National Culture?</li>

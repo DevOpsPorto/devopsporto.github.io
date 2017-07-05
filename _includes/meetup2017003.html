@@ -1,11 +1,4 @@
-<section class="hero is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">Meetup #3 - Containers @ Azure</h1>
-      <h2 class="subtitle">23/03/2017; Hosted by DevScope</h2>
-    </div>
-  </div>
-</section>
+{% include components/meetuptitle.html number=3 title="Containers @ Azure" date="23/03/2017" host="DevScope" %}
 
 <div class="columns content">
   <div class="column is-one-third">
@@ -24,18 +17,13 @@
 
     <div class="box">
       <article class="media">
-        <div class="media-left">
-          <figure class="image is-128x128">
-            <img src="assets/images/speakers/m003_pedrosousa.jpg" alt="Image">
-          </figure>
-        </div>
+        {% include components/speakerimage.html imagename="m003_pedrosousa.jpg" %}
         <div class="media-content">
           <div class="content">
             <h3>Azure Container Services</h3>
+            {% include components/speakerhandle.html name="Pedro Sousa" twitter="psousa75" linkedin="pmsousa" %}
             <p>
-              <strong>Pedro Sousa</strong> <small><a href="https://twitter.com/psousa75">@psousa75</a><a href="https://pt.linkedin.com/in/pmsousa">LinkedIn</a></small>
-            </p>
-            <p>Our invited speaker is Pedro Sousa (@psousa75) and in his talk, he will do a brief overview about Azure’s current
+              Our invited speaker is Pedro Sousa (@psousa75) and in his talk, he will do a brief overview about Azure’s current
               offerings for Container deployment and orchestration. This talk will include where and how can you start to
               explore the environments and build a simple DevTest Lab.</p>
 

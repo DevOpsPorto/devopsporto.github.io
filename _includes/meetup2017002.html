@@ -1,12 +1,4 @@
-<section class="hero is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">Meetup #2 - The DevOps way!</h1>
-      <h2 class="subtitle">25/01/2017; Hosted by Mindera</h2>
-    </div>
-  </div>
-</section>
-
+{% include components/meetuptitle.html number=2 title="The DevOps Way!" date="25/01/2017" host="Minera" %}
 
 <div class="columns content">
   <div class="column is-one-third">
@@ -25,17 +17,12 @@
 
     <div class="box">
       <article class="media">
-        <div class="media-left">
-          <figure class="image is-128x128">
-            <img src="assets/images/speakers/m002_miguel.jpg" alt="Image">
-          </figure>
-        </div>
+        {% include components/speakerimage.html imagename="m002_miguel.jpg" %}
         <div class="media-content">
           <div class="content">
             <h3>The way devs do ops - or is it the other way around?</h3>
-            <p>
-              <strong>Miguel Fonseca</strong> <small><a href="https://twitter.com/miguelcnf">@miguelcnf</a><a href="https://pt.linkedin.com/in/miguelcnf">LinkedIn</a></small>
-            </p>
+            {% include components/speakerhandle.html name="Miguel Fonseca" twitter="miguelcnf" linkedin="miguelcnf" %}
+            
             <p>Our invited speaker is Miguel Fonseca (<a href="https://twitter.com/miguelcnf">@miguelcnf</a>) and his talk will
               explore the foundations of any modern software project in order to achieve full DevOps awesomeness, how developers
               and operations can speak the same language, and three main rules to build software by or burn out trying. Expect

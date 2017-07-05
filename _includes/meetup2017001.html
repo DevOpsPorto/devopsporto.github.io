@@ -1,12 +1,4 @@
-<section class="hero is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">Meetup #1 - Hello DevOps World</h1>
-      <h2 class="subtitle">25/10/2016; Hosted by UPTec</h2>
-    </div>
-  </div>
-</section>
-
+{% include components/meetuptitle.html number=1 title="Hello DevOps World" date="25/10/2016" host="UPTec" %}
 
 <div class="columns content">
   <div class="column is-one-third">
@@ -25,17 +17,12 @@
 
     <div class="box">
       <article class="media">
-        <div class="media-left">
-          <figure class="image is-128x128">
-            <img src="assets/images/speakers/m001_manuel.jpg" alt="Image">
-          </figure>
-        </div>
+        {% include components/speakerimage.html imagename="m001_manuel.jpg" %}
         <div class="media-content">
           <div class="content">
             <h3>The (un)surprising truth about DevOps culture</h3>
-            <p>
-              <strong>Manuel Pais</strong> <small><a href="https://twitter.com/manupaisable">@manupaisable</a><a href="https://es.linkedin.com/in/manuelpais">LinkedIn</a></small>
-            </p>
+            {% include components/speakerhandle.html name="Manuel Pais" twitter="manupaisable" linkedin="manuelpais" %}
+            
             <p>This will be our #1st meetup about DevOps and its culture, practices and techniques, and will be co-organized
               with our partners Agile Connect community (their #7th meetup). Join us in building "bridges" between development
               and operations.
