@@ -1,3 +1,5 @@
 <p>
-    <strong>{{ include.name}}</strong> <small><a href="https://twitter.com/{{ include.twitter}}">@{{ include.twitter}}</a></small><small><a href="https://www.linkedin.com/in/{{ include.linkedin }}/">LinkedIn</a></small>
+    <strong>{{ include.name}}</strong> 
+    {% include components/smalltwitter.html handle=include.twitter %}
+    {% include components/smallLinkedIn.html handle=include.linkedin %}
 </p>
