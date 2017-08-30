@@ -4286,7 +4286,7 @@ input[type="submit"].button {
 }
 
 .nav-item img {
-  max-height: 1.75rem;
+  max-height: 3.2rem;
 }
 
 .nav-item .tag:first-child:not(:last-child) {
