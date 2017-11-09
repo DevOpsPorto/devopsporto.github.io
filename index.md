@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-{% include meetup2017009.html %}
+{% include meetup2017010.html %}
 <hr/>
-{% include maps/farfetch.html %}
+{% include maps/celfocus.html %}
 <hr/>
 
 <div class="tile is-ancestor">
