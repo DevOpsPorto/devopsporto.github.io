@@ -8,7 +8,7 @@ install:
 
 script:
   - jekyll build --incremental
-  - htmlproofer ./_site --only-4xx --check-favicon --check-html --http-status-ignore 404
+  - htmlproofer ./_site --only-4xx --check-favicon --check-html
 
 env:
   global:
