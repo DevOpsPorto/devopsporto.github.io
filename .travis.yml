@@ -1,0 +1,15 @@
+language: ruby
+
+rvm:
+  - 2.3
+
+install:
+  - gem install jekyll html-proofer
+
+script:
+  - jekyll build --incremental
+  - htmlproofer ./_site --only-4xx --check-favicon --check-html --http-status-ignore 404
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
