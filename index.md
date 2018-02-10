@@ -3,7 +3,7 @@ layout: default
 ---
 {% include meetup2018013.html %}
 <hr/>
-{% include maps/bit.html %}
+{% include maps/hostelworld.html %}
 <hr/>
 
 <div class="tile is-ancestor">
