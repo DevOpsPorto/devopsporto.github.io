@@ -1,9 +1,9 @@
 .google-maps {
-        position: relative;
-        padding-bottom: 40%;
-        height: 0;
-        overflow: hidden;
-    }
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+}
     .google-maps iframe {
         position: absolute;
         top: 0;
@@ -17,3 +17,14 @@
 }
 
 img.width-is-128 {width:128px}
+
+.sponsor{
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    text-align: center;
+}
+    .sponsor img{        
+        max-height: 100px;
+    }
