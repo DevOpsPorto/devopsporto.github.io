@@ -2766,6 +2766,16 @@ input[type="submit"].button {
   width: 128px;
 }
 
+.image.is-256x256 {
+  height: 256px;
+  width: 256px;
+}
+
+.image.is-96x128 {
+  height: 96px;
+  width: 128px;
+}
+
 .notification {
   background-color: whitesmoke;
   border-radius: 3px;
