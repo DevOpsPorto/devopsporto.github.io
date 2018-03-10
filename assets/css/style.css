@@ -18,6 +18,18 @@
 
 img.width-is-128 {width:128px}
 
+.topsponsor{
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    text-align: center;
+}
+    .topsponsor img{        
+        max-width: 100%;
+    }
+    
+    
 .sponsor{
     background-color: white;
     color:black;
@@ -25,6 +37,7 @@ img.width-is-128 {width:128px}
     /*box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);*/
     text-align: center;
 }
+    
     .sponsor img{        
         max-height: 100px;
         max-width: 90%;
