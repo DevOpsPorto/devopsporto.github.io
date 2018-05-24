@@ -57,3 +57,7 @@ img.width-is-128 {width:128px}
         height: 96px;
         width: 128px;
     }
+
+.dateColumn{ width:90px;}
+.eventTitleColumn{ min-width:150px;}
+.eventLocationColumn{ min-width:150px;}
