@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include event2018-devopsbootcamp.html %}
+{% include meetup2018017.html %}
 <hr/>
 {% include maps/devscope.html %}
 <hr/>
