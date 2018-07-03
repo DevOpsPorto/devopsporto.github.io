@@ -1,0 +1,77 @@
+{% include components/meetuptitle.html number=18 title="The Sound of DevOps" date="12/07/2018" host="Natixis"
+%}
+
+<div class="columns content">
+  <div class="column is-one-third">
+    <div class="box">
+      <h3>12/07/2018</h3>
+      <h3>Agenda:</h3>
+      <ul>
+        <li>Session Intro</li>
+        <li>Talk:
+          <strong>Continuous Delivery Patterns for Boring Releases</strong>
+        </li>
+        <li>Networking break</li>
+        <li>Open space forum</li>
+        <li>Wrap-up</li>
+      </ul>
+      <h3>Host</h3>
+      <figure class="image">
+        <a href="https://www.natixis.com/" target="_blank">
+          <img alt="Natixis" class="width-is-128" src="assets/images/hosts/natixis.jpg" />
+        </a>
+      </figure>
+    </div>
+  </div>
+  <div class="column is-auto">
+
+    <div class="box">
+      <article class="media">
+        {% include components/speakerimage.html imagename="m001_manuel.jpg" %}
+
+        <div class="media-content">
+          <div class="content">
+            <h3>Continuous Delivery Patterns for Boring Releases</h3>
+            {% include components/speakerhandle.html name="Manuel Pais" twitter="manupaisable" linkedin="manuelpais" %}
+            <p>
+              In today's world, we need not only to maintain our systems running 24x7 in production but we must also be able to keep them 
+              releasable 24x7. We can only do that with modern infrastructure and software delivery practices. 
+              Releases should be even more boring and risk-free than washing up clothes at the laundromat. Make a code change, see it go through the pipeline, 
+              get green or red result. If red, fix or rollback. If green, deploy. If deploy fails, rollback. Monitor forever.
+            </p>
+
+            <p>
+              Because everyone wants to go faster but also safer, we're cramming more and more activities in the pipeline, 
+              from security controls to database changes, to compliance approvals, soon networking... 
+              How can we do this AND still move fast AND avoid burning out teams with all this cognitive load? 
+              Oh, and break down silos in the process, of course (DevOps bingo!).
+            </p>
+
+            <p>
+              In this talk you'll learn how to ensure that your delivery system serves its core purpose of quickly and safely progressing 
+              our client-facing systems from commit to production. You'll also hear about key practices 
+              for software releasability like pipeline-as-code, short and wide pipelines, build and release from zero to production, 
+              blue-green deployments, and more!
+            </p>
+
+            <h4>About Manuel Pais:</h4>
+            <p>
+              <a href="https://www.manuelpais.net/" target="_blank">Manuel Pais</a> is a independent DevOps and Continuous Delivery Consultant, focused on teams and flow. 
+              Manuel guides organizations define and adopt DevOps and Continuous Delivery (both from technical and human perspectives) 
+              via strategic assessments, practical workshops and technical coaching. 
+              Also <a href="https://www.infoq.com/profile/Manuel-Pais" target="_blank">InfoQ editor</a>. 
+              Co-curator of <a href="http://devopstopologies.com/" target="_blank">DevOpsTopologies.com</a> . 
+              <a href="http://devopslisbon.com/" target="_blank">DevOps Lisbon meetup</a> organizer. 
+              Co-author of the book <a href="https://skeltonthatcher.com/publications/team-guide-software-releasability" target="_blank">Team Guide to Software Releasability</a>.
+            </p>
+            <!--<h4>Media</h4>
+            <p>
+              <a href="https://speakerdeck.com/devopsporto/devopsporto-meetup17-the-return-of-the-dull-stack-engineer-by-kris-buytaert" target="_blank">Slide deck @ SpeakerDeck</a>
+            </p>-->
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+</div>
