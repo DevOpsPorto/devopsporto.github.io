@@ -9,9 +9,9 @@
         <li>Welcome</li>
         <li>Lighting Talk #1: <strong>Infrastructure as Code: a DevOps enabling tool (Diana Martins)</strong></li>
         <li>Lighting Talk #2: <strong>Behind machine learning (Ricardo Cruz)</strong></li>
-        <li>Lighting Talk #3: <strong>TBD</strong></li>
+        <li>Lighting Talk #3: <strong>GUI programming on Python with Tkinter (Vitor Domingos)</strong></li>
         <li>Networking break</li>
-        <li>Lighting Talk #4: <strong>TBD</strong></li>
+        <li>Lighting Talk #4: <strong>Speed CI with Gitlab CI and Docker (Alfredo Palhares)</strong></li>
         <li>Lighting Talk #5: <strong>TBD</strong></li>
         <li>Lighting Talk #6: <strong>TBD</strong></li>
         <li>Closing</li>
@@ -59,13 +59,13 @@
         <div class="media-content">
           <div class="content">
             <h3>Behind machine learning</h3>
-            {% include components/speakerhandle.html name="Ricardo Cruz" %}
+            {% include components/speakerhandle.html name="Ricardo Cruz" github="rpmcruz" %}
             <p>
               A linear regression and a neuronal network will be implemented using nothing but Python.
             </p>
             <h4>About Ricardo Cruz:</h4>
             <p>
-                I do research on machine learning and computer vision. <a href="https://rpmcruz.github.io/">https://rpmcruz.github.io/</a>
+                I do research on machine learning and computer vision. <a href="https://rpmcruz.github.io/" target="_blank">https://rpmcruz.github.io/</a>
             </p>
             <!--<h4>Media</h4>
             <p>
@@ -75,24 +75,28 @@
         </div>
       </article>
 
-      <!--Talk 3-->
+      <!--Victor Domingos-->
       <article class="media">
-        {% comment %}
-          {% include components/speakerimage.html imagename="m019_dianamartins.jpg" %}
-        {% endcomment %}
+        {% include components/speakerimage.html imagename="m019_vitordomingos.jpg" %}
           <div class="media-content">
             <div class="content">
-              <h3>TBD</h3>
-              {% comment %}
-                {% include components/speakerhandle.html name="Diana Martins" linkedin="dianacmartins" %}
-              {% endcomment %}
-              <!--<p>
-                XYZ
-              </p>
-              <h4>About XYXZ:</h4>
+              <h3>GUI programming on Python with Tkinter</h3>
+              {% include components/speakerhandle.html name="Victor Domingos" twitter="victordomingos" linkedin="victordomingos" %}
               <p>
-                XWZ...
-              </p>-->
+                One of most overlooked packages from The Python Standard Library is tkinter and it's child ttk. 
+                Tkinter allows us to build graphic user interfaces without adding external dependencies, and with a bit of care, it allows for a good user experience. 
+                While learning Python programming, I have been exploring tkinter/ttk as a tool for building user-friendly graphical interfaces. 
+                I would like to share that experience and some of the insights that have arisen during that process. 
+                Tkinter may not be able to replace a native GUI toolkit, but can certainly be an important addition to any developers toolbox, 
+                both for personal use, or for bridging our code to less technical users.
+              </p>
+              <h4>About Victor Domingos</h4>
+              <p>
+                I was born in 1981 in Arcos de Valdevez and at the moment I live in Braga. I completed a 5 years degree in Psychology at
+                 University of Minho by 2005 and, throughout my life, I have always been engaged into learning something. 
+                 I work as an Apple Product Professional at Promais. I started learning Python about 2 years ago and most of that 
+                 time I have been exploring the possibilities of Python/tkinter for building Mac-friendly graphical user interfaces.
+              </p>
               <!--<h4>Media</h4>
               <p>
                 <a href="https://speakerdeck.com/devopsporto/devopsporto-meetup17-the-return-of-the-dull-stack-engineer-by-kris-buytaert" target="_blank">Slide deck @ SpeakerDeck</a>
@@ -101,24 +105,21 @@
           </div>
       </article>
 
-        <!--Talk 4-->
+        <!--Alfredo Palhares-->
         <article class="media">
-          {% comment %}
-            {% include components/speakerimage.html imagename="m019_dianamartins.jpg" %}
-          {% endcomment %}
+          {% include components/speakerimage.html imagename="m019_alfredopalhares.jpg" %}
             <div class="media-content">
               <div class="content">
-                <h3>TBD</h3>
-                {% comment %}
-                  {% include components/speakerhandle.html name="Diana Martins" linkedin="dianacmartins" %}
-                {% endcomment %}
-                <!--<p>
-                  XYZ
-                </p>
-                <h4>About XYXZ:</h4>
+                <h3>Speed CI with Gitlab CI and Docker</h3>
+                {% include components/speakerhandle.html name="Alfredo Palhares" github="masterkorp" %}
                 <p>
-                  XWZ...
-                </p>-->
+                  Short description of Gitlab CI and you can get it running and building. From building, test and deploy, 
+                  the example is on kubernetes. 
+                </p>
+                <h4>About Alfredo Palhares:</h4>
+                <p>
+                  Lead DevOps Engineer @ Prozis, Fitness and Outdoors entusiast.
+                </p>
                 <!--<h4>Media</h4>
                 <p>
                   <a href="https://speakerdeck.com/devopsporto/devopsporto-meetup17-the-return-of-the-dull-stack-engineer-by-kris-buytaert" target="_blank">Slide deck @ SpeakerDeck</a>
