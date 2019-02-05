@@ -1,0 +1,47 @@
+levels:
+    - id: platinum
+      name: Platinum
+      content:
+          - top: Name, logo and description on the website
+          - top: Logo on meetup slides (slides used in each meetup introduction)
+          - top: Recognition as a sponsor in social media (Twitter and Linkedin)
+          - top: Provide swag for attendees (optional)
+          - top: 5 minutes pitch at 1 meetup
+          - top: 1 exclusive meetup
+            nested:
+                - Sponsor can define the content and the format of the meetup (share a problem/solution)
+                - The meetup will be at the sponsor’s facilities
+    - id: gold
+      name: Gold
+      content:
+          - top: Name, logo and description on the website
+          - top: Logo on meetup slides (slides used in each meetup introduction)
+          - top: Recognition as a sponsor in social media (Twitter and Linkedin)
+          - top: Provide swag for attendees (optional)
+          - top: 5 minutes pitch at 1 meetup
+            nested:
+                - Sponsors reserve the date on a first come, first serve basis, one sponsor per meetup
+    - id: silver
+      name: Silver
+      content:
+          - top: Name, logo and description on the website
+          - top: Logo on meetup slides (slides used in each meetup introduction)
+          - top: Recognition as a sponsor in social media (Twitter and Linkedin)
+          - top: Provide swag for attendees (optional)
+
+    - id: community
+      name: Community
+      content:
+          - top: Name, logo and description on website
+          - top: Recognition as a sponsor in social media
+
+    - id: meetup-host
+      name: Meetup Host
+      content:
+          - top: Logo on the website (in the meetup details)
+          - top: Logo on meetup slides (slides used in each meetup introduction)
+          - top: Recognition as a sponsor in social media (Twitter and Linkedin)
+          - top: 5 minutes pitch at 1 meetup
+          - top: Venue & coffee break are provided by the sponsor
+            nested:
+                - The venue should be in the sponsor’s facilities

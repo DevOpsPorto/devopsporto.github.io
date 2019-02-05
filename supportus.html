@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<div class="hero">
+    <div class="hero-body">
+        <h1 class="title">
+            Support Us
+        </h1>
+    </div>
+</div>
+<div class="content">
+    <p>
+        We've got a simple process in place in order to validate talks that you may want to present.
+    </p>
+
+    <h2>Why should you sponsor us?</h2>
+    <ul>
+      <li>To increase your brand awareness to an audience of more than 1400 DevOps professionals and enthusiasts from the Greater Porto area, eager to learn and share their knowledge and experience</li>
+	  <li>To be mentioned as a sponsor at the beginning of each meetup (sponsors slide)</li>
+	  <li>To have a short brand introduction at meetups (depending on sponsor level)</li>
+	  <li>To have brand exposure on our community website</li>
+	  <li>To have brand promotion on other tech communities (joint meetups)</li>
+	  <li>To be part of the DevOps Porto community which has, since 2016, been producing high quality meetups with previously validated and contextualized talks in order to provide an original, diverse and relevant content to attendees</li>
+    </ul>
+
+    <h2>How will the money be used?</h2>
+    <p>We are seeking sponsorship to cover costs related with:</p>
+    <ul>
+        <li>Speaker's travel and accommodation costs (in order to have speakers from outside of Porto/Portugal)</li>
+        <li>Meetup.com subscription (used to organize the events)</li>
+        <li>Domain registration (devopsporto.com), and other online services that support the group</li>
+        <li>Venue renting (in case there isn’t a company to host)</li>
+        <li>Coffee breaks</li>
+        <li>Office materials (used in open space discussions)</li>
+        <li>Community branding and swag</li>
+        <li>Video recording and edition (of the talks)</li>
+    </ul>
+
+    <h2>Sponsorship levels</h2>
+    <p>The available sponsorship levels are:</p>
+    <ul>
+      {% for level in site.data.sponsorship.levels %}
+        {% include sponsorship_level.html level=level %}
+      {% endfor %}
+    </ul>
+
+    <h2>Sign up form</h2>
+    <p>Start by submitting our <a href="https://goo.gl/forms/YV2g6dN8W3zalsb82" target="_blank">Call for sponsors form</a>. This will have all the basic data to help us manage the process.</p>
+
+    <h2> Once submitted</h2>
+    <p>Once submitted, we'll get in touch to manage some extra details related with the sponsorship</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/modal.js"></script>
