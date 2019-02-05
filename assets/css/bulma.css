@@ -4148,6 +4148,7 @@ input[type="submit"].button {
       flex-shrink: 0;
   font-size: 1.5rem;
   line-height: 1;
+  margin-bottom: auto !important;
 }
 
 .modal-card-foot {

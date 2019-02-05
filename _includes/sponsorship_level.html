@@ -1,0 +1,28 @@
+<li>
+  <a href="javascript:void(0);" class="action-open-modal" data-modal-id="#{{ include.level.id }}">{{ include.level.name }}</a>
+  <div aria-hidden="" class="modal" id="{{ include.level.id }}">
+    <div class="modal-background action-close-modal" data-modal-id="#{{ include.level.id }}"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">{{ include.level.name }}</p>
+        <button class="is-large delete action-close-modal" aria-label="close" data-modal-id="#{{ include.level.id }}"></button>
+      </header>
+      <section class="modal-card-body">
+        <ul>
+          {% for level_content in include.level.content %}
+            <li>
+              {{ level_content.top }}
+              {% if level_content.nested.size > 0 %}
+                <ul>
+                  {% for sublevel_content in level_content.nested %}
+                      <li>{{ sublevel_content }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+  </div>
+</li>
