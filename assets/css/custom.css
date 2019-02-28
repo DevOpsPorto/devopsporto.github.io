@@ -1,0 +1,64 @@
+.google-maps {
+     position: relative;
+     padding-bottom: 40%;
+     height: 0;
+     overflow: hidden;
+}
+ .google-maps iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100% !important;
+     height: 100% !important;
+}
+ .calenderItem {
+     padding-top: 20px;
+}
+ img.width-is-128 {
+    width:128px
+}
+ .topsponsor{
+     background-color: white;
+     color:black;
+     border-radius: 10px;
+     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+     text-align: center;
+}
+ .topsponsor img{
+     max-width: 100%;
+}
+ .sponsor{
+     background-color: white;
+     color:black;
+    /*border-radius: 10px;
+    */
+    /*box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    */
+     text-align: center;
+}
+ .sponsor img{
+     max-height: 100px;
+     max-width: 90%;
+     margin: 0 5%;
+}
+ .sponsor .columns{
+     margin-bottom:50px;
+}
+ .sponsor .columns .box div.column{
+     margin:auto;
+     text-align:center;
+}
+ .image.is-96x128 {
+     height: 96px;
+     width: 128px;
+}
+ .dateColumn{
+     width:90px;
+}
+ .eventTitleColumn{
+     min-width:150px;
+}
+ .eventLocationColumn{
+     min-width:150px;
+}
+ 
