@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-{% include meetup2019025.html %}
+{% include meetup2019026.html %}
 <hr/>
-{% include maps/feedzai.html %}
+{% include maps/natixis.html %}
 <hr/>
 
 <div class="tile is-ancestor">
@@ -16,7 +16,7 @@ layout: default
         </div>
     </div>
     <div class="tile">
-        <div class="box is-info">        
+        <div class="box is-info">
             <h1 class="title">Want to present at the meetup?</h1>
             <div class="content">
                 Interested in presenting at a Meetup? We're interested in having you there. Checkout the how the talk <a href="speakerfollowup.html">submission process works</a>. Afterwards, please fill out our <a href="https://goo.gl/forms/LpS4noS5a3iA0vw83">Call for speakers form</a> with your talk idea.
@@ -24,7 +24,7 @@ layout: default
         </div>
     </div>
     <div class="tile">
-        <div class="box">      
+        <div class="box">
             <h1 class="title">Code of Conduct</h1>
             <div class="content">
                 Please keep in mind our <a href="codeofconduct.html">code-of-conduct</a> when participating in the community. We believe this code is essential to a healthy community and clearly in line with the values of DevOps.
