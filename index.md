@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-{% include event2019-devopsbootcamp.html %}
+{% include meetup2019028.html %}
 <hr/>
-{% include maps/devscope.html %}
+{% include maps/talkdesk.html %}
 <hr/>
 
 <div class="tile is-ancestor">
