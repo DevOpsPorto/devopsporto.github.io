@@ -1,0 +1,69 @@
+{% include components/meetuptitle.html number=36 title="Computing and Operations at CERN: From Physical HW to Virtualization and Containers" date="11/02/2020" host="Veniam"%}
+
+<div class="columns content">
+  <div class="column is-one-third">
+    <div class="box">
+      <h3>11/02/2020</h3>
+      <h3>Agenda:</h3>
+      <ul>
+        <li>Welcome</li>
+        <li>Talk:
+          <strong>Computing and Operations at CERN: From Physical HW to Virtualization and Containers</strong>
+        </li>
+        <li>Coffee/Networking break</li>
+        <li>Open space</li>
+        <li>Wrap up</li>
+      </ul>
+      <h3>Host</h3>
+      <figure class="image ">
+        <a href="https://veniam.com" target="_blank"><img alt="Veniam" class="width-is-128" src="assets/images/hosts/veniam.png" /></a>
+      </figure>
+    </div>
+  </div>
+  <div class="column is-auto">
+
+    <div class="box">
+      <article class="media">
+        {% include components/speakerimage.html imagename="m036_ricardorocha.jpg" %}
+
+        <div class="media-content">
+          <div class="content">
+            <h3>Computing and Operations at CERN: From Physical HW to Virtualization and Containers</h3>
+            {% include components/speakerhandle.html name="Ricardo Rocha"  linkedin="ricardo-rocha-739aa718"%}
+            <p>
+              CERN is the European Organization for Nuclear Research, where physicists and engineers probe the fundamental 
+              structure of the universe. To achieve its goals it has always required a large amount of computing capacity, 
+              with its infrastructure evolving over time from large mainframes to the datacenters of today.
+            </p>
+            <p>
+              It hosts the Large Hadron Collider, a 27km particle accelerator where two beams of protons collide millions of times 
+              per second generating 100s of PetaBytes of data. In this talk, we describe and cover the challenges of running the i
+              nfrastructure required to store and analyse 100s of PetaBytes of data, and how we manage 1000s of servers totalling more 
+              than 300k cores and offering over 400PBs of storage. We will cover the compute and networking infrastructure running on 
+              OpenStack as well as the required configuration management services for automation. And we will finish with the 
+              current move towards a containerized infrastructure where Docker and Kubernetes play a key role.
+            </p>
+
+            <h4>About Ricardo Rocha:</h4>
+            <p>
+              Ricardo is a software engineer at CERN currently part of the CERN cloud team, focusing primarily on networking and 
+              container based deployments. Previously he helped develop and deploy several components of the Worldwide LHC 
+              Computing Grid, a network of ~200 collaborating sites around the world helping to analyze the Large Hadron Collider 
+              data. He has a computing degree from FEUP (Faculdade Engenharia da Universidade do Porto), joining CERN as part of 
+              his final project focusing on Grid Computing. Ricardo has presented his and his teams work in different international 
+              conferences - Computing for High Energy Physics (CHEP), IEEE NSS/MIC, IEEE MSST, DockerCon, Kubecon and multiple 
+              OpenStack summits.
+            </p>
+
+            <!-- <h4>Media</h4>
+            <p>
+              <a href="https://speakerdeck.com/devopsporto/devopsporto-meetup-33-how-devops-supported-la-redoute-reinvention-by-antoine-craske" target="_blank">Slide deck @ SpeakerDeck</a>
+            </p> -->
+           
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+</div>
