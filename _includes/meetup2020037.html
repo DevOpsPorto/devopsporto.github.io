@@ -1,0 +1,106 @@
+{% include components/meetuponlinetitle.html number=37 title="Monitoring" date="23/07/2020" host="ONLINE" %}
+
+<div class="columns content">
+  <div class="column is-one-third">
+    <div class="box">
+      <h3>23/07/2020</h3>
+      <h3>Agenda:</h3>
+      <ul>
+        <li>Welcome</li>
+        <li>Talk: <strong>Why averages lie by Filipe Oliveira</strong></li>
+        <li>Talk: <strong>Application monitoring and metric collection for Scala By Carlos Teixeira</strong></li>
+        <li>Closing</li>
+      </ul>
+    </div>
+  </div>
+  <div class="column is-auto">
+
+    <div class="box">
+      <article class="media">
+        {% include components/speakerimage.html imagename="m037_filipeoliveira.jpg" %}
+
+        <div class="media-content">
+          <div class="content">
+            <h3>Why averages lie</h3>
+            {% include components/speakerhandle.html name="Filipe Oliveira" linkedin="filipecosta90" twitter="fcosta_oliveira"%}
+
+            <p>
+              We spend most of our time looking at the reported averages of our monitoring systems, completely disregarding the 
+              painful truth that the numbers that we look at and present to our bosses, to our business and make decisions based upon,
+               do not represent our user experience. This simple fact seems to surprise many people. It feels good looking at steady 
+               state monitoring charts.
+            </p>
+
+            <p>
+              In this session, you will be told why is it important to pay to the "higher end" of the percentile spectrum in 
+              most application monitoring, benchmarking, and tuning environments and how you can make better usage of the 
+              open-source tooling we have at our disposal.
+            </p>
+
+            <h4>About filipe Oliveira:</h4>
+            <p>
+              Filipe Oliveira is a Performance Engineer at Redis Labs, working on both the enterprise and the open-source products 
+              as part of the CTO research group. Before Redis Labs, he worked both on a large scale retail company and as 
+              Grid and Distributed Computing Researcher recurring to advanced computing infrastructures listed 
+              in the TOP500 supercomputers list.
+            </p>
+            <!-- <h4>Media</h4>
+            <p>
+              <a href="https://speakerdeck.com/devopsporto/devopsporto-meetup27-performing-analytics-asap-by-diego-reiriz-cores" target="_blank">Slide deck @ SpeakerDeck</a>
+            </p> -->
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="box">
+      <article class="media">
+        {% include components/speakerimage.html imagename="m037_carlosteixeira.jpg" %}
+
+        <div class="media-content">
+          <div class="content">
+            <h3>Application monitoring and metric collection for Scala</h3>
+            {% include components/speakerhandle.html name="Carlos Teixeira" linkedin="cmcmteixeira" %}
+
+            <p>
+              More often than we would care to admit, we've been stuck looking through endless lines of logs, code, documentation, 
+              stackoverflow posts, ... trying to find the reason behind the mysterious disappearance of some row in our database, 
+              or why some service always seems to fail for no apparent reason the first Tuesday of each month.
+            </p>
+
+            <p>
+              Unfortunately for us, the answer isn't always obvious and usually requires an analysis of multiple services and how 
+              they interact with each other. In this case, for instance, maybe a monthly report is generated on the first Tuesday 
+              of each month which makes way to many requests to our service causing our db connection pool to throw 
+              random errors and, as a consequence, random fails occur when inserting values in our database.
+            </p>
+
+            <p>
+              Funny enough, during the entire time, logs were being produced with the exact error but we just weren't able to 
+              see them in the middle of all the noise.
+            </p>
+
+            <p>
+              In this talk we'll look into how we can integrate and use Kamon to give us a better view of what's going on in our 
+              applications and how they interact with each other. We'll look into how to measure cpu usage, query times, individual 
+              endpoints performance, custom metrics as well as how to add distributed tracing to our applications so that we can
+               now how they work and how they interact with each other
+            </p>
+
+            <h4>About Carlos Teixeira:</h4>
+            <p>
+              After an initial contact with DevOps while still a Uni, Carlos' continued his career as a Backend Software Engineer. 
+              Having experienced the value that DevOps can bring to an organization he continued to learn about and explore 
+              all things DevOps.
+            </p>
+            <!-- <h4>Media</h4>
+            <p>
+              <a href="https://speakerdeck.com/devopsporto/devopsporto-meetup-27-s-dot-m-a-dot-c-k-dot-ing-the-insights-from-your-data-by-filipe-coelho" target="_blank">Slide deck @ SpeakerDeck</a>
+            </p> -->
+          </div>
+        </div>
+      </article>
+    </div>
+
+  </div>
+</div>
