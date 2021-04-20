@@ -1,0 +1,71 @@
+{% include components/meetuponlinetitle.html number=44 title="Microservices [EN]" date="22/04/2021" host="ONLINE" %}
+
+<div class="columns content">
+  <div class="column is-one-third">
+    <div class="box">
+      <h3>22/04/2021</h3>
+      <h3>Agenda:</h3>
+      <ul>
+        <li>Welcome</li>
+        <li>Talk: <strong>Choreography vs Orchestration in serverless microservices by Mete Atamel</strong></li>
+        <li>Q&A</li>
+        <li>Closing</li>
+      </ul>
+      <!-- <h3>Video</h3>
+      <figure class="image ">
+        <a href="https://youtu.be/xDDa5apeQBY" target="_blank"><img alt="DevOpsPorto YouTube" class="width-is-128" src="assets/images/hosts/youtube.png" /></a>
+      </figure> -->
+    </div>
+  </div>
+  <div class="column is-auto">
+    <div class="box">
+      <article class="media">
+        <div class="media-content">
+          <div class="content">
+            <h3>Choreography vs Orchestration in serverless microservices</h3>
+
+            <p>
+              Mete Atamel, will share the journey from a single monolith to a set of microservices that are small, 
+              lightweight, and easy to implement. Microservices enable reusability, make it easier to change and scale 
+              apps on demand but they also introduce new problems. 
+            </p>
+            <p>
+              How do microservices interact with each other toward a common goal? How do you figure out what went wrong 
+              when a business process composed of several microservices fails? Should there be a central orchestrator 
+              controlling all interactions between services or should each service work independently, in a loosely 
+              coupled way, and only interact through shared events?
+            </p>
+
+            <p>
+              In this talk, Mete will explore the Choreography vs Orchestration question and demo some of the tools
+               that can help.
+            </p>
+
+            <!-- <h4>Media</h4>
+            <p>
+              <a href="https://speakerdeck.com/devopsporto/devopsporto-meetup-38-using-cutting-edge-open-source-technologies-to-build-one-of-the-biggest-industrial-data-lake-of-the-world-by-allan-sene" target="_blank">Slide deck @ SpeakerDeck</a>
+            </p> -->
+        </div>
+      </article>
+      <article class="media">
+        {% include components/speakerimage.html imagename="m044_meteatamel.jpg" %}
+
+        <div class="media-content">
+          <div class="content">
+            <h4>About Mete Atamel:</h4>
+            {% include components/speakerhandle.html twitter="meteatamel" linkedin="meteatamel" %}
+
+            <p>
+              Is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a
+               long-time Java and a recent C# developer, he likes to compare the two ecosystems. Prior to Google, 
+               Mete worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, 
+               mobile, and cloud platforms. Originally from Cyprus, he currently lives in Greenwich, not too far 
+               away from the prime meridian.
+            </p>
+
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
