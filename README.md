@@ -1,6 +1,9 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de04c7ad-14f2-489b-ad88-038ed4ad817f/deploy-status)](https://app.netlify.com/sites/hopeful-booth-6a4df2/deploys)
+
+
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/DevOpsPorto/devopsporto.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/DevOpsPorto/devopsporto.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
