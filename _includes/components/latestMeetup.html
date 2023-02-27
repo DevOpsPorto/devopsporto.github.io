@@ -1,0 +1,12 @@
+{% assign events = "" | split: "," %}
+
+{% for item in site.data.events %}
+    {% assign events = events | push: item[1] %}
+{% endfor %}
+
+{% assign latest = events | where_exp: "item", 'item.date != nil' | sort: 'date' | reverse | first %}
+{% include components/event.html event=latest %}
+<hr/>
+{% assign host = site.data.hosts[latest.host] %}
+{% include components/map.html host=host %}
+<hr/>

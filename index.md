@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-{% include meetup2023060.html %}
-<hr/>
-{% include maps/infraspeak.html %}
-<hr/>
+{% include components/latestMeetup.html %}
 
 <div class="tile is-ancestor">
     <div class="tile">

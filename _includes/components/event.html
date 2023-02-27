@@ -1,6 +1,9 @@
+{% assign talks = (include.event.agenda | where:"type","talk")  %}
+{% assign title = (talks | map: "title" | join: " // "  %}
+
 {% include components/meetuptitle.html
    number=include.event.number 
-   title="The DevOps Way!" %}
+   title=title   %}
 
 <div class="columns content">
   <div class="column is-one-third">
