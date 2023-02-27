@@ -1,0 +1,5 @@
+<h3>Host</h3>
+{% assign hostData = site.data.hosts[include.host] %}
+<figure class="image is-128x128">
+  <a href="{{hostData.link}}" target="_blank"><img alt="{{hostData.Name}}" src="assets/images/hosts/{{hostData.logo}}" /></a>
+</figure>

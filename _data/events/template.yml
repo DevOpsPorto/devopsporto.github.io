@@ -1,9 +1,12 @@
-type: "meetup"
-number: 1
-date: 2016-10-25
-host: uptec
+type: "meetup"    # can be other things like bootcamp or whatever is needed
+number:           # counter
+date:             # date - yyyy-MM-dd
+host: uptec       # host key - matches host file name in data/hosts folder
 agenda:
-  - type: intro
+  #agenda is an array of items, each with a type that formats the presentation:
+  # valid values are : intro, talk, break, openspace, wrapup; 
+  # talk type is complex and allows for description and speaker info
+  - type: intro 
   - type: talk
     title: The (un)surprising truth about DevOps culture
     abstract:
@@ -36,5 +39,3 @@ agenda:
   - type: break
   - type: openspace
   - type: wrapup
-
-

@@ -1,14 +1,30 @@
 ---
 layout: default
 ---
+{% assign events = "" | split: "," %}
+{% assign years = "" | split: "," %}
 
-{% for event_hash in site.data.events %}
-{% assign event = event_hash | first %}
-{% capture event_item %}
-{{ event }}
-{% endcapture %}
-{% include components/event.html event=event %}
+{% for item in site.data.events %}
+    {% assign events = events | push: item[1] %}
+    {% if item[1].date %}
+        {% assign year = item[1].date | date: "%Y" %}
+        {% assign years = years | push: year %}
+    {% endif %}
 {% endfor %}
+
+{% assign years = (years | uniq | sort | reverse) %}
+{% assign events = events | where_exp: "item", 'item.date != nil' | sort: 'date' | reverse  %}
+
+{% for year in years %}
+    {% include components/calendarHeader.html year=year %}
+    {% for event in events"%}
+        {% capture year_of_event %}{{ event.date | date: "%Y" }}{% endcapture %}
+        {% if year_of_event == year %}    
+        {% include components/event.html event=event %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
 
 {% include components/calendarHeader.html year="2023" %}
 {% include meetup2023060.html %}
