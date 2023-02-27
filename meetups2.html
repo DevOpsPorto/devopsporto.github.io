@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+{% for event_hash in site.data.events %}
+{% assign event = event_hash | first %}
+{% capture event_item %}
+{{ event }}
+{% endcapture %}
+{% include components/event.html event=event %}
+{% endfor %}
+
+{% include components/calendarHeader.html year="2023" %}
+{% include meetup2023060.html %}
+{% include meetup2023059.html %}
+
+{% include components/calendarHeader.html year="2022" %}
+{% include meetup2022058.html %}
+{% include meetup2022057.html %}
+{% include meetup2022056.html %}
+{% include meetup2022055.html %}
+{% include meetup2022054.html %}
+{% include meetup2022053.html %}
+{% include meetup2022052.html %}
+{% include meetup2022051.html %}
+{% include meetup2022050.html %}
+{% include meetup2022049.html %}
+{% include meetup2022048.html %}
+
+{% include components/calendarHeader.html year="2021" %}
+
+{% include meetup2021047.html %}
+{% include meetup2021046.html %}
+{% include meetup2021045.html %}
+{% include meetup2021044.html %}
+{% include meetup2021043.html %}
+{% include meetup2021042.html %}
+
+{% include components/calendarHeader.html year="2020" %}
+
+{% include meetup2020038.html %}
+{% include meetup2020037.html %}
+{% include meetup2020036.html %}
+{% include meetup2020035.html %}
+
+{% include components/calendarHeader.html year="2019" %}
+
+{% include meetup2019034.html %}
+{% include meetup2019033.html %}
+{% include meetup2019032.html %}
+{% include meetup2019031.html %}
+{% include meetup2019030.html %}
+{% include meetup2019029.html %}
+{% include meetup2019028.html %}
+{% include event2019-devopsbootcamp.html %}
+{% include meetup2019027.html %}
+{% include meetup2019026.html %}
+{% include meetup2019025.html %}
+{% include meetup2019024.html %}
+
+{% include components/calendarHeader.html year="2018" %}
+
+{% include meetup2018023.html %}
+{% include meetup2018022.html %}
+{% include meetup2018021.html %}
+{% include meetup2018020.html %}
+{% include meetup2018019.html %}
+{% include meetup2018018.html %}
+{% include meetup2018017.html %}
+{% include event2018-devopsbootcamp.html %}
+{% include meetup2018016.html %}
+{% include meetup2018015.html %}
+{% include meetup2018014.html %}
+{% include meetup2018013.html %}
+{% include meetup2018012.html %}
+
+{% include components/calendarHeader.html year="2017" %}
+
+{% include meetup2017011.html %}
+{% include meetup2017010.html %}
+{% include meetup2017009.html %}
+{% include meetup2017008.html %}
+{% include meetup2017007.html %}
+{% include meetup2017006.html %}
+{% include meetup2017005.html %}
+{% include meetup2017004.html %}
+{% include meetup2017003.html %}
+{% include meetup2017002.html %}
+
+<hr />
+
+{% include components/calendarHeader.html year="2016" %}
+{% include meetup2017001.html %}
