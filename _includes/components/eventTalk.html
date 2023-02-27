@@ -1,0 +1,37 @@
+<article class="media">
+    <div class="media-content">
+        <div class="content">
+            <h3>{{ include.talk.title }}</h3>
+            {{ include.talk.abstract | newline_to_br }}
+        </div>
+    </div>
+</article>
+
+{% for speaker in include.talk.speakers %}
+<article class="media">   
+{% include components/speakerimage.html imagename=speaker.image %}
+    <div class="media-content">
+        <div class="content">
+            <h4>{{ speaker.name }}</h4>
+            {{ speaker.bio }}
+        </div>
+    </div>
+</article>
+{% endfor %}
+
+<article class="media">
+    {% if include.talk.slides or include.talk.youtube %}
+    <div class="media-content">
+        <div class="content">
+            {% if include.talk.slides %}
+            <h4>Slides</h4>
+            <a href="{{ talk.slides }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if include.talk.youtube %}
+            <h4>Video</h4>
+            <a href="{{ talk.youtube }}" target="_blank">Video at Youtube</a>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+</article>
