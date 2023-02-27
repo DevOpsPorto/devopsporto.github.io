@@ -1,0 +1,37 @@
+type: "meetup"
+number: 60
+date: 2023-02-07
+host: infraspeak
+agenda:
+  - type: intro
+  - type: talk
+    title: Secure Remote Access Without a VPN
+    abstract:
+      Securely accessing remote resources is a problem that every company faces, and many solutions already exist.
+
+
+      This talk will explain why and how we used one of Hashicorp's latest tools, Boundary
+      (https://www.boundaryproject.io), to allow secure remote access without a VPN or a
+      traditional jump host.
+    speakers: 
+      - name: Gonçalo Queirós
+        image: m060_goncaloqueiros.jpeg
+        twitter: 
+        linkedin:       
+        bio:
+          Gonçalo Queirós is a Software Engineer with 15+ years of experience, specializing in backend technologies and infrastructure.
+
+
+          He is currently employed at Infraspeak as the Head of Engineering, where he works with a
+          team of talented people building a next-gen Intelligent Maintenance Management Platform.
+
+
+          Gonçalo enjoys finding and exploring new technologies and is always open to a good
+          conversation.
+    slides: 
+    youtube:
+  - type: break
+  - type: qa
+  - type: wrapup
+
+

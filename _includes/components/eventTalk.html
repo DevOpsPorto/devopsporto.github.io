@@ -13,7 +13,7 @@
     <div class="media-content">
         <div class="content">
             <h4>{{ speaker.name }}</h4>
-            {{ speaker.bio }}
+            {{ speaker.bio | newline_to_br }}
         </div>
     </div>
 </article>

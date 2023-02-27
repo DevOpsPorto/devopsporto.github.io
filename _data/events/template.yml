@@ -38,4 +38,5 @@ agenda:
     youtube:
   - type: break
   - type: openspace
+  - type: qa
   - type: wrapup
