@@ -1,0 +1,53 @@
+{% include components/meetuptitle.html number=include.event.number title="The DevOps Way!" %}
+
+{{ include.event }}
+{{ include.event.number }}
+<div class="columns content">
+  <div class="column is-one-third">
+    <div class="box">
+      <h3>{{ include.event.date }}</h3>
+      <h3>Agenda:</h3>
+      <ul>
+        <li>Session Intro</li>
+        <li><strong>The way devs do ops - or is it the other way around? (Miguel Fonseca)</strong></li>
+        <li>Networking break</li>
+        <li><strong>Open Space Discussions</strong></li>
+        <li>Wrap-up</li>
+      </ul>
+      <h3>Host</h3>
+      <figure class="image is-128x128">
+        <a href="http://www.mindera.com" target="_blank"><img alt="Mindera" src="assets/images/hosts/mindera.jpg" /></a>
+      </figure>
+      {{ include.event.host }}
+    </div>
+  </div>
+  <div class="column is-auto">
+
+    <div class="box">
+      <article class="media">
+        {% include components/speakerimage.html imagename="m002_miguel.jpg" %}
+        <div class="media-content">
+          <div class="content">
+            <h3>The way devs do ops - or is it the other way around?</h3>
+            {% include components/speakerhandle.html name="Miguel Fonseca" twitter="miguelcnf" linkedin="miguelcnf" %}
+            
+            <p>Our invited speaker is Miguel Fonseca (<a href="https://twitter.com/miguelcnf">@miguelcnf</a>) and his talk will
+              explore the foundations of any modern software project in order to achieve full DevOps awesomeness, how developers
+              and operations can speak the same language, and three main rules to build software by or burn out trying. Expect
+              to see certain amounts of code.</p>
+
+            <h4>About Miguel:</h4>
+            <p>
+              Miguel is mostly a work in progress who enjoys gaming, live music and playing the devil's advocate. He's happy writing code
+              at Mindera during the day.
+            </p>
+
+            <h4>Media</h4>
+            <p><a href="https://speakerdeck.com/devopsporto/devopsporto-meetup2-the-way-devs-do-ops-or-is-it-the-other-way-around-by-miguel-fonseca" target="_blank">Slide deck @ SpeakerDeck</a></p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+</div>

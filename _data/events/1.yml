@@ -1,0 +1,39 @@
+type: meetup
+number: 1
+date: 2016-10-25
+host: uptec
+agenda:
+  - type: intro
+  - type: talk
+    title: The (un)surprising truth about DevOps culture
+    speaker: Manuel Pais
+    twitter: manupaisable
+    linkedin: manuelpais
+    abstract:
+      <p>This will be our 1st meetup about DevOps and its culture, practices and techniques, and will be co-organized
+        with our partners Agile Connect community (their 7th meetup). Join us in building "bridges" between development
+        and operations.
+      </p>
+      <p>
+        For this session we have invited Manuel Pais, who will share with us his insights on what DevOps culture is all about, and
+        what you can do to improve collaboration in your team.</p>
+      <p> This talk will tell you about all the right practices you need to adopt to become a successful DevOps organization!</p>
+      <p>
+        DevOps is highly contextual, there is no set of prescribed practices that an organization can pick up and “become DevOps”.
+      </p>
+      <p>
+        So what “can” you do? Attend this talk to find out!
+      </p>
+    bio:
+      Manuel Pais is a DevOps advocate with a mixed background
+      as developer, build manager and QA lead. Jack of all trades, master of continuous improvement, Manuel enjoys
+      helping organizations to adopt test automation, continuous delivery and cloud from both technical and human
+      perspectives. He has worked on a range of technologies (Java, .Net, Web, Mobile) and industries (banking, telecommunications,
+      defense and aviation).
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup1-the-un-surprising-truth-about-devops-culture-by-manuel-pais
+    youtube:
+  - type: break
+  - type: openspace
+  - type: wrap-up
+
+
