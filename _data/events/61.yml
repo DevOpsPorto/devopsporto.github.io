@@ -10,7 +10,7 @@ agenda:
       Everyone wants to improve the visibility and reliability of their platform by implementing observability tools, but not everyone is willing or able to pay the upfront cost of manual instrumentation. This presentation will discuss some approaches to implementing observability without overloading your engineering teams.
     speakers: 
       - name: Nicolas Takashi
-        image: m061_nicolastakashi.jpeg
+        image: m061_nicolastakashi.jpg
         twitter: ntakashics
         linkedin:       
         bio:
