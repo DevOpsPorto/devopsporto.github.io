@@ -1,0 +1,29 @@
+type: "meetup"
+number: 62
+date: 2023-04-20
+host: farfetch-boavista
+agenda:
+  - type: intro
+  - type: talk
+    title: How to use a Documentation Framework to produce up-to-date documentation as code
+    abstract:
+      As businesses grow, so does the need for technical documentation. Up-to-date technical documentation can save precious time to developers, and, consequently, save the company’s money. The production of up-to-date technical documentation should include not only technical writers but also engineers. Technical writers know how to write, but engineers are the subject matter experts.
+
+      Instead of doing all the writing, technical writers should work side-by-side with teams, providing them the means to produce their own documentation. During this presentation you will learn how Farfetch integrated Git usage with the technical documentation publishing process in Confluence. You will also learn how to use the Documentation Framework to produce up-to-date code documentation at scale.
+    speakers: 
+      - name: Paula Vaz
+        image: m062_paulavaz.png
+        twitter: 
+        linkedin:       
+        bio:
+          Paula Vaz started her studies at Universidade do Minho and finished her PhD in Computer Science at Instituto Superior Técnico/INESC. For her thesis, she studied book recommendations using book content features. This allowed her to gain experience in text processing and generation.
+        
+          She started working as a functional analyst and, after a while, changed to technical writing. Her career has alternated between technical writing and research. She has been working as a Technical Writer at Farfetch since 2017 where she started documenting APIs. She then changed to another team and is now focused on everything related to authentication and partner onboarding. As part of her daily routine, Paula also provides guidance and tools to developers to help them write and automate documentation generation.
+
+          Paula is also an advocate of “Every engineer is also a writer!”.
+    slides: 
+    youtube:
+  - type: qa
+  - type: wrapup
+
+
