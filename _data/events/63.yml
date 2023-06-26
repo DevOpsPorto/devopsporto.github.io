@@ -1,0 +1,21 @@
+type: "meetup"
+number: 63
+date: 2023-05-29
+host: devoteam-porto
+agenda:
+- type: intro
+- type: talk
+  title: The Simplified Journey Towards Reliability Excellence
+  abstract: We'll explore the importance of a reliability and ownership culture in driving customer experience and business success. Discover how to assess your organization's reliability maturity, design a robust monitoring and service reliability management architecture, define goals and reliability best practices and integrate them within your SDLC, implement SLOs, and enable business-driven reliability. Empower your company to align reliability efforts with business objectives and make data-driven decisions to enhance reliability and performance.
+  speakers:
+  - name: José Velez
+    image: m063_josevelez.png
+    twitter:
+    linkedin:
+    bio: José Velez is the Founder and CEO of Rely.io and he is building an advanced observability and reliability management platform to help modern engineering teams deliver high-performing, reliable services and products.
+  slides:
+  youtube:
+- type: qa
+- type: wrapup
+
+
