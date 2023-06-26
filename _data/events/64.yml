@@ -1,0 +1,21 @@
+type: "meetup"
+number: 64
+date: 2023-06-28
+host: ltplabs
+agenda:
+- type: intro
+- type: talk
+  title: Breaking Stereotype - How DevOps empowers an analytics consulting company
+  abstract: Discover how LTPLabs, an analytics consulting company, has embraced DevOps to improve how to deliver and develop analytical projects. They will show how they create performant data science environments, streamline development processes, and leverage a wide range of open-source tools for observability, GitOps, and orchestration in a hybrid cloud approach.
+  speakers:
+  - name: João Alves
+    image: m064_joaoalves.jpg
+    twitter:
+    linkedin:
+    bio: João Alves is a Senior Tech Manager at LTPlabs. Passionate about technology and making things happen, his time at LTPLabs is divided between managing the Tech and Data Science teams, the development of their analytics platform called AIR, their DevOps team, and counselling the project team with best practices to deliver robust solutions to our clients. João has seen LTPLabs grow from 6 to over 80 people and created the infrastructure that supports all of these projects following a DevOps mindset, using open-source tools, and most importantly, always curious about how to improve things.
+  slides:
+  youtube:
+- type: qa
+- type: wrapup
+
+
