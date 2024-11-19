@@ -1,7 +1,7 @@
 type: "meetup"
 number: 71
 date: 2024-11-27
-host: Devoteam
+host: devoteam
 agenda:
 - type: intro
 - type: talk
