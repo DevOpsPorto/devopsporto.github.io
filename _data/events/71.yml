@@ -1,0 +1,24 @@
+type: "meetup"
+number: 71
+date: 2024-11-27
+host: devoteam-porto
+agenda:
+- type: intro
+- type: talk
+  title: Ship your dev environment to CI
+  abstract: 
+    "Imagine having a consistent, reliable environment for your CI that mirrors your local setup perfectly. In this session, we'll explore how to create and ship Dagger pipelines written in Go that seamlessly: Orchestrate builds, Run tests, Deploy applications.
+    All within a unified environment, ensuring your pipelines run identically — whether locally or on your preferred CI provider.
+    Discover Dagger, an open-source, portable, and programmable CI/CD engine that leverages containers to deliver consistency and portability for your workflows. See how Dagger can transform the way you build, test, and deploy!"
+  speakers:
+  - name: Nuno Ribeiro
+    image: m071_nunoribeiro.jpg
+    twitter:
+    linkedin:
+    bio: I began my career as a Civil Engineer, in 2021 I made a transiton to Software Development, and fell in love with DevOps. I've been working as a DevOps Engineer from 2022 until now, moving from designing buildings to designing pipelines. Recently chosen for the 2024 Batch of Dagger Commander.
+  slides:
+  youtube:
+- type: qa
+- type: wrapup
+
+
