@@ -1,6 +1,6 @@
 type: "meetup"
 number: 71
-date: 2024-01-27
+date: 2024-11-27
 host: Devoteam
 agenda:
 - type: intro
@@ -12,7 +12,7 @@ agenda:
     Discover Dagger, an open-source, portable, and programmable CI/CD engine that leverages containers to deliver consistency and portability for your workflows. See how Dagger can transform the way you build, test, and deploy!"
   speakers:
   - name: Nuno Ribeiro
-    image: m064_joaoalves.jpg
+    image: m071_nunoribeiro.jpg
     twitter:
     linkedin:
     bio: I began my career as a Civil Engineer, in 2021 I made a transiton to Software Development, and fell in love with DevOps. I've been working as a DevOps Engineer from 2022 until now, moving from designing buildings to designing pipelines. Recently chosen for the 2024 Batch of Dagger Commander.
