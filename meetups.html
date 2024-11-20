@@ -13,14 +13,14 @@ layout: default
     {% endif %}
 {% endfor %}
 
-{% assign years = (years | uniq | sort | reverse) %}
+{% assign years = years | uniq | sort | reverse %}
 {% assign events = events | where_exp: "item", 'item.date != nil' | sort: 'date' | reverse  %}
 
 {% for year in years %}
     {% include components/calendarHeader.html year=year %}
-    {% for event in events"%}
+    {% for event in events %}
         {% capture year_of_event %}{{ event.date | date: "%Y" }}{% endcapture %}
-        {% if year_of_event == year %}    
+        {% if year_of_event == year %}
         {% include components/event.html event=event %}
         {% endif %}
     {% endfor %}
