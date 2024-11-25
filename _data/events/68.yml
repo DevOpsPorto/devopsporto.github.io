@@ -1,0 +1,25 @@
+type: "meetup"    # can be other things like bootcamp or whatever is needed
+number: 68        # counter
+date: 2023-11-23  # date - yyyy-MM-dd
+host: kuehnenagel       # host key - matches host file name in data/hosts folder
+agenda:
+  #agenda is an array of items, each with a type that formats the presentation:
+  # valid values are : intro, talk, break, openspace, wrapup; 
+  # talk type is complex and allows for description and speaker info
+  - type: intro 
+  - type: talk
+    title: FinOps - Balancing Cloud Innovation with Cost Optimization
+    abstract:
+      Grupo Lusiaves was one of the first companies in Portugal to go full Public Cloud back by the end of 2017. With a continuous push to innovate, the group had to balance business needs with cost optimization of Cloud services harder to predict, control, and understand. This talk will share their FinOps approach setting the foundations for a robust governance powered by cross-functional collaboration and metrics-driven decision-making.
+    speakers: 
+      - name: Antoine Craske
+        image: m068_antoinecraske.png
+        twitter: 
+        linkedin: 
+        bio:
+          Antoine Craske. CIO/CTO at Grupo Lusiaves. Passionate about digital, architecture, and transformation with more than 12 years of experience in the software industry as engineer, project director, engineering director, Chief Architect, CTO, and CIO. Founder of the QE Unit and creator of the MAMOS framework, the systemic approach to software production.
+    slides: 
+    youtube:
+  - type: qa
+  - type: networking  
+  - type: wrapup

@@ -1,0 +1,29 @@
+type: "meetup"    # can be other things like bootcamp or whatever is needed
+number: 69        # counter
+date: 2024-01-24  # date - yyyy-MM-dd
+host: wunderman       # host key - matches host file name in data/hosts folder
+agenda:
+  #agenda is an array of items, each with a type that formats the presentation:
+  # valid values are : intro, talk, break, openspace, wrapup; 
+  # talk type is complex and allows for description and speaker info
+  - type: intro 
+  - type: talk
+    title: Imposter Syndrome - We’re together on this
+    abstract:
+      Do you have the feeling that you’re fooling people around about how much do you know about something? Or maybe you think that you don’t deserve the compliments people give you? You probably suffer from Imposter Syndrome and you’re not alone on that, how about we talk about it?
+    
+      Imposter syndrome is a phenomenon that affects aprox. 70% of the well succeeded, being more strong on women.
+
+      We’ll discuss (among other stuff) what it is, how it affects us and how to help people who suffer from it (including ourselves)
+    speakers: 
+      - name: Somatório a.k.a. Marco Antonio Martins Junior
+        image: m069_somatorio.jpg
+        twitter: 
+        linkedin: 
+        bio:
+          Plumber as a Service, DevOps culture enthusiast, DevOpsDays global core team member.
+    slides: 
+    youtube:
+  - type: qa
+  - type: networking  
+  - type: wrapup

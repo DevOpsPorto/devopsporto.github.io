@@ -1,0 +1,25 @@
+type: "meetup"    # can be other things like bootcamp or whatever is needed
+number: 66        # counter
+date: 2023-09-26  # date - yyyy-MM-dd
+host: wunderman       # host key - matches host file name in data/hosts folder
+agenda:
+  #agenda is an array of items, each with a type that formats the presentation:
+  # valid values are : intro, talk, break, openspace, wrapup; 
+  # talk type is complex and allows for description and speaker info
+  - type: intro 
+  - type: talk
+    title: Progressive Delivery - Smart Canary
+    abstract:
+      Leverage Smart Canary and evolve your deployment methodologies with the new kid in town. Learn how to use Argo Rollouts and Prometheus together in Kubernetes to make automated metrics-based decisions during runtime to ensure safe and hands-off deployments.
+    speakers: 
+      - name: Bruno Teixeira
+        image: m066_brunoteixeira.jpg
+        twitter: 
+        linkedin: bruno-miguel-teixeira
+        bio:
+          Bruno Teixeira is Principal Cloud Engineer at Farfetch with a distributed system’s background, a passion for working with the bleeding edge and an unhealthy obsession for automation.
+    slides: 
+    youtube:
+  - type: qa
+  - type: networking  
+  - type: wrapup

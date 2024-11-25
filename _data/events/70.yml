@@ -1,0 +1,53 @@
+type: "meetup"    # can be other things like bootcamp or whatever is needed
+number: 70        # counter
+date: 2024-10-17  # date - yyyy-MM-dd
+host: kuehnenagel       # host key - matches host file name in data/hosts folder
+agenda:
+  #agenda is an array of items, each with a type that formats the presentation:
+  # valid values are : intro, talk, break, openspace, wrapup; 
+  # talk type is complex and allows for description and speaker info
+  - type: intro 
+  - type: talk
+    title: Optimizing MLOps Costs - Tackling Kubernetes Challenges
+    abstract:
+      While presenting on this topic, I will go over the demands of machine learning workloads on Kubernetes and review the best strategies to optimize costs. I will address common issues like overprovisioning, where allocating excess resources leads to inflated expenses, and share methods to right-size resource allocation. My talk also highlights the overlooked costs of data movement, as transferring large datasets between cloud storage and compute nodes can quickly escalate expenses during frequent model retraining.
+
+      This talk provides actionable suggestions, tools, and practical examples to make their MLOps initiatives more efficient and cost-effective. And it will be useful not only for Engineers working supporting MLOps teams but also for any DevOps/Infrastructure engineer looking to enhance K8s cloud resources setup (my demo will be leveraging examples using EKS).
+    speakers: 
+      - name: Natalie Serebryakova
+        image: m070_natalieserebryakova.jpg
+        twitter: 
+        linkedin: login-id
+        bio:
+          My name is Natalie. I'm a Staff Cloud Engineer who also enjoys working on building and automating various tools that help the development teams be more productive and happy. I'm passionate about helping make infrastructure more accessible.
+
+          I love solving hard problems and "all things containers." I enjoy improving things in the Software Release Processes for companies I work for. I also work on cost savings, cost estimations, and cost optimization tasks, helping companies with that.
+
+          Occasionally, I blog or speak at conferences. Currently, I am learning and blogging about Rust. I'm a technical mentor and AWS Community Builder. In my spare time, I hike or camp with my aussiedoodle Chai, and stand-up paddle (SUP) across the Bay.
+    slides: 
+    youtube:
+  - type: talk
+    title: Streamlining Compliance - Leveraging Open-Source Terraform AWS modules
+    abstract:
+      Are you navigating the complexities of compliance frameworks like SOC2, CIS, and HIPAA and seeking a more efficient path? This talk breaks down these frameworks simply and shows you a time-saving trick, making it perfect for anyone wanting to make their organization's compliance journey much easier.
+
+      I'll start by outlining the basics of these frameworks and highlighting the challenges businesses face in implementing them.
+      
+      As the creator and maintainer of the terraform-aws-modules projects, I'll be excited to share how using these open-source Terraform AWS modules can streamline the compliance process. I'll walk you through real-life examples showing how such solutions significantly reduce the effort and time required for compliance.
+      
+      At the end of the talk, attendees will get actionable insights on using Terraform AWS modules for efficient compliance management.
+    speakers: 
+      - name: Anton Babenko
+        image: m070_antonbabenko.jpg
+        twitter: 
+        linkedin: antonbabenko
+        bio:
+          Anton is AWS Community Hero and helps companies around the globe build solutions using AWS and specializes in infrastructure-as-code, DevOps, and reusable infrastructure components.
+
+          He spends much of his time as an open-source contributor on various Terraform & AWS projects, such as Terraform AWS modules (downloaded more than 1 billion times), Terraform best practices ebook (www.terraform-best-practices.com), doing serverless with Terraform (serverless.tf), Terraform Weekly (weekly.tf), Your Weekly Dose of Terraform (http://bit.ly/terraform-youtube).
+          
+          Anton co-founded and co-organizes AWS, DevOps, and HashiCorp User Groups in Norway and often speaks at technical meetups and conferences.
+    slides: 
+    youtube:
+  - type: networking  
+  - type: wrapup
