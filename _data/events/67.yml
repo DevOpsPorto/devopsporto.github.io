@@ -1,0 +1,29 @@
+type: "meetup"    # can be other things like bootcamp or whatever is needed
+number: 67        # counter
+date: 2023-10-26  # date - yyyy-MM-dd
+host: mindera       # host key - matches host file name in data/hosts folder
+agenda:
+  #agenda is an array of items, each with a type that formats the presentation:
+  # valid values are : intro, talk, break, openspace, wrapup; 
+  # talk type is complex and allows for description and speaker info
+  - type: intro 
+  - type: talk
+    title: eBPF - Why is everyone talking about it and what does it mean to you?
+    abstract:
+      eBPF has been in the spotlight for a few years. More people talk about it, more tools use it, and more companies deploy it. But what does it mean to you?
+
+      eBPF is complex and most people won't learn how to write eBPF programs. However, people should understand its high-level architecture, its benefits and limitations, and in which areas it should be used.
+      
+      This talk starts with an elucidation of what eBPF is and the challenges it addresses. Next, it delves into the key areas that are making the most of eBPF, such as Observability, Security, and so forth. We'll highlight various tools that enable you to benefit from eBPF without the need to write an eBPF program yourself. To wrap things up, we are going to run a demo. Here, we'll break down the notorious Log4Shell vulnerability, stage an attack exploiting it, and teach you how to detect such a breach.
+    speakers: 
+      - name: Pablo Musa
+        image: m067_pablomusa.jpg
+        twitter: 
+        linkedin: 
+        bio:
+          Pablo Musa is a tenured speaker and trainer with more than 15 years of experience in the computer software industry. As an expert in the Observability ecosystem, he embraces the cutting-edge world of microservices and cloud-based monitoring and security. Holding a Master of Science (MSc) in Distributed Systems and Programming Languages, Pablo is a passionate educator who firmly believes in the power of knowledge sharing and its transformative impact on the tech community.
+    slides: 
+    youtube:
+  - type: qa
+  - type: networking  
+  - type: wrapup
