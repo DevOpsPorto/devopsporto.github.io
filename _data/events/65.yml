@@ -1,0 +1,27 @@
+type: "meetup"    # can be other things like bootcamp or whatever is needed
+number: 65        # counter
+date: 2023-07-17  # date - yyyy-MM-dd
+host: natixis       # host key - matches host file name in data/hosts folder
+agenda:
+  #agenda is an array of items, each with a type that formats the presentation:
+  # valid values are : intro, talk, break, openspace, wrapup; 
+  # talk type is complex and allows for description and speaker info
+  - type: intro 
+  - type: talk
+    title: Navigating the agile landscape - Modern agile solutions for recurrent challenges
+    abstract:
+      In this talk, we will embark on a journey through the ever-evolving world of agile methodologies, evaluate its applications, and challenges and identify the right processes for our multiple engineering teams.
+      We will review and share strategies to overcome recurrent challenges faced by agile practitioners.
+      Join us to discover innovative solutions and gain a deeper understanding of modern agile methodologies that can revolutionise your team's approach to software development.
+    speakers: 
+      - name: William Mendes
+        image: m065_williammendes.jpg
+        twitter: 
+        linkedin: 
+        bio:
+          With a background as a C# developer, William Mendes is specialised in leading teams through critical challenges and delivering solutions for top e-commerce companies in Brazil, Latin America, and Europe. William has excelled in technical leadership, mentoring, and teaching, while also spearheading innovative teams at renowned companies including Farfetch, and currently Feedzai, where he works as an Engineering Manager for the SRE team.
+    slides: 
+    youtube:
+  - type: qa
+  - type: networking  
+  - type: wrapup
