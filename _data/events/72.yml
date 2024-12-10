@@ -1,0 +1,23 @@
+type: "meetup"
+number: 72
+date: 2024-12-17
+host: blip
+agenda:
+  - type: intro
+  - type: talk
+    title: Kubernetes in Kubernetes in Kubernetes
+    abstract:
+      "The need for scalable and efficient Kubernetes cluster management has never been greater. Traditional cluster setups come with their own set of challenges and limitations, but now there's a simpler alternative - Virtual Clusters.
+      Join me and learn how to run Kubernetes in Kubernetes in Kubernetes."
+    speakers:
+      - name: Bruno Teixeira
+        image: m066_brunoteixeira.jpg
+        twitter:
+        linkedin: bruno-miguel-teixeira
+        bio:
+          "I am an enthusiastic engineer, with a strong background in electronics engineering, telecommunication systems, and general networking. With a Cloud DevOps mindset and an obsession about automating everything and watching it all come together.
+          My hobbies include tinkering with small projects where I can apply my electronics background and reading/writing fiction. I adapt quickly to new technologies and love to work on the bleeding edge!"
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
