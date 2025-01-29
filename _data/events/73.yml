@@ -1,0 +1,35 @@
+type: "meetup"
+number: 73
+date: 2025-02-06
+host: infraspeak
+agenda:
+  - type: intro
+  - type: talk
+    title: >
+      The Road to Continuous Delivery: Challenges, Wins, and Lessons Learned
+    abstract:
+      In this talk, we’ll explore our engineering team’s journey into Continuous Delivery, sharing the challenges we faced, the strategies we adopted, and the wins that made it all worthwhile.
+      From overcoming technical hurdles to reshaping team workflows, this session offers practical insights and lessons learned to help you navigate your own path toward faster, more reliable releases.
+    speakers:
+      - name: Fábio Martins
+        image: m073_fabiomartins.jpeg
+        twitter:
+        linkedin: fabiomartins87
+        bio: >
+          Fábio Martins is the Director of Engineering at InfraSpeak. Fábio is passionate about coding, travelling and startups and also interested in social psychology and cooking.
+      - name: Gonçalo Queirós
+        image: m060_goncaloqueiros.jpeg
+        twitter:
+        linkedin: goncaloqueiros
+        bio: >
+          Gonçalo Queirós is a Software Engineer with 15+ years of experience, specializing in backend technologies and infrastructure.
+
+          He is currently employed at Infraspeak as the Head of Engineering, where he works with a
+          team of talented people building a next-gen Intelligent Maintenance Management Platform.
+
+          Gonçalo enjoys finding and exploring new technologies and is always open to a good
+          conversation.
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
