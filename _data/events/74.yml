@@ -1,0 +1,34 @@
+type: meetup
+number: 74
+date: 2025-02-20
+host: kuehnenagel
+agenda:
+  - type: intro
+  - type: talk
+    title: DevOps with EKS
+    abstract: >
+      This session will examine DevOps methodologies and their implementation within Amazon Web Services (AWS).
+      The session encompasses AWS developer tooling and infrastructure automation capabilities.
+      Participants will explore the fundamental concepts of Continuous Integration and Continuous Deployment (CI/CD) practices.
+      The session concludes with an in-depth analysis of deployment strategies optimized for Kubernetes environments.
+    speakers:
+      - name: Julian Patterson
+        image: m074_julianpatterson.jpeg
+        twitter:
+        linkedin: pattersonjulian
+        bio: >
+          Julian is a Solutions Architect at Amazon Web Services (AWS) with a decade of experience in cloud architecture and implementation.
+          Based in Switzerland, he brings a unique dual perspective to enterprise solutions, having spent eight years leveraging AWS services as a customer
+          before transitioning to his current role as an AWS Solutions Architect.
+          His expertise spans cloud computing, enterprise architecture, with a particular focus on building resilient solutions and testing those solutions with Chaos Engineering.
+      - name: Florian Müller
+        image: m074_florianmüller.jpeg
+        twitter:
+        linkedin: florian-müller-331b22163
+        bio: >
+          Florian is a Product Lead for AI Engineering at Kuehne+Nagel.
+          He has experience in distributed computing, big data processing and machine learning (ML) with an emphasis on deploying and maintaining ML models in production (MLOps).
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
