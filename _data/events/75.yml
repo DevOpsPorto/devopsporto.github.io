@@ -16,7 +16,7 @@ agenda:
       Join me as we learn how to build a better, more bulletproof workflow that meets user demands while ensuring fast delivery, quality software, and the highest security standards.
     speakers:
       - name: Ricardo Magalhães
-        image:
+        image: speaker_icon.png
         twitter:
         linkedin:
         bio: DevOps Engineer @ xgeeks
