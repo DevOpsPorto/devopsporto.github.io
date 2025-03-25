@@ -2,32 +2,33 @@ type: "meetup"    # can be other things like bootcamp or whatever is needed
 number:           # counter
 date:             # date - yyyy-MM-dd
 host: uptec       # host key - matches host file name in data/hosts folder
+title: ""         # If not available, existing agenda.title items are joined
 agenda:
   #agenda is an array of items, each with a type that formats the presentation:
-  # valid values are : intro, talk, break, openspace, wrapup; 
+  # valid values are : intro, talk, break, openspace, wrapup;
   # talk type is complex and allows for description and speaker info
-  - type: intro 
+  - type: intro
   - type: talk
     title: The (un)surprising truth about DevOps culture
     abstract:
-      This will be our 1st meetup about DevOps and its culture, practices and techniques, and will be co-organized with our partners Agile Connect community (their 7th meetup). Join us in building "bridges" between development and operations.  
-      
+      This will be our 1st meetup about DevOps and its culture, practices and techniques, and will be co-organized with our partners Agile Connect community (their 7th meetup). Join us in building "bridges" between development and operations.
+
 
       For this session we have invited Manuel Pais, who will share with us his insights on what DevOps culture is all about, and what you can do to improve collaboration in your team.<
-      
+
 
       This talk will tell you about all the right practices you need to adopt to become a successful DevOps organization!
-      
+
 
       DevOps is highly contextual, there is no set of prescribed practices that an organization can pick up and “become DevOps”.
 
 
       So what “can” you do? Attend this talk to find out!
-    speakers: 
+    speakers:
       - name: Manuel Pais
         image: m001_manuel.jpg
         twitter: manupaisable
-        linkedin: manuelpais       
+        linkedin: manuelpais
         bio:
           Manuel Pais is a DevOps advocate with a mixed background
           as developer, build manager and QA lead. Jack of all trades, master of continuous improvement, Manuel enjoys

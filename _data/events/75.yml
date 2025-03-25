@@ -2,6 +2,7 @@ type: meetup
 number: 75
 date: 2025-03-20
 host: five9
+title: DevOps Porto & Cloud Native Porto
 agenda:
   - type: intro
   - type: talk
