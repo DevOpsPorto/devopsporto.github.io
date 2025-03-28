@@ -1,0 +1,72 @@
+type: meetup
+number: 75
+date: 2025-03-20
+host: five9
+title: DevOps Porto & Cloud Native Porto
+agenda:
+  - type: intro
+  - type: talk
+    title: DevSecOps Guide to Bulletproof Your Development Workflow
+    abstract: |
+      In today's fast-paced software development landscape, security can no longer be sacrificed — it's a fundamental requirement. As you get ready for this talk, your challenges might be:
+        - Messy or inexistent security processes;
+        - Determining critical software components to safeguard;
+        - Integrating different scans seamlessly into your workflow;
+        - Building a DevSecOps culture.
+      By the end of "DevSecOps Guide to Bulletproof Your Development Workflow," you'll be ready to tackle these challenges head-on and gain a clear understanding of how to strengthen your development workflow with DevSecOps practices.
+      Join me as we learn how to build a better, more bulletproof workflow that meets user demands while ensuring fast delivery, quality software, and the highest security standards.
+    speakers:
+      - name: Ricardo Magalhães
+        image: m075_ricardomagalhaes.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/r-magalhaes
+        bio: DevOps Engineer @ xgeeks
+  - type: talk
+    title: >
+      Platform Strategy for Sustainable Growth: Is Full Centralization a Good Option?
+    abstract: |
+      By combining the benefits of standardization with the flexibility of distributed ownership, this hybrid model fosters innovation, empowers teams, and promotes collaboration.
+      It supports agility, domain-specific expertise, and better business outcomes.
+    speakers:
+      - name: Roberto Caldas
+        image: m075_robertocaldas.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/robertocaldas
+        bio: >
+          Delivery Engineering @ Blip/Fanduel and also a Lecturer & Instructor @ Rumos.
+          Roberto is a strong believer in Organizational Culture and Teamwork.
+          A father of two that enjoys running and going to the gym on its free time.
+      - name: Ricardo Castro
+        image: m075_ricardocastro.png
+        twitter: http://www.twitter.com/mccricardo
+        linkedin: https://www.linkedin.com/in/ricardo-castro-9a039126
+        bio: |
+          Principal Engineer, SRE at Blip/FanDuel, working daily to build high performance, reliable and scalable systems.
+          A strong believer in culture and teamwork. Open source passionate, technical blogger and speaker, taekwondo amateur, and metal lover.
+  - type: talk
+    title: The Good, the Bad, and The Metric Backend - A showdown between Mimir, Thanos, and VictoriaMetrics
+    abstract: |
+      In the world of Observability, picking the right metrics backend can be as intense as a classic Western standoff.
+      So, to decide once and for all which is best, we will delve into the architectures, core features, and unique strengths and weaknesses of three popular backends.
+      We'll also explore the ease of adoption and distinctive features of each tool.
+      Join us for an insightful discussion where we separate the good, the bad, and the (not so) ugly in the world of metrics storage!
+    speakers:
+      - name: Hélia Barroso - DevOps Engineer @ Five9
+        image: m075_heliabarroso.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/heliabarroso
+        bio: DevOps Engineer @ Five9
+      - name: Iris Dyrmishi - Senior Observability Engineer @ Miro & CNCF Ambassador
+        image: m075_irisdyrmishi.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/iris-dyrmishi-b15a9a164
+        bio: Senior Observability Engineer @ Miro & CNCF Ambassador
+      - name: Paulo Dias - Staff Observability Engineer @ Five9
+        image: m075_paulodias.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/paulojomdias
+        bio: Staff Observability Engineer @ Five9, An Infrastructure Engineer with DevOps backend.
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
