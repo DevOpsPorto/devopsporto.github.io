@@ -1,0 +1,42 @@
+type: meetup
+number: 76
+date: 2025-04-09
+host: korber
+title: DevOps 3 Ways & Platform Paved Roads
+agenda:
+  - type: intro
+  - type: talk
+    title: Three Ways of DevOps @ Körber Pharma Software
+    abstract: |
+      Join me for a quick tour of how we implement the Three Ways of DevOps in a regulated industry. I'll share concrete examples of what happens when theory meets reality, highlighting the challenges and successes we've encountered.
+    speakers:
+      - name: Michael Wiarda
+        image: m076_michaelwiarda.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/michael-wiarda-7892b73b/
+        bio: Platform Architect @ Körber Pharma Software. Worked my way up from embedded devices to the cloud. Father of two beautiful children.
+  - type: talk
+    title: "Paved Roads and Guardrails: Enabling Speed and Security in Platform Engineering"
+    abstract: |
+      In fast-paced DevOps environments, the need for speed often comes with the risk of bypassing crucial security measures. This talk, featuring João Martins and Luis Fontes, will discuss how implementing ‘paved roads’—predefined pathways for safe and fast development—can guide teams towards both swift and secure operations. We will explore how these roads and smart ‘guardrails’ prevent common security pitfalls without stifling innovation. Attendees will leave with a clear understanding of:
+      - The essence and importance of paved roads in accelerating Platform Engineering processes.
+      - Empowerment versus blocking in development, showcasing how self-service platforms can facilitate rather than hinder progress.
+      - Real-life examples of bypasses gone wrong, illustrating the necessity for and effectiveness of guardrails.
+      - Critical success factors for integrating these strategies into various organizational structures.
+
+      This session is designed for those looking to enhance their Platform Engineering strategies, ensuring that their drive for rapid deployment does not compromise their security posture.
+    speakers:
+      - name: João Martins
+        image: m076_joaomartins.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/heliabarroso
+        bio: João Martins is an accomplished cybersecurity expert and the Director of Security at Bryter, where he leads the integration of advanced security measures into business practices. With a proven track record in cloud security and risk management, João has held pivotal roles, including Product Security Manager at Bryter and AppSec Engineering Manager at Checkmarx. At Checkmarx, he led a team of over 35 engineers, enhancing application security for Fortune 500 companies. His expertise in DevOps and secure system architectures makes him a valued speaker on integrating security within fast-paced tech environments.
+      - name: Luis Fontes
+        image: m076_luisfontes.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/iris-dyrmishi-b15a9a164
+        bio: Luis Fontes is a seasoned security engineer with over seven years of experience, specializing in identifying and reviewing zero-day vulnerabilities in fortune 500 companies. For the past four years, he has focused on the financial crypto market. Currently, Luis works at Xapo, a crypto-native bank, where he develops and implements advanced security solutions to make crypto transactions safe and user-friendly.
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
