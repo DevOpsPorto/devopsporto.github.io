@@ -1,0 +1,58 @@
+type: meetup
+number: 77
+date: 2025-05-26
+host: natixis
+title: Agile, DevOps, and Observability
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Agile and DevOps: Catalysts for Digital Transformation in Banking
+    abstract: >
+      Agile and DevOps are reshaping the future of banking.
+      This talk will help to discover how these metodologies acelerate digital transformation by fostering collaboration, improving delivery speed, driving innovation, and increasing efficiency.
+      We'll also delve into real-world examples of successful Agile and DevOps implementations within the BPCE-IT group, sharing our journey and experiences along the way.
+    speakers:
+      - name: Rita Torres
+        image: m077_rita_torres.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/ritasilvatorres/
+        bio: >
+          Rita is a Principal Consultant at Devoteam, currently DevOps Coach at Natixis, with experience as a Scrum Master and Agile Project Manager.
+          She led teams across the globe for companies like Adidas, Namecheap and Estée Lauder in the UK.
+          She’s passionate about the intersection of Al and Agile methodologies (and recently certified in GenAl.)
+      - name: Inês Ferreira
+        # image: TBD
+        twitter:
+        # linkedin: TBD
+        bio: >
+          Inês is a DevOps Coach with a passion for helping teams adopt and master DevOps tools.
+          Leveraging a background in Project Management and a deep understanding of human dynamics,
+          she brings a pragmatic and empathetic approach to training and onboarding.
+  - type: talk
+    title: |
+      You Can’t Fix What You Can’t See: Tales from the Observability Frontier
+    abstract: >
+      Observability isn’t a tool — it’s a strategy. This talk brings together three seasoned engineers to discuss how to design an observability setup that scales with your system and your team.
+      We’ll explore architectural patterns, and discuss our ideal observability setups, so you know what to be in the lookout for our observability journey.
+      Also, the human side of observability — onboarding, alert fatigue, and cross-team visibility. Whether you’re a platform engineer or a tech lead, you’ll leave with actionable insights.
+    speakers:
+      - name: Hélia Barroso - DevOps Engineer @ Five9
+        image: m075_heliabarroso.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/heliabarroso
+        bio: DevOps Engineer @ Five9
+      - name: Iris Dyrmishi - Senior Observability Engineer @ Miro & CNCF Ambassador
+        image: m075_irisdyrmishi.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/iris-dyrmishi-b15a9a164
+        bio: Senior Observability Engineer @ Miro & CNCF Ambassador
+      - name: Paulo Dias - Staff Observability Engineer @ Five9
+        image: m075_paulodias.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/paulojomdias
+        bio: Staff Observability Engineer @ Five9, An Infrastructure Engineer with DevOps backend.
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
