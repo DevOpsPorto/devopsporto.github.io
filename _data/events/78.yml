@@ -1,0 +1,49 @@
+type: meetup
+number: 78
+date: 2025-06-18
+host: porto-innovation-hub
+title: DevOps & AI
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Writing Code with Machines (AI)
+    abstract: |
+      1 - What is AI really about?
+      AIs are becoming part of the development world, but most people still misunderstand what they actually are. Before we can work with them effectively, we need to separate hype from reality.
+
+      2 - How is AI entering the software development loop?
+      Developers are already writing code with machines. Through a small real-world demo, we’ll build and test a project using AI tools to experience the shift firsthand.
+
+      3 - What is the impact of AI on software development?
+      AI is changing more than just productivity. It’s transforming how we think about quality, collaboration, and even the role of the developer. This shift forces us to rethink not only how we write code, but how we define software delivery.
+
+      4 - What’s next?
+      If today we’re writing code with machines, what will tomorrow look like? Are we becoming prompt engineers? AI architects? How do we stay relevant, skilled, and in control in this fast-changing landscape?
+    speakers:
+      - name: Miguel Costa
+        image: m078_miguel_costa.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/miguel-s-costa/
+        bio: >
+          Miguel Costa is a seasoned technologist and strategic thinker who has navigated a wide spectrum of modern software delivery.
+          With a career spanning startups, global enterprises, and complex transformation projects, he brings a pragmatic perspective on how to build software that works, scales, and evolves.
+          Currently focused on the intersection of AI and eCommerce, Miguel is passionate about how intelligent systems are reshaping the way we develop, deploy, and operate software.
+          Known for his hands-on mindset and clear thinking, he believes that the best way to understand innovation is to experience it—and that’s exactly what he brings to the stage.
+  - type: talk
+    title: |
+      AI meets Platform Engineering, now what?
+    abstract: >
+      Large Language Models (LLMs) are changing the world. AI-related announcements flood our feeds every day. Who hasn’t felt a bit lost?
+      In this talk, we will explore some building blocks to enhance internal developer platforms.
+    speakers:
+      - name: Nuno Adrego
+        image: m078_nuno_adrego.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/nunoadrego/
+        bio: >
+          Nuno Adrego is an engineer building reliable, scalable, and secure platforms that empower fast-moving teams.
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
