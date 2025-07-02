@@ -1,0 +1,40 @@
+type: meetup
+number: 79
+date: 2025-07-10
+host: cocus-sitio-gaia
+title: Multi-Cloud with Radius
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Simplifying Cloud-Native Applications with Radius: A Developer and IT Approach to Multi-Cloud
+    abstract: >
+      As cloud computing continues to accelerate innovation, many companies are building increasingly complex, cloud-native applications that span multiple public clouds and private infrastructures.
+      While Kubernetes has paved the way for portability and scalability, its complexity and lack of a formal application definition have created challenges for developers and IT teams.
+      Managing applications composed of numerous interconnected services—and ensuring they meet corporate standards for cost, operations, and security—requires a new approach.
+
+      Project Radius, developed by the Azure Incubations Team, was designed to address these challenges by providing a unified, open-source platform that simplifies cloud-native application management and enhances multi-cloud compatibility.
+      Radius builds on top of Kubernetes, working with familiar tools like Terraform, Bicep, and GitHub Actions, to streamline the development and deployment process. Unlike Kubernetes alone,
+      Radius recognizes the full scope of an application, connecting components, managing dependencies, and automating essential tasks like setting permissions and configuring connections.
+      In this session, we’ll explore Radius’s architecture and design, focusing on how it empowers both developers and IT teams to collaborate efficiently and adopt cloud-native best practices by default.
+      Whether you’re running applications on Azure, other clouds, or on-premises, Radius offers a powerful, developer-friendly solution for simplifying application management, ensuring compliance, and accelerating cloud adoption.
+    speakers:
+      - name: Pedro Cachaldora
+        image: m079_pedrocachaldora.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/pedrocachaldora/
+        bio: Millennium BCP | Cloud Center of Excellence Compute Engineer
+      - name: Filipe Revez
+        image: m079_filipevrevez.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/filipevrevez/
+        bio: Millennium BCP | Cloud Center of Excellence Compute Engineer
+      - name: Nuno Guedes
+        image: m079_nunoguedes.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/nunoguedes/
+        bio: Thinking of clouds and containers | Speaker | Microsoft MVP for Azure
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
