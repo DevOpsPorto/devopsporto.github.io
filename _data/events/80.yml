@@ -1,0 +1,41 @@
+type: meetup
+number: 80
+date: 2025-09-24
+host: kuehnenagel
+title: DevOps Porto x AWS UG Porto
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      1: Configure an API Management Platform with K8s and GitOps
+    abstract: >
+      Due to regulatory requirements, Geo Distribution or internal Architectural decisions, it's not uncommon for a DevOps team to operate multiple API Management instances within a single organization. When operating at scale, standardization and automation become critical to maintain consistency and efficiency.
+      In this talk, using a GitOps Pull model (powered by ArgoCD), we will explore an approach for configuring multiple API Management Platforms. By extending Kubernetes API and using Kubernetes Operators, we ensure that each API Management platform's actual state aligns with its desired state in a fully automated and declarative manner.
+    speakers:
+      - name: Miguel Pereira
+        image: m080_miguelpereira.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/jo%C3%A3o-miguel-machado-pereira-20a05559/
+        bio: >
+          Senior Software Engineer at Kuehne+Nagel
+          Miguel is passionate about automation and building highly available cloud platforms at scale. With over 15 years of experience in the software industry, he has worked as a Software Engineer, API Evangelist, and DevOps Engineer. He is naturally curious and driven to understand how things work—whether it's technology or the universe itself.
+    slides:
+    youtube:
+  - type: talk
+    title: |
+      2: Everything* as code: A high-level overview of evolution of the concept "something as code"
+    abstract: >
+      Due to regulatory requirements, Geo Distribution or internal Architectural decisions, it's not uncommon for a DevOps team to operate multiple API Management instances within a single organization. When operating at scale, standardization and automation become critical to maintain consistency and efficiency.
+      In this talk, using a GitOps Pull model (powered by ArgoCD), we will explore an approach for configuring multiple API Management Platforms. By extending Kubernetes API and using Kubernetes Operators, we ensure that each API Management platform's actual state aligns with its desired state in a fully automated and declarative manner.
+    speakers:
+      - name: Kirill Solovei
+        image: m080_kirill_solovei.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/hatedabamboo/
+        bio: >
+          Senior Systems Engineer at Avaturn
+          Kirill is an engineer with expertise in DevOps, Cloud Services, and Systems Engineering. He is dedicated and hardworking, with a strong focus on delivering high-quality work. He has a keen interest in automating and optimizing workflows and creating reliable, robust, efficient, and secure services. He has extensive experience working both in teams and independently, which has allowed him to develop a versatile skill set.
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
