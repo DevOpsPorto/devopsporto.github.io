@@ -15,9 +15,9 @@ agenda:
       I’ll go through some of these topics, sharing knowledge and give examples.
     speakers:
       - name: Sofia Gonçalves
-        image:
+        image: m081_sofia_goncalves.jpeg
         twitter:
-        linkedin:
+        linkedin: https://www.linkedin.com/in/sofia-gon%C3%A7alves-76a57a125/
         bio: >
           Data Engineer and Scrum Master at Critical Techworks.
           Sofia’s degree is in Informatics Engineering from ISEP (Instituto Superior de Engenharia do Porto),
