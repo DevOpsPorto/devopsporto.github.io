@@ -1,0 +1,29 @@
+type: meetup
+number: 81
+date: 2025-10-16
+host: visma-tech
+title: Terraform meets CI/CD and DevOps
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Automating Cloud Data Infrastructure: terraform meets CI/CD and DevOps
+    abstract: >
+      In this session, I’ll share my experience implementing Infrastructure as Code (IaC)
+      using Terraform and integrating it into a CI/CD pipeline to automate cloud data infrastructure,
+      all while discovering and taking my first deep dive into the world of DevOps.
+      I’ll go through some of these topics, sharing knowledge and give examples.
+    speakers:
+      - name: Sofia Gonçalves
+        image: m081_sofia_goncalves.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/sofia-gon%C3%A7alves-76a57a125/
+        bio: >
+          Data Engineer and Scrum Master at Critical Techworks.
+          Sofia’s degree is in Informatics Engineering from ISEP (Instituto Superior de Engenharia do Porto),
+          and she is currently working as a Data Engineer and Scrum Master at Critical Techworks.
+          In her work, she focuses on automating and building cloud-based data infrastructures.
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
