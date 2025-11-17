@@ -1,0 +1,46 @@
+type: meetup
+number: 82
+date: 2025-11-20
+host: vwg-digitalsolutions-porto
+title: AWS Power & Security co-org with AWS UG Porto
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Unlock Platform Power in Your AWS Organisation
+    abstract: >
+      Have you ever faced the challenge of managing multiple entangled platforms in your organisation,
+      where your team becomes the main bottleneck?
+      Enabling platforms on top of your landing zone might be the solution.
+      Join Osmar to understand the challenges of managing different use cases in AWS for an enterprise.
+      You will learn what “Platform on top of a Platform” is, explore real use cases,
+      discover design patterns that support this approach, and see the benefits while ensuring security best practices.
+    speakers:
+      - name: Osmar Alonso
+        image: m082_osmar_alonso.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/osmar-alonso-aba42934/
+        bio: >
+          Site Reliability Engineer @ Volkswagen Digital Solutions
+    slides:
+    youtube:
+  - type: talk
+    title: |
+      Increase Security Posture through Mass Notification
+    abstract: >
+      Security often goes unnoticed until a breach occurs.
+      In this talk, Bruno will highlight the importance of proactive security measures.
+      Using AWS services combined with large-scale notification systems,
+      you’ll learn how effective warnings and transparency can reduce attack vectors
+      and improve overall security posture for AWS account owners and users.
+    speakers:
+      - name: Bruno Cabral
+        image: m082_bruno_cabral.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/brunoarchitect/
+        bio: >
+          Cloud Architect || DevOps || Team Worker
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
