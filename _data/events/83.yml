@@ -1,0 +1,16 @@
+type: meetup
+number: 83
+date: 2025-12-09
+host: vertical-coworking
+title: Christmas Round Table 
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      The past, the present and the future of DevOps
+    abstract: >
+      Together with fellow practitioners, we'll explore DevOps has evolved over the years, share current challenges and best practices, 
+      and imagine the possibilities for what comes next.
+    slides:
+    youtube:
+  - type: wrapup
