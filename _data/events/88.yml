@@ -1,0 +1,45 @@
+type: meetup
+number: 88
+date: 2026-05-20
+host: kuehnenagel
+title: DevOps Porto x AWS UG Porto
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Clear Thinking Under Pressure: Practical Tools for Better Decisions
+    abstract: >
+      In high-pressure situations—such as incident response, debugging, or critical deployments—decision-making can become slower, narrower, and more error-prone, even for highly skilled professionals.
+      This session explores how pressure impacts cognitive performance in real technical contexts and, most importantly, how to counteract it. The focus is on practical, immediately applicable tools that can be used during high-stakes situations, including:
+      - Simple pause protocols to reduce reactive decisions,
+      - Decision checkpoints to avoid common cognitive traps,
+      - Techniques to reduce cognitive load during incidents,
+      - Clear rules to improve judgment under pressure.
+      Participants will leave with concrete strategies to think more clearly, reduce errors, and make better decisions when it matters most.
+    speakers:
+      - name: Teresa Limpo
+        image: m088_teresalimpo.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/teresa-limpo/
+        bio: >
+          PhD Psychologist, Business Consultant and Scientific & Professional Mentor at Teresa Limpo Psykhé
+          Teresa began her journey in scientific research in 2006. Four years later, she became a psychologist, and in 2014, she completed her PhD in Psychology. Teresa served as a faculty member at the University of Porto from 2018 to 2025. After 20 years in academia, she has decided to bring her expertise into practice to enhance the growth of individuals and organisations—combining rigour, humanity, and direction.
+    slides:
+    youtube:
+  - type: talk
+    title: |
+      Spec-Driven AI Development with Kiro
+    abstract: >
+      What does it take to turn AI into a reliable software developer? This talk explores Spec-Driven AI Development with Kiro, showing how clear, structured specs enable agents to build code incrementally, and produce maintainable results—avoiding the chaos of prompt-based development and bringing AI closer to real engineering practices.
+    speakers:
+      - name: Luiz Otávio
+        image: m088_luiz_otavio.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/luiz-otavio-rodrigues/
+        bio: >
+          Product Solutions Architect at Kantar
+          Luiz has more than 30 years' experience primarily in infrastructure solutions, with a broad knowledge in networks, storage, servers, security and operational systems. One great part of his job was working with companies that provided a wide range of services to customers, he worked integrating all elements above to deliver services aligned with IT and business necessities. All of this was made to several companies around the world.
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
