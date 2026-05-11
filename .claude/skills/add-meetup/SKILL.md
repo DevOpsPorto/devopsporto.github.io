@@ -75,8 +75,8 @@ For every speaker, run the following sub-steps in order, stopping as soon as you
 
 **2d. Speaker image**
 - LinkedIn profile photos require authentication and cannot be downloaded automatically.
-- Set the `image` field to `m{NUMBER}_{firstname}.jpg`.
-- Tell the user: "Please visit {linkedin_url} to download the photo and save it as `assets/images/speakers/m{NUMBER}_{firstname}.jpg`."
+- Set the `image` field to `m{NUMBER}_{firstnamelastname}.jpg` (lowercase, no spaces or special characters).
+- Tell the user: "Please visit {linkedin_url} to download the photo and save it as `assets/images/speakers/m{NUMBER}_{firstnamelastname}.jpg`."
 
 ### Step 3 — Write the event file
 
@@ -139,7 +139,7 @@ agenda:
       Talk abstract here.
     speakers:
       - name: Speaker Name
-        image: m{N}_{firstname}.jpg   # file goes in assets/images/speakers/
+        image: m{N}_{firstnamelastname}.jpg   # file goes in assets/images/speakers/
         twitter:                       # handle only, no @; leave blank if none
         linkedin:                      # full profile URL
         bio: >
