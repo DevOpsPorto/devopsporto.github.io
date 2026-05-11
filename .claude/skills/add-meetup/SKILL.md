@@ -77,6 +77,7 @@ For every speaker, run the following sub-steps in order, stopping as soon as you
 - LinkedIn profile photos require authentication and cannot be downloaded automatically.
 - Set the `image` field to `m{NUMBER}_{firstnamelastname}.jpg` (lowercase, no spaces or special characters).
 - Tell the user: "Please visit {linkedin_url} to download the photo and save it as `assets/images/speakers/m{NUMBER}_{firstnamelastname}.jpg`."
+- If the user says no photo is available for a speaker, set `image` to `speaker_icon.png` instead.
 
 ### Step 3 — Write the event file
 
