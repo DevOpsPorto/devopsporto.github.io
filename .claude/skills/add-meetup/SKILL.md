@@ -29,7 +29,7 @@ Fetch `$url` with WebFetch and extract:
 - Event title
 - Venue / host name → match to the closest available host key above; if none match, flag it as a new venue and follow **Step 1b** before continuing
 - Full agenda with timing — note every segment (opening/intro, talks, breaks, networking, Q&A, wrapup) and map them to the valid agenda types below
-- Each talk: title, abstract (use source wording as closely as possible, including direct quotes), speaker name, speaker bio, speaker LinkedIn URL, speaker Twitter/X handle
+- Each talk: title, abstract (use source wording as closely as possible, including direct quotes), speaker name, speaker bio, speaker LinkedIn URL (meetup pages often link directly to speaker profiles — always extract these first before considering a search), speaker Twitter/X handle
 
 ### Step 1b — New venue (only if no host match was found)
 
@@ -60,7 +60,7 @@ For every speaker, run the following sub-steps in order, stopping as soon as you
 - If found, read that file, extract the speaker's `name`, `image`, `twitter`, `linkedin`, and `bio`, reuse them as-is, and skip steps 2b–2d.
 
 **2b. LinkedIn URL**
-- If the meetup page already provided a LinkedIn URL, use it and skip to 2c.
+- If a LinkedIn URL was extracted from the meetup page in Step 1, use it directly and skip to 2c. Do not search.
 - Otherwise, try up to three attempts (stop as soon as the user confirms a match):
   1. WebSearch for `"{speaker name}" site:linkedin.com/in` — present results (name, headline, URL) and ask the user to confirm.
   2. If no match, WebSearch for `"{speaker name}" "{company}" site:linkedin.com` — present results and ask again.
