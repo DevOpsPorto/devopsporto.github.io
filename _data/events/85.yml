@@ -1,0 +1,65 @@
+type: meetup
+number: 85
+date: 2026-02-11
+host: critical-manufacturing
+title: "Platform Engineering & Engineering Management"
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Collaboration Hub - Cloud Development Environments
+      powering Project Performance
+    abstract: >
+      The speakers share their experience building cloud-based development
+      environments for multi-organizational collaboration in Manufacturing
+      systems. They address challenges of managing developers across
+      different teams with varying hardware and security constraints,
+      presenting a solution using "Devcontainers for version isolation"
+      and "VS Code Server for browser-based development." The result
+      achieved: "Developer onboarding dropped from 3-5 days to less
+      than an hour."
+    speakers:
+      - name: César Meira
+        image: speaker_icon.png
+        twitter:
+        linkedin: https://www.linkedin.com/in/cesarmeira/
+        bio: >
+          César is a Principal Software Engineer in the R&D area at
+          Critical Manufacturing, where he focuses on building cloud-based
+          development environments for multi-organizational collaboration
+          in manufacturing systems.
+      - name: Marco Silva
+        image: m085_marcosilva.jpg
+        twitter:
+        linkedin: https://www.linkedin.com/in/marcosilva/
+        bio: >
+          Marco is a Principal Software Engineer in the R&D area at
+          Critical Manufacturing, specialising in developer tooling and
+          cloud development environments for complex manufacturing systems.
+    slides:
+    youtube:
+  - type: talk
+    title: |
+      Management is a Hard Job. That's Why You Should
+      Do It Like an Engineer
+    abstract: >
+      William explores applying engineering principles to management,
+      helping leaders "Build autonomous, observable teams that don't
+      depend on micromanagement" and "Use metrics, feedback loops, and
+      postmortems to improve trust and delivery."
+    speakers:
+      - name: William Mendes
+        image: m065_williammendes.jpg
+        twitter:
+        linkedin: https://www.linkedin.com/in/william-mendes/
+        bio: >
+          With a background as a C# developer, William Mendes specialises
+          in leading teams through critical challenges and delivering
+          solutions for top e-commerce companies in Brazil, Latin America,
+          and Europe. He has excelled in technical leadership, mentoring,
+          and teaching at companies including Farfetch and Feedzai, and
+          is currently DevOps Team Lead at Coralogix.
+    slides:
+    youtube:
+  - type: networking
+  - type: wrapup
