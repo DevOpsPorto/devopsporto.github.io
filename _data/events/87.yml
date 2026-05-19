@@ -1,0 +1,32 @@
+type: meetup
+number: 87
+date: 2026-04-14
+host: aubay
+title: "AI & Kubernetes"
+agenda:
+  - type: intro
+  - type: break
+  - type: talk
+    title: |
+      Stop Burning Tokens: Feedback Loops for AI Agents in Kubernetes
+    abstract: >
+      AI coding agents are great at generating code, but terrible at knowing
+      whether that code actually works. At MetalBear we ran into this with
+      agents doing frontend work, and solved it with a fast feedback loop
+      that tells the agent "that worked" or "that broke" in seconds — by
+      running E2E tests against real Kubernetes services via mirrord, so
+      the agent can self-correct without deploying after every change.
+    speakers:
+      - name: Jake Page
+        image: m087_jakepage.jpg
+        twitter:
+        linkedin: https://pt.linkedin.com/in/jake-page-aws
+        bio: >
+          Former high-school teacher turned DevOps engineer and now DevRel
+          engineer at MetalBear. Jake has spent six years focused on
+          cloud-native developer tooling, and now helps engineering teams
+          in Lisbon adopt better workflows.
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
