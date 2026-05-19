@@ -1,0 +1,27 @@
+type: meetup
+number: 86
+date: 2026-03-17
+host: blip
+title: ""
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Towards a decentralized delivery of infrastructure: A data platform
+      journey
+    abstract: >
+      In early stages, platform teams are centralized with experts managing
+      IaC across domains. Initially effective, but growth causes issues.
+      Demand surges, new use cases emerge, teams want faster speeds, and the
+      platform team cannot handle request volume and diversity.
+    speakers:
+      - name: Pedro Miranda
+        image: m86_pedromiranda.jpg
+        twitter:
+        linkedin: https://www.linkedin.com/in/pedromamiranda/
+        bio: >
+          Senior Solutions Architect at Adidas.
+    slides:
+    youtube:
+  - type: networking
+  - type: wrapup
