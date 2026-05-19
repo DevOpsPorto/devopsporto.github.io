@@ -85,7 +85,7 @@ Create `_data/events/{NUMBER}.yml` using the schema below with all enriched data
 
 ### Step 4 — Commit and open a draft PR
 
-1. Create a new branch: `git checkout -b add-meeting-{NUMBER}`
+1. Create a new branch from the latest `main`: `git fetch origin main && git checkout -b add-meeting-{NUMBER} origin/main`
 2. Stage all new files: `git add -A`
 3. Commit: `git commit -m "Meetup {NUMBER} @ {host display name}"`
 4. Push: `git push -u origin add-meeting-{NUMBER}`
