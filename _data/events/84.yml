@@ -1,0 +1,32 @@
+type: meetup
+number: 84
+date: 2026-01-27
+host: xgeeks
+title: "Scaling Smart: The Journey to Kafka Tiered Storage"
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Scaling Smart: The Journey to Kafka Tiered Storage
+    abstract: >
+      This talk explores how tiered storage implementation enabled "infinite
+      history without the infinite price tag", transforming infrastructure
+      challenges into cost-effective solutions.
+    speakers:
+      - name: Eduardo Mota
+        image: m084_eduardo.jpg
+        twitter:
+        linkedin: https://www.linkedin.com/in/sudmota/
+        bio: >
+          Eduardo is a Principal Engineer at Farfetch with a solid background
+          in cloud and automation. He started as a software developer across
+          areas ranging from IoT to blockchain and e-commerce before
+          transitioning to DevOps in 2016. A strong advocate for automation
+          and efficiency, he holds Kubernetes certifications (CKA and CKAD)
+          and has contributed to research in vehicular networking and IoT
+          patents. Outside of engineering, he is also a commercial pilot and
+          flight instructor.
+    slides:
+    youtube:
+  - type: networking
+  - type: wrapup
