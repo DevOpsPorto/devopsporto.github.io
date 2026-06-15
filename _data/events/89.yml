@@ -1,0 +1,34 @@
+type: meetup
+number: 89
+date: 2026-06-18
+host: cocus-sitio-gaia
+title: Software Supply Chain Security
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Securing the Software Supply Chain in a Cloud Native World: From CI/CD Pipelines to SLSA
+    abstract: >
+      This talk provides a focused overview of modern software supply chain
+      security through three interconnected lenses: CI/CD pipeline hardening,
+      cloud native-specific risks, and the SLSA framework. It examines how
+      attackers target build systems and dependencies, and walks through
+      practical defenses including artifact signing with Sigstore and Cosign,
+      least-privilege access in GitHub Actions and Tekton, and securing
+      containerized workloads. SLSA is introduced as an incremental, adoptable
+      blueprint for achieving tamper-proof provenance and verifiable build
+      integrity.
+    speakers:
+      - name: Carlos Nogueira
+        image: m089_carlosnogueira.jpg
+        twitter:
+        linkedin: https://www.linkedin.com/in/cedon/
+        bio: >
+          DevOps specialist with more than 20 years of professional experience.
+          Carlos is co-organizer of the DevOps na Praia meetup and host of the
+          #engineeringsessions YouTube channel, where he publishes tutorials and
+          reviews on DevOps, FLOSS and Cloud Native topics.
+    slides:
+    youtube:
+  - type: networking
+  - type: wrapup
