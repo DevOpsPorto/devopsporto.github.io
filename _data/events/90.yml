@@ -1,0 +1,66 @@
+type: meetup
+number: 90
+date: 2026-07-16
+host: korber
+title: DevOps, AI & Platform
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Building a Platform, Not a Tool Collection
+    abstract: >
+      Platform Engineering promises to accelerate development teams through
+      self-service, but the journey is challenging. In this session, I'll share
+      my experience building an internal platform at my company, where we're in
+      the early stages of identifying stakeholder needs to determine what should
+      be standardized versus local team decisions. The biggest challenges
+      weren't technical—they were stakeholder engagement, feedback collection,
+      and shifting from 'providing tools' to 'enabling self-service.'
+    speakers:
+      - name: Eduardo Piairo
+        image: m090_eduardopiairo.jpg
+        twitter:
+        linkedin: https://pt.linkedin.com/in/eduardopiairo
+        bio: >
+          Senior Platform Engineer at Körber who enjoys building pipelines,
+          platforms, software, and communities. He is always ready to learn the
+          path to production for applications, databases and infrastructure, and
+          considers the deployment pipeline his favourite technical and cultural
+          tool. An AnythingOps approach enthusiast.
+    slides:
+    youtube:
+  - type: talk
+    title: |
+      Beyond Automation: How AI is Reshaping DevOps
+    abstract: >
+      AI is only as good as the context you give it. In this session we'll dive
+      into GitHub Copilot customizations (instructions, prompts, agents, skills,
+      and hooks) that shape how the agent reasons and acts in your workspace,
+      and we'll see them in action. We'll explore spec-driven development and
+      community skills like ponytail, caveman mode, and andrej-karpathy-skills.
+      Along the way you'll learn how tokens are billed and how to reduce them
+      using these skills.
+    speakers:
+      - name: Daniel Sousa
+        image: m090_danielsousa.jpg
+        twitter:
+        linkedin: https://pt.linkedin.com/in/daniel-sousa-051822207
+        bio: >
+          Software developer at Critical TechWorks (CTW), working in OT
+          cybersecurity to make BMW's plants safer and more secure. Alongside
+          this, he is part of the AI Security initiative, actively working to
+          make agentic applications secure while exploring how to test their
+          resilience and security.
+      - name: Bernardo Carvalho
+        image: m090_bernardocarvalho.jpg
+        twitter:
+        linkedin: https://www.linkedin.com/in/bernardo-silva-carvalho/
+        bio: >
+          Software developer at Critical TechWorks (CTW), working in OT
+          cybersecurity to make BMW's plants safer and more secure. Alongside
+          this, he is part of the AI Security initiative, actively working to
+          make agentic applications secure while exploring how to test their
+          resilience and security.
+    slides:
+    youtube:
+  - type: networking
