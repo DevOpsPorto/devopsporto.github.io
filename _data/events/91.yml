@@ -1,0 +1,37 @@
+type: meetup
+number: 91
+date: 2026-10-14
+host: kuehnenagel
+title: DevOps Porto 🤝 DevOps na Praia Meetup
+agenda:
+  - type: intro
+  - type: talk
+    title: |
+      Move beyond reactive: Transform cloud ops with AWS DevOps Agent
+    abstract: >
+      Is your operations team consumed by daily firefighting? Do you lack the time to evaluate and improve your operational posture? Move from reactive firefighting to proactive operational improvement with AWS DevOps Agent, a frontier agent that resolves and proactively prevents incidents, continuously improving reliability and performance of applications in AWS, multicloud, and hybrid environments. We'll show you how you can leverage AWS DevOps Agent to integrate with your DevOps toolset including AWS and non-AWS observability tools, code repositories, and pipelines to correlate and connect the dots across signals to surface concerning trends and provide prioritized improvements to drive operational excellence.
+    speakers:
+      - name: Martin-Zack Mekkaoui
+        image: m091_martin_zack_mekkaoui.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/martinzack/
+        bio: >
+          Martin is a pragmatic senior tech executive, working on cloud transformation and automation (governance, technical challenges, human resources management, etc.)
+    slides:
+    youtube:
+  - type: talk
+    title: |
+      Everyone knows their system. Nobody knows the Process
+    abstract: >
+      Is your organization struggling with complex microservices where no one understands the full end-to-end business process? Do invisible dependencies and local team optimizations create global operational chaos? Move from fragmented system troubleshooting to holistic integration architecture that connects system behavior directly to business outcomes. In this session, we'll analyze recurring failure patterns across large-scale integration initiatives to reveal why modern cloud and API architectures lose their big-picture clarity. We'll show you how to uncover hidden dependencies across teams and systems, restore shared architectural understanding, and transform integration from a technical bottleneck into a strategic business enabler, all without sacrificing developer autonomy.
+    speakers:
+      - name: Pedro Teixeira
+        image: m091_pedro_teixeira.jpeg
+        twitter:
+        linkedin: https://www.linkedin.com/in/pedro-m-c-teixeira/
+        bio: >
+          Pedro is an Integration Architect at Ecco.
+    slides:
+    youtube:
+  - type: qa
+  - type: wrapup
