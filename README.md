@@ -1,39 +1,33 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DevOpsPorto/devopsporto.github.io)
+# devopsporto.github.io
 
-## Welcome to GitHub Pages
+Source for the [DevOps Porto](https://devopsporto.com) community website. Built with Jekyll and served by GitHub Pages.
 
-You can use the [editor on GitHub](https://github.com/DevOpsPorto/devopsporto.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Local development
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Requires Ruby and Bundler.
 
-### Markdown
+    bundle install
+    bundle exec jekyll serve
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The site is then available at http://localhost:4000. Jekyll rebuilds on save, so edits show up on refresh.
 
-```markdown
-Syntax highlighted code block
+## Checking the build
 
-# Header 1
-## Header 2
-### Header 3
+Build once and check the output for broken links and images:
 
-- Bulleted
-- List
+    bundle exec jekyll build
+    bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
 
-1. Numbered
-2. List
+## Adding a meetup
 
-**Bold** and _Italic_ and `Code` text
+Each meetup is a YAML file in `_data/events/`, named by its number (e.g. `92.yml`). Copy `_data/events/template.yml` and fill it in. The Meetups page builds itself from these files.
 
-[Link](url) and ![Image](src)
-```
+Venues live in `_data/hosts/`. If a meetup is at a new venue, add a host file there first and reference its key from the event's `host` field.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Layout
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DevOpsPorto/devopsporto.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- `_data/events/` — one file per meetup
+- `_data/hosts/` — venue details (logo, link, map)
+- `_includes/components/` — reusable pieces for events, speakers and hosts
+- `_layouts/default.html` — the page shell
+- `index.md`, `meetups.html`, `team.html`, `callforspeakers.html`, `codeofconduct.html` — the pages
