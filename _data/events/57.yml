@@ -1,0 +1,29 @@
+type: "meetup"
+number: 57
+date: 2022-11-23
+host: reviewpad
+title: Fluid Pull Requests
+agenda:
+  - type: intro
+  - type: talk
+    title: Fluid Pull Requests
+    abstract: >
+      Pull requests are the backbone of the DevOps infrastructure across many companies in the
+      industry. However, they are fast becoming the #1 bottleneck in engineering teams negatively
+      impacting the throughput, stability, and culture of dev teams. Fluid pull requests are an
+      extension of pull requests with principles from trunk-based development. In this talk, Marcelo
+      will show the current problems with pull requests and how fluid pull requests solve them.
+    speakers:
+      - name: Marcelo Sousa
+        image: m057_marcelosousa.jpeg
+        bio: >
+          Marcelo is an open-source and formal methods advocate. He holds a Ph.D. from the University
+          of Oxford where he researched automated code analysis for concurrent programs. He worked in
+          compilers at IBM and code analysers for malware detection at Google. He was also the
+          principal designer of the first security analyser in SonarQube and SonarCloud.
+
+
+          He is now building Reviewpad, a product that allows developers to safely push code changes
+          faster.
+  - type: qa
+  - type: wrapup

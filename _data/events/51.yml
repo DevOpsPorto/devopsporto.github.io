@@ -1,0 +1,29 @@
+type: "meetup"
+number: 51
+date: 2022-04-20
+host: online
+title: DORA metrics
+agenda:
+  - type: intro
+  - type: talk
+    title: DORA metrics
+    abstract: >
+      DORA Metrics deu visibilidade ao ciclo de desenvolvimento de software e Operação de TI de
+      forma a vê-los de forma única, como parte fundamental do fluxo de valor de organizações
+      exponenciais. As métricas em si podem não significar muito se não houver uma estratégia
+      direcionada de usá-las para validar experimentos, adoção de tecnologias e/ou dar visibilidades
+      aos gargalos. Esta apresentação é um pequeno ensaio de como foi implementar DORA Metrics nas
+      organizações e algumas lições aprendidas.
+    speakers:
+      - name: Fernando Ike
+        image: m051_fernandoike.jpg
+        bio: >
+          Fernando Ike é Gerente Senior de Tecnologia no PicPay (Head of Production Engineering),
+          trabalhou como liderança técnica ou de pessoas em diferente indústrias como: Governo,
+          Startups e empresas tradicionais. Trabalhou em startups como QuintoAndar (Real Estate),
+          Zup (IT Consultant), Nuveo (Computer Vision), Escola Mais (EdTech), Akamai (CDN) e
+          StackPath (CDN). Colaborou com projetos Open Source como Pydantic, PostgreSQL, Debian e
+          Hoursec.
+    youtube: https://youtu.be/uQtktPNLu3Y
+  - type: qa
+  - type: wrapup

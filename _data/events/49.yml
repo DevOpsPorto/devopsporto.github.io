@@ -1,0 +1,29 @@
+type: "meetup"
+number: 49
+date: 2022-02-22
+host: online
+title: Fifteen minutes or bust
+agenda:
+  - type: intro
+  - type: talk
+    title: Fifteen minutes or bust
+    abstract: >
+      There is a yawning gap opening up between the best and the rest — the elite top few percent of
+      engineering teams are making incredible gains year over year in velocity, reliability and
+      human-compatibility, while the bottom 50% are actually losing ground. And this has nothing to
+      do with engineering ability. Take an engineer out of an elite-performing team and place them in
+      the bottom 50%, and they become subpar too; take an engineer out of a mediocre team and embed
+      them in an elite team, and they are pulling their weight within the year. So how do you build
+      these high performing teams? The two most important components are observability and delivery
+      time. We'll talk about both of these and more.
+    speakers:
+      - name: Charity Majors
+        image: m049_charitymajors.jpeg
+        bio: >
+          Charity is the co-founder and CTO of honeycomb.io, which brings modern observability
+          tooling to engineers in the era of distributed systems. Charity is the co-author of
+          Database Reliability Engineering (O'Reilly), and is devoted to creating a world where every
+          engineer is on call and nobody thinks on call sucks.
+    youtube: https://www.youtube.com/watch?v=twca1NkoI5Q
+  - type: qa
+  - type: wrapup

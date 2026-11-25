@@ -1,0 +1,22 @@
+type: "meetup"
+number: 53
+date: 2022-06-21
+host: devoteam-porto
+title: The Lord of AWS Accounts
+agenda:
+  - type: intro
+  - type: talk
+    title: The Lord of AWS Accounts
+    abstract: >
+      One account to provision them all, One account to configure them, One Account to bring them
+      all, and finance to pay them. How to organize your AWS environment using multiple accounts to
+      help isolate and manage your company assets for security, reliability, and a sprinkle cost
+      optimization.
+    speakers:
+      - name: Hugo Barros
+        bio: >
+          Hugo started as a Developer, and moved to Systems Administration, then Cloud Engineer, SRE,
+          and is currently Senior Site Infrastructure Engineer @ Fidel API. He will share with us how
+          to organize multiple AWS environments and why it's worth it.
+  - type: qa
+  - type: wrapup

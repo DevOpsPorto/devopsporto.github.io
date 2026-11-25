@@ -1,0 +1,53 @@
+type: "meetup"
+number: 50
+date: 2022-03-31
+host: online
+title: Are Platform teams the next DevOps?
+agenda:
+  - type: intro
+  - type: talk
+    title: Platform as a product
+    abstract: >
+      Savvy organizations are discovering the value of treating their internal platforms as
+      products. But what does it mean to treat a "platform as a product"? What benefits does this
+      give, and why would an organization adopt this approach?
+
+
+      In this talk, Manuel Pais, co-author of the book Team Topologies, explains why the
+      platform-as-product approach can be a game-changer for organizations building and running
+      software-enabled products and services. Using ideas & patterns from Team Topologies -
+      including Thinnest Viable Platform, team cognitive load, and the evolutionary team interaction
+      modes - Manuel explains how organizations like Uswitch and Adidas have successfully used the
+      platform-as-product model to accelerate and simplify the delivery of software at scale.
+    speakers:
+      - name: Manuel Pais
+        image: m050_manuelpais.jpg
+        bio: >
+          Manuel Pais is co-author of <a href="https://teamtopologies.com/book">Team Topologies</a>:
+          organizing business and technology teams for fast flow. Recognized by TechBeacon as a
+          <a href="https://techbeacon.com/devops/devops-100-top-leaders-practitioners-experts-follow-0">DevOps thought leader</a>,
+          Manuel is an independent IT organizational consultant and trainer, focused on team
+          interactions, delivery practices and accelerating flow. Manuel is also a LinkedIn
+          instructor on
+          <a href="https://www.linkedin.com/learning/devops-foundations-accelerating-continuous-delivery-in-the-enterprise">Continuous Delivery</a>.
+    youtube: https://youtu.be/YGqgSB85Zpo
+  - type: qa
+  - type: talk
+    title: Accelerating large engineering organisations with Internal Platforms
+    abstract: >
+      João Alves is an Engineering Manager at Adevinta in Barcelona. Adevinta's portfolio spans more
+      than 40 digital brands, covering one billion people and attracting approximately three billion
+      average monthly visits.
+
+
+      João has helped to implement the Platform team model at
+      <a href="https://www.adevinta.com/our-brands">Adevinta</a> and will be sharing the lessons
+      learned from creating a successful Platform team with us.
+    speakers:
+      - name: João Alves
+        image: m050_joaoalves.jpg
+        bio: >
+          João Alves is an Engineering Manager, Speaker, and Writer. His main interests are to build
+          and grow SaaS Products and Infrastructure teams.
+  - type: qa
+  - type: wrapup

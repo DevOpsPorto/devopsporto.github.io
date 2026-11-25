@@ -1,0 +1,34 @@
+type: "meetup"
+number: 56
+date: 2022-10-20
+host: farfetch-boavista
+title: How to easily manage TLS certificates with Vault
+agenda:
+  - type: intro
+  - type: talk
+    title: How to easily manage TLS certificates with Vault
+    abstract: >
+      Having valid TLS certificates protects our companies, by ensuring privacy and data security
+      for communications over the Internet, so we can deliver trust to our users and customers. But
+      it is a burden if we don't have a proper process for rotating certificates. As well as it can
+      pose some risks and flaws. So, what if we automate it? In this presentation, we will share a
+      proposal on how to easily manage the rotation of TLS certificates across all the Infrastructure
+      using Vault.
+    speakers:
+      - name: Eduardo Mota
+        image: m056_eduardomota.jpg
+        bio: >
+          Started as a software developer, working in areas that range from the Internet of Things to
+          blockchain and e-commerce. Made his way to DevOps back in 2016, and is now a Lead Engineer
+          at Farfetch. A strong advocate of automation, and in "doing more with less". Eduardo is also
+          passionate about the cloud in every sense of the word, as he accumulates his work as a
+          DevOps Engineer with being a commercial pilot and flight instructor.
+      - name: Rafael Pinto
+        image: m056_rafaelpinto.jpg
+        bio: >
+          Rafael has a masters degree in Informatics Engineering by the University of Minho. He
+          started his career in 2017, and from the very beginning was passioned about automation,
+          infrastructure, and DevOps. Currently playing the role of Lead Infrastructure Engineer at
+          Farfetch. Sports and electronic music lover.
+  - type: qa
+  - type: wrapup

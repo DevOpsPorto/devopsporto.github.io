@@ -1,0 +1,35 @@
+type: "meetup"
+number: 48
+date: 2022-01-25
+host: online
+title: GitOps and Progressive Delivery
+agenda:
+  - type: intro
+  - type: talk
+    title: GitOps and Progressive Delivery
+    abstract: >
+      Our customers expect a very high level of service from us, so they urged us to build our
+      architecture as resiliently and reliably as we could. That brought us many challenges, from
+      scalability to observability, from multi-cluster and multi-region deployments to managed
+      services geo-replication. While many of these challenges have already been tackled, some are
+      still a work in progress.
+
+
+      In this talk, Marco Amador (Anova) will describe their journey to progressive delivery with
+      some hands-on demos and explain why they've chosen progressive delivery over multi-cluster and
+      multi-region Kubernetes. He'll also talk about how they decided to use a GitOps workflow with
+      FluxCD and progressive delivery with Flagger, the Istio service mesh, and Prometheus/Thanos,
+      and the challenges that they're still trying to solve.
+    speakers:
+      - name: Marco Mamador
+        image: m048_mfamador.png
+        bio: >
+          Marco is an experienced Software Engineer, an enthusiast of Open Source and the DevOps
+          culture and practices, and has been working with Cloud-Native projects for a wide range of
+          industries, from Telco, Urban Mobility, and Media Intelligence to the Industrial Internet
+          of Things. He's currently the Chapter Lead for Data Engineering and SRE at ANOVA, helping
+          build a Cloud-Native IIoT Platform for a diverse set of markets: Industrial Gas, Rail,
+          Energy, Oil & Gas, Water/Wastewater, and other industries.
+    youtube: https://www.youtube.com/watch?v=w9GesvLUybc
+  - type: qa
+  - type: wrapup

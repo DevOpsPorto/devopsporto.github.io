@@ -1,0 +1,57 @@
+type: "meetup"
+number: 55
+date: 2022-09-09
+host: feup
+title: "DevOps Research for Professionals: from Tools to Best Practices"
+agenda:
+  - type: intro
+  - type: talk
+    title: "DevOps Research for Professionals: from Tools to Best Practices"
+    abstract: >
+      "Scientific research" is often perceived as far from the everyday practice of professionals
+      developing, shipping, and running software systems. Yet, this is hardly true for much research.
+      This meetup will look at some examples of DevOps research projects. We will start with
+      well-known examples such as DORA and look into some of our research at FEUP with results that
+      professionals can use to significant effect, including novel tools and proven best practices.
+    speakers:
+      - name: Carlos Albuquerque
+        image: m055_carlosalbuquerque.jpg
+        bio: >
+          Carlos Albuquerque is a Master in Informatics Engineering by the Faculty of Engineering of
+          the University of Porto. He is especially fond of Software Engineering topics, such as
+          design patterns, software architecture and cloud computing. His master thesis, titled
+          Monitoring design patterns for cloud applications, formalized eleven monitoring and
+          observability best practices as design patterns for the industry.
+      - name: David Reis
+        image: m055_davidreis.jpg
+      - name: Filipe Correia
+        image: m055_filipecorreia.jpg
+        bio: >
+          Filipe Correia is a professor of Software Engineering at the University of Porto / FEUP and
+          a researcher at INESC TEC. In the past, he played other roles, from software architect to
+          coach, to developer. His research interests tend to revolve around software design,
+          architecture, and agility. Most recently they focus on microservice-based architectures and
+          the highly maintainable and flexible systems they allow to create, and on applying liveness
+          principles to activities of the software development lifecycle.
+      - name: João Maduro
+        image: m055_joaomaduro.jpg
+        bio: >
+          João Maduro is a Master in Informatics Engineering from the Faculty of Engineering of the
+          University of Porto. He has a deep interest in Cyber-Security and low-level technologies
+          like the ones we can find in Operating Systems, which motivated him recently to research
+          more about Docker Containers.
+      - name: Paulo Marques
+        image: m055_paulomarques.jpg
+        bio: >
+          Paulo Marques is a Master in Informatics Engineering from the Faculty of Engineering of the
+          University of Porto. His main interests are topics from Software Engineering, such as design
+          patterns, software architecture and DevOps.
+      - name: Tiago Maia
+        image: m055_tiagomaia.jpg
+        bio: >
+          Tiago Maia is a Master in Software Engineering by the Faculty of Engineering of the
+          University of Porto. He is currently working for Farfetch and his main interests orbitate
+          around cloud architectures and service meshes.
+    youtube: https://youtu.be/QCo7XQ4IWBY
+  - type: qa
+  - type: wrapup
