@@ -52,6 +52,11 @@
  img.width-is-128 {
     width:128px
 }
+ .image.is-128x128 img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
  .columns.event-columns > .column {
      display: flex;
 }
