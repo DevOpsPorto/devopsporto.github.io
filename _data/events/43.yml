@@ -1,0 +1,36 @@
+type: "meetup"
+number: 43
+date: 2021-04-15
+host: online
+title: Kubernetes path to Production [PT]
+youtube: https://youtu.be/xDDa5apeQBY
+agenda:
+  - type: intro
+  - type: talk
+    title: Reaching a Production-Ready Kubernetes @ La Redoute
+    abstract: >
+      Our invited speakers started a quest for acceleration and Kubernetes was one element retained
+      to modernize the application deployment. Antoine, Daniel, and Ivan will share why changing the
+      provisioning paradigm to a cloud-native, distributed, and largely as code model is complex.
+      Reaching a production-ready state was an extensive journey full of learnings and now they want
+      to share that learnings with the community.
+    speakers:
+      - name: Antoine Craske
+        image: m043_antoinecraske.png
+        linkedin: antoine-craske-15621435
+        twitter: acraske_
+        bio: >
+          Passionate about architecture, strategy, and technology. Head of Architecture & Technology
+          at La Redoute, focusing on a better business & engineering alignment and value.
+      - name: Ivan Santos
+        image: m043_ivansantos.png
+        bio: >
+          Passionate about working with innovative technologies, mainly with DevOps and SRE, for 21
+          years taking knowledge and learning about critical environments and e-commerce.
+      - name: Daniel Mello
+        image: m043_danielmello.png
+        bio: >
+          Born in Brazil and have strong Portuguese roots from Coimbra and Sta. Comba Dão. Passionate
+          about technology and sports, especially running.
+  - type: qa
+  - type: wrapup

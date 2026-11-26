@@ -1,0 +1,41 @@
+type: "meetup"
+number: 36
+date: 2020-02-11
+host: veniam
+title: "Computing and Operations at CERN: From Physical HW to Virtualization and Containers"
+agenda:
+  - type: intro
+  - type: talk
+    title: "Computing and Operations at CERN: From Physical HW to Virtualization and Containers"
+    abstract: >
+      CERN is the European Organization for Nuclear Research, where physicists and engineers probe
+      the fundamental structure of the universe. To achieve its goals it has always required a large
+      amount of computing capacity, with its infrastructure evolving over time from large mainframes
+      to the datacenters of today.
+
+
+      It hosts the Large Hadron Collider, a 27km particle accelerator where two beams of protons
+      collide millions of times per second generating 100s of PetaBytes of data. In this talk, we
+      describe and cover the challenges of running the infrastructure required to store and analyse
+      100s of PetaBytes of data, and how we manage 1000s of servers totalling more than 300k cores
+      and offering over 400PBs of storage. We will cover the compute and networking infrastructure
+      running on OpenStack as well as the required configuration management services for automation.
+      And we will finish with the current move towards a containerized infrastructure where Docker
+      and Kubernetes play a key role.
+    speakers:
+      - name: Ricardo Rocha
+        image: m036_ricardorocha.jpg
+        linkedin: ricardo-rocha-739aa718
+        bio: >
+          Ricardo is a software engineer at CERN currently part of the CERN cloud team, focusing
+          primarily on networking and container based deployments. Previously he helped develop and
+          deploy several components of the Worldwide LHC Computing Grid, a network of ~200
+          collaborating sites around the world helping to analyze the Large Hadron Collider data. He
+          has a computing degree from FEUP (Faculdade Engenharia da Universidade do Porto), joining
+          CERN as part of his final project focusing on Grid Computing. Ricardo has presented his and
+          his teams work in different international conferences - Computing for High Energy Physics
+          (CHEP), IEEE NSS/MIC, IEEE MSST, DockerCon, Kubecon and multiple OpenStack summits.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup-36-computing-and-operations-at-cern-from-physical-hw-to-virtualization-and-containers-by-ricardo-rocha
+  - type: break
+  - type: openspace
+  - type: wrapup

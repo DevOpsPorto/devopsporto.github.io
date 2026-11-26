@@ -1,0 +1,53 @@
+type: "meetup"
+number: 38
+date: 2020-08-06
+host: online
+title: DataOps - DevOps Porto & DSPT
+youtube: https://youtu.be/dTRq6l-xdpg
+agenda:
+  - type: intro
+  - type: talk
+    title: Using cutting-edge open-source technologies to build one of the biggest industrial Data Lake of the World
+    abstract: >
+      On this talk, we will discuss how DataSprints is using cutting-edge open-source technologies,
+      such as Dremio and dbt, to build one of the biggest industrial Data Lakes of the World, serving
+      more than 200 reports, processing more than 300Gb and 2000+ columns datasets in near-realtime
+      (8s), keeping the cloud costs very low, and by very low we mean, VERY LOW. We will pass through
+      the architecture now in production, all the challenges and lessons learned on this project.
+    speakers:
+      - name: Allan Sene
+        image: m038_allansene.jpg
+        linkedin: allansene
+        bio: >
+          Allan has a background in Computer Science and Statistics, having worked with Data since
+          2010, from genetic data transformation to complex industrial data lakes. He's Co-Founder &
+          CTO at DataSprints and Co-Founder of Data Hackers.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup-38-using-cutting-edge-open-source-technologies-to-build-one-of-the-biggest-industrial-data-lake-of-the-world-by-allan-sene
+  - type: talk
+    title: Intro to FastAPI
+    abstract: >
+      Learn how to create an API ready for production in very little time using FastAPI... explained
+      with memes. Your API will have automatic validation, documentation based on standards, high
+      performance, and several other features. All this, having editor support including
+      autocompletion everywhere.
+
+
+      In this talk you will learn what FastAPI can do, and how it could benefit you. You will see how
+      to declare the data you want to receive in each request using standard Python type annotations.
+      Including path parameters, query parameters, body payloads with JSON, etc.
+
+
+      You will also see how to use simple, standard, Python type annotations to declare complex JSON
+      body payloads with deeply nested structures, and get automatic data validation, serialization,
+      and documentation.
+    speakers:
+      - name: Sebastián Ramírez
+        image: m038_sebastianramirez.jpg
+        linkedin: tiangolo
+        twitter: tiangolo
+        github: tiangolo
+        bio: >
+          Sebastián (tiangolo) is the creator of FastAPI, Typer, and other open source tools.
+          Currently he's a developer at Explosion in Berlin, Germany.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup-38-intro-to-fastapi-by-sebastian-ramirez
+  - type: wrapup
