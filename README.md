@@ -35,11 +35,24 @@ Notes:
 
 Venues live in `_data/hosts/` and partners in `_data/partners/`. Both take `key`, `name`, `link` and `logo`; hosts also take a `maplink` (a Google Maps embed URL). Add a file there and reference its key from the event.
 
+## Updating the team
+
+The Team page is built from [`_data/team.yml`](_data/team.yml), one entry per member. Add, remove or edit an entry there — no HTML to touch.
+
+Each entry takes:
+
+- `name` — the member's name.
+- `image` — a filename in `assets/images/team/`.
+- `active` — `true` lists them under Active, `false` under Historic.
+- `bio` — a short bio in Markdown; separate paragraphs with a blank line.
+- `twitter`, `linkedin`, `github` — optional; each shows an icon when present. Use the handle alone (e.g. `twitter: devopsporto`); `linkedin` also accepts a full profile URL.
+
 ## Layout
 
 - `_data/events/` — one file per meetup (plus the bootcamps)
 - `_data/hosts/` — venue details (logo, link, map)
 - `_data/partners/` — co-host / partner details (logo, link)
+- `_data/team.yml` — team members (Active and Historic)
 - `_includes/components/` — reusable pieces for events, speakers, hosts and partners
 - `_layouts/default.html` — the page shell
 - `index.md`, `meetups.html`, `team.html`, `callforspeakers.html`, `codeofconduct.html` — the pages
