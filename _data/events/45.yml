@@ -1,0 +1,42 @@
+type: "meetup"
+number: 45
+date: 2021-05-20
+host: online
+title: Building with Nuke [EN]
+youtube: https://www.youtube.com/watch?v=kwoqsLqd3yA
+agenda:
+  - type: intro
+  - type: talk
+    title: Unleash your build with Nuke
+    abstract: >
+      Nuke is a powerful open-source cross-platform build automation system, written in C#. It has
+      rich libraries for automating CLI execution for all of the most common tools like Docker,
+      NuGet, dotnet, MSBuild, Maven, and many more. Nuke provides a way to do your build definition
+      as REAL code. A code that is debuggable, testable, shareable.
+
+
+      How many times have you gotten a buggy YAML because of a missing indentation? How many times
+      you got through tons of logs, trying to figure out why that specific variable in your build
+      definition, was not populated correctly? You can have a seamless IDE integration and easily
+      navigate through your definition since it is not a script or YAML. You can have
+      auto-completion, ReSharper refactoring, access to countless useful libraries.
+
+
+      Our invited speaker, Todor, will share with us how easy and powerful this approach can be. How
+      you can easily generate multiple configurations for different CI/CD providers. The
+      possibilities are vast.
+    speakers:
+      - name: Todor Todorov
+        image: m045_todortodorov.jpg
+        twitter: totollygeek
+        linkedin: totollygeek
+        bio: >
+          Todor is a DevOps Evangelist, software engineer, and public speaker who has more than 10
+          years of experience in front-end and back-end development. Lately, Todor is concentrated in
+          the field of highly scalable cloud APIs, Docker, CI/CD pipelines, and serverless
+          technologies. He is passionate about clean code and open-source. DevOps and microservices
+          are his current focuses and the cloud mindset is what he is trying to advocate everyone
+          around. In his free time, which is limited, due to having three kids, he enjoys playing
+          DOTA, riding a chopper, and singing in a rock band.
+  - type: qa
+  - type: wrapup

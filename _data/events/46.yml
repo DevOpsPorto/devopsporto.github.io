@@ -1,0 +1,43 @@
+type: "meetup"
+number: 46
+date: 2021-11-22
+host: online
+title: "Migration: Lift&Shift with Accenture and Google Cloud"
+agenda:
+  - type: intro
+  - type: talk
+    title: "Migration: Lift&Shift with Accenture and Google Cloud"
+    abstract: >
+      Accenture's SAP HANA CoE maintains demo & training SAP systems for Accenture internal use
+      worldwide. Those SAP systems were hosted on an AWS infrastructure, and Accenture wanted to
+      migrate them to Google Cloud in order to obtain cost savings and synergies with other SAP
+      Google Cloud offerings.
+
+
+      The full AWS SAP HANA infrastructure successfully migrated to Google Cloud automating 70% of
+      the migration activities and applying automated migration tools that increased the speed of the
+      migration concluding it in 10 weeks.
+
+
+      In this presentation we'll be discussing the migration of multiple SAP systems to Google Cloud
+      using a Lift & Shift approach and what we learned.
+    speakers:
+      - name: Alexandre Brito
+        image: m046_alexandrebrito.png
+        bio: >
+          Graduated in 2008 in Computer and Telematics Engineering Aveiro University. Was a
+          scholarship holder at Telecommunications Institute of University of Aveiro, teacher at
+          School of Technology and Management Águeda and joined Accenture in 2018 after some
+          experiences in the telecommunication industry. Currently, he is a manager at Accenture
+          Portugal, at the Advanced Technology Center in Braga and is responsible for the Cloud
+          DevOps group. As a software engineer, he did a little bit of everything and currently
+          considers himself a Technical Project Manager.
+      - name: Diogo Teixeira
+        image: m046_diogoteixeira.png
+        bio: >
+          Graduated in 2018 in Computer Science, joining Accenture right after graduation. Currently
+          is a Senior Developer at Accenture's Advanced Technology Center in Braga, at the Cloud
+          DevOps group. As a software engineer, worked in different projects, being currently focused
+          on Google Cloud Platform.
+  - type: qa
+  - type: wrapup

@@ -1,0 +1,37 @@
+type: "meetup"
+number: 44
+date: 2021-04-22
+host: online
+title: Microservices [EN]
+youtube: https://youtu.be/Gyw0TIzQGRw
+agenda:
+  - type: intro
+  - type: talk
+    title: Choreography vs Orchestration in serverless microservices
+    abstract: >
+      Mete Atamel, will share the journey from a single monolith to a set of microservices that are
+      small, lightweight, and easy to implement. Microservices enable reusability, make it easier to
+      change and scale apps on demand but they also introduce new problems.
+
+
+      How do microservices interact with each other toward a common goal? How do you figure out what
+      went wrong when a business process composed of several microservices fails? Should there be a
+      central orchestrator controlling all interactions between services or should each service work
+      independently, in a loosely coupled way, and only interact through shared events?
+
+
+      In this talk, Mete will explore the Choreography vs Orchestration question and demo some of the
+      tools that can help.
+    speakers:
+      - name: Mete Atamel
+        image: m044_meteatamel.jpg
+        twitter: meteatamel
+        linkedin: meteatamel
+        bio: >
+          Is a Developer Advocate at Google, currently focused on helping developers with Google
+          Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two
+          ecosystems. Prior to Google, Mete worked at Microsoft, Skype, Adobe, EMC, and Nokia
+          building apps and services on various web, mobile, and cloud platforms. Originally from
+          Cyprus, he currently lives in Greenwich, not too far away from the prime meridian.
+  - type: qa
+  - type: wrapup

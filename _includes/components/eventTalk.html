@@ -13,6 +13,13 @@
     <div class="media-content">
         <div class="content">
             <h4>{{ speaker.name }}</h4>
+            {% if speaker.twitter or speaker.linkedin or speaker.github %}
+            <p>
+                {% if speaker.twitter %}{% include components/smalltwitter.html handle=speaker.twitter %}{% endif %}
+                {% if speaker.linkedin %}{% include components/smallLinkedIn.html handle=speaker.linkedin %}{% endif %}
+                {% if speaker.github %}{% include components/smallGitHub.html handle=speaker.github %}{% endif %}
+            </p>
+            {% endif %}
             {{ speaker.bio | newline_to_br }}
         </div>
     </div>
