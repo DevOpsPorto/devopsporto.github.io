@@ -57,6 +57,12 @@
      width: 100%;
      object-fit: cover;
 }
+ .tile.is-ancestor {
+     margin-top: 0.75rem;
+}
+ .tile.is-ancestor:last-child {
+     margin-bottom: 1.5rem;
+}
  .columns.event-columns > .column {
      display: flex;
 }
