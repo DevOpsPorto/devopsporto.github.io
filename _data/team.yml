@@ -1,0 +1,140 @@
+- name: Eduardo Piairo
+  image: eduardopiairo.jpg
+  twitter: EdPiairo
+  linkedin: jesuspiairo
+  github: eduardopiairo
+  active: true
+  bio: |
+    Senior Platform Engineer @ Körber that enjoys build pipelines, deliver software, and create communities.
+
+    Always ready to learn the path to production using source control, continuous integration and continuous delivery for applications, databases and infrastructure. The deployment pipeline is his favorite technical and cultural tool. AnythingOps approach enthusiast.
+
+- name: Ricardo Castro
+  image: ricardocastro.png
+  twitter: mccricardo
+  linkedin: ricardo-castro-9a039126
+  github: mccricardo
+  active: true
+  bio: |
+    Principal Engineer, SRE at [Blip](https://www.blip.pt/)/[FanDuel](https://www.fanduel.com/), working daily to build high performance, reliable and scalable systems.
+
+    A strong believer in culture and teamwork. Open source passionate, technical [blogger](https://mccricardo.com) and [speaker](https://mccricardo.com/talks), taekwondo amateur, and metal lover.
+
+- name: Cláudio Freitas
+  image: claudiofreitas.jpg
+  linkedin: cl%C3%A1udio-freitas-39a36889
+  active: true
+  bio: |
+    Systems Engineer working at making infrastructure secure, resiliant and elastic.
+
+    I prefer to get things done.
+
+- name: Diana Martins
+  image: dianamartins.jpg
+  linkedin: dianacmartins
+  active: true
+  bio: |
+    Lead Infrastructure Engineer @ [Farfetch](https://www.farfetch.com/), focusing on cloud automation.
+
+    Highly motivated by the DevOps culture, automation, and distributed systems.
+
+- name: Elisete Cruz
+  image: elisetecruz.jpg
+  twitter: elisetedcruz
+  linkedin: elisetecruz
+  active: true
+  bio: |
+    Tech Platform Engineer at Farfetch working daily with CI/CD and Kubernetes. DevOps culture is an integral part of her work, and she strongly believes that teamwork is the key to success.
+
+- name: Somatório a.k.a. Marco Antonio Martins Junior
+  image: somatorio.jpg
+  linkedin: /somatorio/
+  active: true
+  bio: |
+    Plumber as a Service, DevOps culture enthusiast, DevOpsDays global core team member.
+
+- name: Gabriel Martinez
+  image: gabrielmartinez.jpg
+  linkedin: gmartinezz
+  active: true
+  bio: |
+    Senior Cloud Engineer at [ClickHouse Cloud](https://clickhouse.com). I love the cloud, automation and self healing systems. Feeling more Dev and less Ops every day.
+
+- name: Cesar Rodrigues
+  image: cesarrodrigues.jpg
+  twitter: pontoporponto
+  linkedin: pontoporponto
+  active: false
+  bio: |
+    Software Engineer @ Mindera and more recently a learning father.
+
+    From time to time I enjoy to solve problems. On the other times I enjoy riding my bikes. If I had any other times I would enjoy being a professional cooker.
+
+- name: André Carmo
+  image: andrecarmo.jpg
+  twitter: atmcarmo
+  linkedin: andrecarmo
+  github: atmcarmo
+  active: false
+  bio: |
+    Senior Software Engineer for CI/CD, Pipelines and Automation @ [Talkdesk](https://talkdesk.com/), with a background on Test Automation tools and Infrastructure. I believe that tools are nothing without processes. But I also believe that "culture eats strategy for breakfast", which means that the way people interact and communicate helps to overcome any problem in software development. I'm always trying to build an interactive culture with the help of new testing tools and pipelines that work together with processes to make everyone happy and more productive in their jobs!
+
+    In my free time I'm a runner and a traveller.
+
+- name: Marcelo Almeida
+  image: marceloalmeida.jpg
+  twitter: marcelo0almeida
+  linkedin: msalmeida
+  github: marceloalmeida
+  active: false
+  bio: |
+    Currently Site Reliability Engineer at [Talkdesk](https://www.talkdesk.com/), highly passionate about automation, monitoring and reliability. Always looking forward to build ultra-scalable and highly reliable systems.
+
+    I consider myself a big fan of open source and DevOps cultures.
+
+- name: Filipe Correia
+  image: filipecorreia.jpg
+  twitter: filipecorreia
+  linkedin: filipecorreia
+  github: filipefigcorreia
+  active: false
+  bio: |
+    Filipe teaches Software Engineering topics at [FEUP](https://www.fe.up.pt/). His [research](https://scholar.google.com/citations?user=oOd32BUAAAAJ&sortby=pubdate) focuses on design patterns, software design and architecture. He's a fan of agile methods and in particular of the (seemingly) long-lost art of Extreme Programming.
+
+- name: Marta Torneiro
+  image: martatorneiro.jpg
+  linkedin: martatorneiro
+  active: false
+  bio: |
+    Working currently as a Senior Engineering Manager @ [Fidel API](https://fidelapi.com/), with a background in Quality Assurance, I've been an enthusiastic about process improvement/optimisation, release management, agile methodology and the DevOps culture.
+
+    I've been focusing on learning new tools, frameworks and techniques to help teams see how we can deliver a reliable and relevant product, continuously.
+
+- name: Miguel David
+  image: migueldavid.jpg
+  twitter: desfocado
+  linkedin: migueldavid
+  github: minac
+  active: false
+  bio: |
+    Site Reliability Engineer at [Harvest](https://www.getharvest.com/).
+
+    I deal mostly with AWS and GCP clouds, as well as automation tools like Ansible and Terraform, and the Kubernetes ecosystem. But really tend to focus on the best tool for the goal of the project I'm working with.
+
+- name: Miguel Alho
+  image: miguelalho.jpg
+  twitter: MytyMyky
+  linkedin: miguel-alho-9982331
+  github: miguelalho
+  active: false
+  bio: |
+    Full-time, 13-years-in-the-making, software engineer with a DevOps and Craftsmanship mindset. Previously, I worked mainly as a dev freelancer, but also as a consultant, school teacher, media producer and project manager.
+
+    I'm a very big fan of TDD as a development practice, very fond of microservices, of automating as much as possible in the dev, build and deploy pipeline, but also in finding ways to augment individual and team learning experiences.
+
+- name: Rita Sousa
+  image: ritasousa.jpg
+  linkedin: rita-sousa-9isep
+  active: false
+  bio: |
+    Infrastructure Engineer at [Farfetch](https://www.farfetch.com). I spent three years researching about Internet of Things, Machine Learning and Resource Management at [CISTER](http://www.cister.isep.ipp.pt/) Currently, I'm interested in learning more about DevOps and eager about new challenges mainly in automation and reliability.

@@ -1,0 +1,10 @@
+<article class="media">
+  {% include components/teamimage.html imagename=include.member.image %}
+  <div class="media-content">
+    <div class="content">
+      <h3>{{ include.member.name }}</h3>
+      {% include components/teamhandle.html twitter=include.member.twitter linkedin=include.member.linkedin github=include.member.github %}
+      {{ include.member.bio | markdownify }}
+    </div>
+  </div>
+</article>
