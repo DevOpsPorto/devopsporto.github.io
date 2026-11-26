@@ -23,30 +23,7 @@ so it stays out of the site's bundle):
 
 ## Adding a meetup
 
-Each meetup is a YAML file in `_data/events/`, named by its number (e.g. `92.yml`). The Meetups page builds itself from these files, newest first. A minimal event:
-
-    type: meetup              # meetup (default), online, or bootcamp
-    number: 92
-    date: 2026-01-20          # yyyy-mm-dd
-    host: blip                # key of a file in _data/hosts/
-    title: My meetup title    # quote only if it has a colon or is empty
-    agenda:
-      - type: intro
-      - type: talk
-        title: The talk title
-        abstract: >
-          One or more paragraphs of description.
-        speakers:
-          - name: Jane Doe
-            image: m092_janedoe.jpg   # in assets/images/speakers/, optional
-            twitter: janedoe          # optional
-            linkedin: janedoe         # optional
-            github: janedoe           # optional
-            bio: >
-              Short bio.
-        slides: https://...           # optional
-      - type: qa
-      - type: wrapup
+Each meetup is a YAML file in `_data/events/`, named by its number (e.g. `92.yml`). The Meetups page builds itself from these files, newest first. Copy the annotated example at [`_templates/event.yml`](_templates/event.yml) and fill it in.
 
 Notes:
 
