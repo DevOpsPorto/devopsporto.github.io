@@ -6,31 +6,13 @@
             </a>
         </div>
         <div class="nav-center">
-            <a class="nav-item" href="https://www.meetup.com/pt-BR/devopsporto" target="_blank" title="Meetup">
+            {% for social in site.data.social %}
+            <a class="nav-item" href="{{ social.url }}" target="_blank" title="{{ social.title }}">
                 <span class="icon">
-                    <i class="fa fa-meetup"></i>
+                    <i class="fa fa-{{ social.icon }}"></i>
                 </span>
             </a>
-            <a class="nav-item" href="https://join.slack.com/t/devopsporto/shared_invite/zt-1nd78bazb-2ckV5jfJMj2awl3np8KKuA" target="_blank" title="Slack">
-                <span class="icon">
-                    <i class="fa fa-slack"></i>
-                </span>
-            </a>
-            <a class="nav-item" href="https://twitter.com/devopsporto" target="_blank" title="Twitter">
-                <span class="icon">
-                    <i class="fa fa-twitter"></i>
-                </span>
-            </a>
-            <a class="nav-item" href="https://github.com/DevOpsPorto/" target="_blank" title="GitHub">
-                <span class="icon">
-                    <i class="fa fa-github"></i>
-                </span>
-            </a>
-            <a class="nav-item" href="https://www.youtube.com/channel/UCpHS0j3aKPBhR_n1e_gYeDQ" target="_blank" title="Youtube">
-                <span class="icon">
-                    <i class="fa fa-youtube"></i>
-                </span>
-            </a>
+            {% endfor %}
         </div>
 
         <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
