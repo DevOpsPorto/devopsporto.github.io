@@ -1,7 +1,6 @@
-type: "meetup"
+type: online
 number: 45
 date: 2021-05-20
-host: online
 title: Building with Nuke [EN]
 youtube: https://www.youtube.com/watch?v=kwoqsLqd3yA
 agenda:

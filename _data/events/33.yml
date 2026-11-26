@@ -1,0 +1,32 @@
+type: meetup
+number: 33
+date: 2019-11-19
+host: feup
+title: La Redoute transformation powered by DevOps
+agenda:
+  - type: intro
+  - type: talk
+    title: How DevOps supported La Redoute reinvention
+    abstract: >
+      In 2014, La Redoute had 4 years to reinvent itself to regain its profitability. Structural
+      transformation was required to evolve all parts of the business and IT, where DevOps revealed to
+      be a major accelerator for the company since then. The company is now focused on scaling teams
+      supported by a distributed microservices architecture.
+
+
+      Our invited speaker, Antoine Craske, will share La Redoute's experience, practices and learnings
+      during the transformation journey.
+    speakers:
+      - name: Antoine Craske
+        image: m033_antoinecraske.jpg
+        linkedin: antoine-craske-15621435
+        twitter: acraske_
+        bio: >
+          Antoine is passionate about strategy, innovation, technology, organization and systems.
+          Leading the Engineering Center in Portugal at La Redoute, with 100+ DevOps professionals.
+          Tech Meetup organizer in Leiria, within TICE.Leiria workgroup. Active in communities,
+          open-source, co-founder of Cerberus Testing.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup-33-how-devops-supported-la-redoute-reinvention-by-antoine-craske
+  - type: break
+  - type: openspace
+  - type: wrapup

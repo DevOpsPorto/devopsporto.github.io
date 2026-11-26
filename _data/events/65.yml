@@ -1,4 +1,4 @@
-type: "meetup"    # can be other things like bootcamp or whatever is needed
+type: meetup    # can be other things like bootcamp or whatever is needed
 number: 65        # counter
 date: 2023-07-17  # date - yyyy-MM-dd
 host: natixis       # host key - matches host file name in data/hosts folder

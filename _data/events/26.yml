@@ -1,0 +1,50 @@
+type: meetup
+number: 26
+date: 2019-04-15
+host: natixis
+title: DevOps Transformation
+agenda:
+  - type: intro
+  - type: talk
+    title: DevOps Adoption at Meo TV
+    abstract: >
+      Deploying and maintaining any TV service brings along a specific set of challenges that can be
+      either overwhelming or game-changing. How did DevOps help us turn the table and what do we still
+      need to figure out? We will share this journey with you, its obstacles and findings altogether.
+      And some leadership tips too.
+    speakers:
+      - name: Cristina Moura Rebelo
+        image: m026_cristinamourarebelo.jpg
+        linkedin: crismr
+        twitter: CrisMR
+        bio: >
+          With more than 10 years of experience in complex project management, Cristina is passionate
+          for project management, especially using agile approaches as a means to optimize time and
+          resources. Currently she manages a team of 20+ developing Meo TV. With a degree in
+          Management, a graduation at Universidade Católica Portuguesa and two project management
+          certifications, blogger and writer (both professional articles and poetry books), married
+          and mother of two, she often participates as speaker/host in tech and leadership events.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup26-devops-adoption-at-meo-tv-by-cristina-moura-rebelo
+  - type: talk
+    title: (A Brief) DevOps History at EDP
+    abstract: >
+      DevOps in an enterprise company is not easy, but it is possible! In this talk I'll present the
+      brief DevOps History at EDP, one of the largest companies in Portugal. Either in cloud systems
+      or in traditional legacy systems, every path should take you to a high throughput system. I'll
+      take with you through our journey, showing you our path, and what we did to overcome some of the
+      obstacles. Hopefully, after this session, you will know how to avoid our mistakes and replicate
+      our successes.
+    speakers:
+      - name: Sérgio Amorim
+        image: m026_sergioamorim.jpg
+        linkedin: saamorim
+        twitter: sacamorim
+        bio: >
+          Sérgio Amorim works in EDP as the head of DevOps CoE. He is responsible for the DevOps
+          implementation, changing the way how software is constructed, built, deployed, and operated.
+          With the help of a framework, some tools but mostly through coaching the devops movement is
+          starting to take shape, which will help the DevOps teams produce better software and, in
+          turn, help the business get better value.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup26-a-brief-devops-history-at-edp-by-sergio-amorim
+  - type: break
+  - type: wrapup

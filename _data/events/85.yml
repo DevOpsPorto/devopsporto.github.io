@@ -2,7 +2,7 @@ type: meetup
 number: 85
 date: 2026-02-11
 host: critical-manufacturing
-title: "Platform Engineering & Engineering Management"
+title: Platform Engineering & Engineering Management
 agenda:
   - type: intro
   - type: talk

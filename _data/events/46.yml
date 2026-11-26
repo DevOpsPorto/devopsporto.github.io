@@ -1,7 +1,6 @@
-type: "meetup"
+type: online
 number: 46
 date: 2021-11-22
-host: online
 title: "Migration: Lift&Shift with Accenture and Google Cloud"
 agenda:
   - type: intro

@@ -1,7 +1,6 @@
-type: "meetup"
+type: online
 number: 47
 date: 2021-12-16
-host: online
 title: DevOps/SRE Anti-patterns panel discussion
 youtube: https://www.youtube.com/watch?v=ViMunF3rJs4
 agenda:

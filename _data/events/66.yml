@@ -1,4 +1,4 @@
-type: "meetup"    # can be other things like bootcamp or whatever is needed
+type: meetup    # can be other things like bootcamp or whatever is needed
 number: 66        # counter
 date: 2023-09-26  # date - yyyy-MM-dd
 host: wunderman       # host key - matches host file name in data/hosts folder

@@ -4,20 +4,23 @@
   {% assign title = talks | map: "title" | join: " // " %}
 {% endif %}
 
-{% if include.event.host == "online" %}
+{% case include.event.type %}
+{% when "bootcamp" %}
+  {% include components/eventTitle.html title=title %}
+{% when "online" %}
   {% include components/meetuponlinetitle.html number=include.event.number title=title %}
 {% else %}
   {% include components/meetuptitle.html number=include.event.number title=title %}
-{% endif %}
+{% endcase %}
 
 <div class="columns content event-columns">
   <div class="column is-one-third">
     <div class="box">
       <h3>{{ include.event.date }}</h3>
       {% include components/eventAgenda.html agenda=include.event.agenda  %}
-      {% unless include.event.host == "online" %}
+      {% if include.event.host %}
         {% include components/eventHost.html host=include.event.host  %}
-      {% endunless %}
+      {% endif %}
       {% if include.event.youtube %}
       <h3>Video</h3>
       <figure class="image">

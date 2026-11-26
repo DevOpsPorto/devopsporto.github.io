@@ -2,7 +2,7 @@ type: meetup
 number: 87
 date: 2026-04-14
 host: aubay
-title: "AI & Kubernetes"
+title: AI & Kubernetes
 agenda:
   - type: intro
   - type: break

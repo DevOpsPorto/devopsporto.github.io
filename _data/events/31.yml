@@ -1,0 +1,23 @@
+type: meetup
+number: 31
+date: 2019-09-12
+host: cocus
+title: Metrics and context
+agenda:
+  - type: intro
+  - type: talk
+    title: Metrics, context driven management
+    abstract: >
+      An example of metrics definition and utilization, based on a context, to bring predictability
+      and visibility of the team activities and find opportunities for process improvements.
+    speakers:
+      - name: Alexandre Martins
+        image: m031_alexandremartins.jpg
+        bio: >
+          Alexandre is an experienced IT professional with a focus on Agile methodology to develop
+          digital products, services and improve team performance based on business and strategic
+          vision.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup-31-metrics-context-driven-management-by-alexandre-martins
+  - type: break
+  - type: openspace
+  - type: wrapup
