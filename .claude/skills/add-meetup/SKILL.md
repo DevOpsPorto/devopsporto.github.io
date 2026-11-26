@@ -29,7 +29,7 @@ Fetch `$url` with WebFetch and extract:
 - Event title
 - Venue / host name → match to the closest available host key above; if none match, flag it as a new venue and follow **Step 1b** before continuing
 - Full agenda with timing — note every segment (opening/intro, talks, breaks, networking, Q&A, wrapup) and map them to the valid agenda types below
-- Each talk: title, abstract (use source wording as closely as possible, including direct quotes), speaker name, speaker bio, speaker LinkedIn URL (meetup pages often link directly to speaker profiles — always extract these first before considering a search), speaker Twitter/X handle
+- Each talk: title, abstract (use source wording as closely as possible, including direct quotes), speaker name, speaker bio, speaker LinkedIn (meetup pages often link directly to speaker profiles — always extract these first before considering a search), speaker Twitter/X handle, speaker GitHub handle. For LinkedIn, store only the profile **slug** (the part after `/in/`), not the full URL — the template renders `linkedin.com/in/<slug>`.
 
 ### Step 1b — New venue (only if no host match was found)
 
@@ -102,7 +102,7 @@ Create `_data/events/{NUMBER}.yml` using the schema below with all enriched data
 
 ### Step 5 — Verify the preview
 
-After the PR is open, check the PR comments for a Netlify deploy preview URL (`gh pr view {NUMBER} --comments`). Once found:
+After the PR is open, check the PR comments for a Netlify deploy preview URL (`gh pr view --comments`, which resolves the current branch's PR). Once found:
 
 1. Fetch `/meetups.html` of the preview URL and verify:
    - Meetup #{NUMBER} appears in the correct year section
@@ -115,7 +115,7 @@ After the PR is open, check the PR comments for a Netlify deploy preview URL (`g
    Verify the `src` contains a Google Maps embed URL. A blank or missing `src` means `maplink` is empty and the homepage will show a broken map section.
 3. Report any issues found to the user.
 
-If the preview comment is not yet available, wait 30 seconds and retry (`gh pr view {NUMBER} --comments`) up to 3 times.
+If the preview comment is not yet available, wait 30 seconds and retry (`gh pr view --comments`) up to 3 times.
 
 ### Step 6 — Report to the user
 
@@ -126,40 +126,46 @@ If the preview comment is not yet available, wait 30 seconds and retry (`gh pr v
 ## YAML schema
 
 ```yaml
-type: meetup
-number: {N}
+type: meetup   # meetup (default), online, or bootcamp
+number: {N}    # omit for a bootcamp
 date: YYYY-MM-DD
-host: {host-key}
+host: {host-key}   # omit when type is online
 title: ""  # leave empty to auto-join talk titles; set if the event has an explicit umbrella title
+youtube:   # optional: recording of the whole meetup, shown as a Video in the left column
 agenda:
   - type: intro
   - type: talk
-    title: |
-      Talk Title Here
+    title: Talk Title Here
     abstract: >
       Talk abstract here.
     speakers:
       - name: Speaker Name
         image: m{N}_{firstnamelastname}.jpg   # file goes in assets/images/speakers/
-        twitter:                       # handle only, no @; leave blank if none
-        linkedin:                      # full profile URL
+        twitter:                       # handle only, no @
+        linkedin:                      # profile slug only (the bit after /in/), NOT the full URL
+        github:                        # handle only
         bio: >
           Speaker bio here.
-    slides:
-    youtube:
+    slides:                            # optional: slide deck URL
   - type: qa
   - type: wrapup
 ```
 
 Valid agenda types: `intro`, `talk`, `break`, `openspace`, `qa`, `wrapup`, `networking`
 
+Variants:
+- **Online meetup:** set `type: online`, omit `host`, and put the recording in the top-level `youtube` field. Renders as "Meetup Online #N".
+- **Bootcamp:** set `type: bootcamp` and omit `number`. Renders a plain title with no "Meetup #".
+- **Partners / co-hosts:** add a top-level `partners: [key, ...]` referencing files in `_data/partners/` (same shape as a host, created the same way but without a `maplink`).
+
 ## Rules
 
 - Use the meetup number extracted from the page (e.g. "#89") as the filename, not an auto-incremented value.
-- Use `type: meetup` unless the event is clearly something else (e.g. `bootcamp`).
-- Use `>` (folded scalar) for abstract/bio; use `|` (literal) for talk titles that span multiple lines. Wrap all text at 80 characters.
+- Use `type: meetup` for a normal in-person meetup, `type: online` for an online one (no `host`; recording in the top-level `youtube`), or `type: bootcamp` for a bootcamp.
+- Use `>` (folded scalar) for abstract/bio, wrapped at ~80 characters. Write titles as plain one-line scalars.
+- `twitter`, `linkedin` and `github` are handles/slugs, never full URLs.
 - Leave any unknown or missing field as a blank value (e.g. `twitter:`) — never use null, never omit the key.
-- Quote any string value that contains a colon (e.g. `title: "Foo: Bar"`).
+- Quote a string value only when it contains a colon (e.g. `title: "Foo: Bar"`) or is empty (`title: ""`).
 - Bios should read as a short professional paragraph — do not copy raw LinkedIn bullet lists verbatim; synthesise them into prose.
 - Never fabricate details. If something cannot be found after the steps above, leave it blank and flag it.
 - Always create the PR in draft mode (`--draft`), with title `Meetup {NUMBER} @ {host display name}`, the meetup URL, and an automated note crediting the `add-meetup` skill in the body.
