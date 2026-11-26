@@ -13,10 +13,13 @@ The site is then available at http://localhost:4000. Jekyll rebuilds on save, so
 
 ## Checking the build
 
-Build once and check the output for broken links and images:
+Build the site and check the output for broken links and images with
+[html-proofer](https://github.com/gjtorikian/html-proofer) (installed separately,
+so it stays out of the site's bundle):
 
     bundle exec jekyll build
-    bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
+    gem install html-proofer
+    htmlproofer ./_site --only-4xx --check-favicon --check-html
 
 ## Adding a meetup
 
