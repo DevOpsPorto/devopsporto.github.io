@@ -16,7 +16,7 @@
 <div class="columns content event-columns">
   <div class="column is-one-third">
     <div class="box">
-      <h3>{{ include.event.date }}</h3>
+      <h3>{{ include.event.date | date: "%d-%m-%Y" }}</h3>
       {% include components/eventAgenda.html agenda=include.event.agenda  %}
       {% if include.event.host %}
         {% include components/eventHost.html host=include.event.host  %}

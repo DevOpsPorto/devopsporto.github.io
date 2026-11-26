@@ -32,6 +32,14 @@ layout: default
 {% assign keys = keys | sort | reverse %}
 {% assign years = years | uniq | sort | reverse %}
 
+<nav class="content yearNav" aria-label="Jump to year">
+  <div class="buttons">
+    {% for year in years %}
+      <a class="button is-primary is-light" href="#year-{{ year }}">{{ year }}</a>
+    {% endfor %}
+  </div>
+</nav>
+
 {% for year in years %}
     {% include components/calendarHeader.html year=year %}
     {% for key in keys %}
