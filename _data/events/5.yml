@@ -1,0 +1,33 @@
+type: meetup
+number: 5
+date: 2017-06-13
+host: blip
+title: Monitoring
+agenda:
+  - type: intro
+  - type: talk
+    title: The Road to Monitoring Nirvana
+    abstract: >
+      Not having the ability to know exactly how your production system behaves can be costly - both
+      in terms of missed opportunities as well as recovery time when disaster strikes. However, the
+      overall complexity of today's systems and their interactions makes it ever more difficult to
+      have visibility into their health and performance.
+
+
+      Our invited speaker Pedro Araújo (@phcrva) will explore the various facets of monitoring and how
+      combining them can lead you from operational blindness to effective observability.
+    speakers:
+      - name: Pedro Araújo
+        image: m005_pedroaraujo.jpg
+        twitter: phcrva
+        linkedin: pharaujo
+        bio: >
+          Pedro is currently a Site Reliability Engineer at Blip.pt where he provides internal
+          consultancy including design reviews, assistance with PoCs and technology selection,
+          incident support and troubleshooting, education and both proactive and reactive performance
+          tuning. He also shares responsibility in developing, configuring and maintaining production
+          monitoring.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup5-the-road-to-monitoring-nirvana-by-pedro-araujo
+  - type: break
+  - type: openspace
+  - type: wrapup

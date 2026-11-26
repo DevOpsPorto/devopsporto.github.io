@@ -1,0 +1,46 @@
+type: meetup
+number: 9
+date: 2017-10-14
+host: farfetch-boavista
+title: A year building bridges
+agenda:
+  - type: intro
+  - type: talk
+    title: There is no such thing as human error
+    abstract: >
+      As we all know, "human error" is the default response for almost every accident. But the "human
+      error" explanation is just too shallow and simplistic. It only satisfies one of the four needs
+      of a good accident analysis: the moral one. Join us to learn why we should get rid of the "human
+      error" fallacy, what are those four needs and how we can make the most of an accident... as they
+      will happen one day, just like death and taxes.
+    speakers:
+      - name: João Miranda
+        image: m009_JoaoMiranda.jpg
+        twitter: jhosm
+        linkedin: jhosm
+        bio: >
+          João started his career in 2000, at the height of the dot-com bubble. That enlightening
+          experience led him to the conclusion that agile practices (and now DevOps) are the best way
+          to respond to the business needs of almost all organizations. He currently is IT manager at
+          a large portuguese bank, where he helps to remove all friction that may hinder development
+          teams fast pace.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup9-there-is-no-such-thing-as-human-error-by-joao-miranda
+  - type: talk
+    title: "GitLab CI/CD: An overview"
+    abstract: >
+      Filipa will share how you can improve your workflow using GitLab CI/CD solution, from your
+      first commit to deploy to production, the same CI/CD solutions that GitLab uses to produce its
+      own software.
+    speakers:
+      - name: Filipa Lacerda
+        image: m009_filipalacerda.jpg
+        twitter: FilipaLacerda
+        linkedin: FilipaLacerda
+        bio: >
+          Filipa (https://www.linkedin.com/in/filipalacerda/) is a Frontend Engineer at GitLab
+          focused on making CI/CD experience awesome. She is passionate about web development, well
+          written code and helping people.
+    slides: https://speakerdeck.com/devopsporto/cd-an-overview-by-filipa-lacerda
+  - type: break
+  - type: openspace
+  - type: wrapup

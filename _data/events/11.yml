@@ -1,0 +1,44 @@
+type: meetup
+number: 11
+date: 2017-12-12
+host: bitmaker
+title: Ramp up your learning habits in 2018
+agenda:
+  - type: intro
+  - type: talk
+    title: Ramp up your learning habits in 2018 - The 2018 DevOps Porto Learning Challenge
+    abstract: >
+      Continuous learning is essential to all knowledge workers, especially IT pros who are key
+      stakeholders in an industry where tech is constantly changing and evolving. How that learning
+      happens varies from person to person, and company to company. Work activities, personal lives
+      and general firefighting often leave our learning tasks on the backlog of life. Also,
+      unfortunately, not every company invests adequately in training, which only helps promote skill
+      obseletion.
+
+
+      In this talk, Miguel will remind you the importance of learning and skill development and look
+      to challenge you to ramp up your learning habits in 2018. He'll offer some topics to look into
+      next year and offer some tips to help follow through with that effort that have helped him along
+      his own career.
+    speakers:
+      - name: Miguel Alho
+        image: m011_miguelalho.jpg
+        twitter: mytymyky
+        linkedin: miguel-alho-9982331
+        bio: >
+          Miguel is a full-time, 13-years-in-the-making, software engineer with a DevOps and
+          Craftsmanship mindset. He currently works at FARO Technologies, in Gaia, and is part of the
+          platform team that is bringing supportive services of the core products into the cloud.
+          Previously, he worked mainly as a freelance consultant through his own company, but also
+          worked as a school teacher, trainer and media producer.
+
+
+          He's a proponent of TDD as a development practice, very fond of microservices, and of
+          automating as much as possible in every part of the product pipeline. Finding ways to
+          augment individual and team learning experiences is a special interest of his. He hopes to
+          someday bring some life back into his blog at
+          <a href="http://www.miguelalho.pt" target="_blank">miguelalho.pt</a>.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup11-ramp-up-your-learning-habits-in-2018-by-miguel-alho
+  - type: break
+  - type: openspace
+  - type: wrapup

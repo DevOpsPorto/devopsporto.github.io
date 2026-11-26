@@ -1,0 +1,7 @@
+<h3>Partners</h3>
+{% for key in include.partners %}
+{% assign partner = site.data.partners[key] %}
+<figure class="image">
+  <a href="{{ partner.link }}" target="_blank"><img class="width-is-128" alt="{{ partner.name }}" src="assets/images/hosts/{{ partner.logo }}" /></a>
+</figure>
+{% endfor %}

@@ -1,0 +1,38 @@
+type: meetup
+number: 7
+date: 2017-08-03
+host: uptec
+partners:
+  - porto-data
+title: Lightning Talks
+agenda:
+  - type: intro
+  - type: talk
+    title: You don't need a DevOps to "be DevOps"
+    speakers:
+      - name: Filipe Freire
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup7-you-dont-need-a-devops-to-be-devops-by-filipe-freire
+  - type: talk
+    title: Running .Net in Linux
+    speakers:
+      - name: Pedro Martins
+  - type: talk
+    title: Microservices? You have to be this tall!
+    speakers:
+      - name: Pedro Tavares
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup7-microservices-you-have-to-be-this-tall-by-pedro-tavares
+  - type: break
+  - type: talk
+    title: "Data: Transparency vs Privacy"
+    speakers:
+      - name: Pedro Sousa
+  - type: talk
+    title: Cloud Design Patterns, a Quick Start Towards Scalable Development
+    speakers:
+      - name: Tiago Boldt Sousa
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup7-cloud-design-patterns-by-tiago-boldt-sousa
+  - type: talk
+    title: Quick Sprint - Dynamic Data Masking
+    speakers:
+      - name: Ivan Campos
+  - type: wrapup

@@ -1,0 +1,35 @@
+type: meetup
+number: 10
+date: 2017-10-14
+host: celfocus
+title: Organisational Design
+agenda:
+  - type: intro
+  - type: talk
+    title: How and why to design your Teams for modern Software Systems
+    abstract: >
+      For effective, modern, cloud-connected software systems we need to organize our teams in
+      certain ways. Taking account of Conway's Law, we look to match the team structures to the
+      required software architecture, enabling or restricting communication and collaboration for the
+      best outcomes. This talk will cover the basics of organization design, exploring a selection of
+      key team topologies and how and when to use them in order to make the development and operation
+      of your software systems as effective as possible. The talk is based on experience helping
+      companies around the world with the design of their teams.
+    speakers:
+      - name: Matthew Skelton
+        image: m010_matthewskelton.jpg
+        twitter: matthewpskelton
+        linkedin: matthewskelton
+        bio: >
+          Matthew (https://www.linkedin.com/in/matthewskelton/) has been building, deploying, and
+          operating commercial software systems since 1998. Co-founder and Principal Consultant at
+          Skelton Thatcher Consulting, he specializes in helping organizations to adopt and sustain
+          good practices for building and operating software systems: Continuous Delivery, DevOps,
+          aspects of ITIL, and software operability. Matthew curates the well-known DevOps team
+          topologies patterns at devopstopologies.com and is co-author of the books "Continuous
+          Delivery with Windows and .NET" (O'Reilly, 2016) and "Team Guide to Software Operability"
+          (Skelton Thatcher Publications, 2016).
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup10-how-and-why-to-design-your-teams-for-modern-software-systems-by-matthew-skelton
+  - type: break
+  - type: openspace
+  - type: wrapup
