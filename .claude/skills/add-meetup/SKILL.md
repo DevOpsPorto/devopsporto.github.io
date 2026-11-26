@@ -14,6 +14,9 @@ You are helping add a new meetup event to the DevOps Porto Jekyll site.
 Available hosts:
 !`ls _data/hosts/ | sed 's/.yml//'`
 
+Event file format — annotated template (every field, the agenda types, the `online`/`bootcamp` variants, partners, and the quoting/handle conventions are documented here; follow it):
+!`cat _templates/event.yml`
+
 Most recent meetup for reference:
 !`cat _data/events/$(ls _data/events/*.yml | grep -E '/[0-9]+\.yml$' | sort -t/ -k3 -V | tail -1 | xargs basename)`
 
@@ -28,8 +31,8 @@ Fetch `$url` with WebFetch and extract:
 - Event date → convert to YYYY-MM-DD
 - Event title
 - Venue / host name → match to the closest available host key above; if none match, flag it as a new venue and follow **Step 1b** before continuing
-- Full agenda with timing — note every segment (opening/intro, talks, breaks, networking, Q&A, wrapup) and map them to the valid agenda types below
-- Each talk: title, abstract (use source wording as closely as possible, including direct quotes), speaker name, speaker bio, speaker LinkedIn URL (meetup pages often link directly to speaker profiles — always extract these first before considering a search), speaker Twitter/X handle
+- Full agenda with timing — note every segment (opening/intro, talks, breaks, networking, Q&A, wrapup) and map them to the valid agenda types listed in the template above
+- Each talk: title, abstract (use source wording as closely as possible, including direct quotes), speaker name, speaker bio, speaker LinkedIn (meetup pages often link directly to speaker profiles — always extract these first before considering a search), speaker Twitter/X handle, speaker GitHub handle. Store each field in the format `_templates/event.yml` documents (LinkedIn is the slug after `/in/`, not the full URL; handles carry no `@`).
 
 ### Step 1b — New venue (only if no host match was found)
 
@@ -57,7 +60,7 @@ For every speaker, run the following sub-steps in order, stopping as soon as you
 
 **2a. Check existing event files**
 - Run `grep -ril "{speaker name}" _data/events/` to find any existing event that mentions this speaker.
-- If found, read that file, extract the speaker's `name`, `image`, `twitter`, `linkedin`, and `bio`, reuse them as-is, and skip steps 2b–2d.
+- If found, read that file, extract the speaker's `name`, `image`, `twitter`, `linkedin`, `github`, and `bio`, reuse them as-is, and skip steps 2b–2d.
 
 **2b. LinkedIn URL**
 - If a LinkedIn URL was extracted from the meetup page in Step 1, use it directly and skip to 2c. Do not search.
@@ -81,7 +84,7 @@ For every speaker, run the following sub-steps in order, stopping as soon as you
 
 ### Step 3 — Write the event file
 
-Create `_data/events/{NUMBER}.yml` using the schema below with all enriched data.
+Create `_data/events/{NUMBER}.yml` following `_templates/event.yml` (see "Event file format" below) with all enriched data.
 
 ### Step 4 — Commit and open a draft PR
 
@@ -102,7 +105,7 @@ Create `_data/events/{NUMBER}.yml` using the schema below with all enriched data
 
 ### Step 5 — Verify the preview
 
-After the PR is open, check the PR comments for a Netlify deploy preview URL (`gh pr view {NUMBER} --comments`). Once found:
+After the PR is open, check the PR comments for a Netlify deploy preview URL (`gh pr view --comments`, which resolves the current branch's PR). Once found:
 
 1. Fetch `/meetups.html` of the preview URL and verify:
    - Meetup #{NUMBER} appears in the correct year section
@@ -115,7 +118,7 @@ After the PR is open, check the PR comments for a Netlify deploy preview URL (`g
    Verify the `src` contains a Google Maps embed URL. A blank or missing `src` means `maplink` is empty and the homepage will show a broken map section.
 3. Report any issues found to the user.
 
-If the preview comment is not yet available, wait 30 seconds and retry (`gh pr view {NUMBER} --comments`) up to 3 times.
+If the preview comment is not yet available, wait 30 seconds and retry (`gh pr view --comments`) up to 3 times.
 
 ### Step 6 — Report to the user
 
@@ -123,43 +126,14 @@ If the preview comment is not yet available, wait 30 seconds and retry (`gh pr v
 - Any issues found in the preview
 - Any assets that still need to be added manually (speaker photos at `assets/images/speakers/`, host logos at `assets/images/hosts/`)
 
-## YAML schema
+## Event file format
 
-```yaml
-type: meetup
-number: {N}
-date: YYYY-MM-DD
-host: {host-key}
-title: ""  # leave empty to auto-join talk titles; set if the event has an explicit umbrella title
-agenda:
-  - type: intro
-  - type: talk
-    title: |
-      Talk Title Here
-    abstract: >
-      Talk abstract here.
-    speakers:
-      - name: Speaker Name
-        image: m{N}_{firstnamelastname}.jpg   # file goes in assets/images/speakers/
-        twitter:                       # handle only, no @; leave blank if none
-        linkedin:                      # full profile URL
-        bio: >
-          Speaker bio here.
-    slides:
-    youtube:
-  - type: qa
-  - type: wrapup
-```
-
-Valid agenda types: `intro`, `talk`, `break`, `openspace`, `qa`, `wrapup`, `networking`
+Write `_data/events/{NUMBER}.yml` following the annotated template at `_templates/event.yml` (printed under "Current repo state" above). It is the single source for the schema — field meanings, the agenda types, the `online` and `bootcamp` variants, partners, and the quoting and handle/slug conventions. Match the most recent meetup above for house style.
 
 ## Rules
 
+- Follow `_templates/event.yml` for the file format: field names, the `meetup`/`online`/`bootcamp` types, handle/slug formats, folded scalars for abstract/bio (wrapped at ~80 characters), and quoting. Leave an unknown field blank (e.g. `twitter:`) rather than omitting the key, and never use null.
 - Use the meetup number extracted from the page (e.g. "#89") as the filename, not an auto-incremented value.
-- Use `type: meetup` unless the event is clearly something else (e.g. `bootcamp`).
-- Use `>` (folded scalar) for abstract/bio; use `|` (literal) for talk titles that span multiple lines. Wrap all text at 80 characters.
-- Leave any unknown or missing field as a blank value (e.g. `twitter:`) — never use null, never omit the key.
-- Quote any string value that contains a colon (e.g. `title: "Foo: Bar"`).
 - Bios should read as a short professional paragraph — do not copy raw LinkedIn bullet lists verbatim; synthesise them into prose.
 - Never fabricate details. If something cannot be found after the steps above, leave it blank and flag it.
 - Always create the PR in draft mode (`--draft`), with title `Meetup {NUMBER} @ {host display name}`, the meetup URL, and an automated note crediting the `add-meetup` skill in the body.

@@ -1,0 +1,44 @@
+# Annotated example of an event. Copy into _data/events/<number>.yml (e.g. 92.yml)
+# and fill it in. This file lives outside _data/ on purpose, so Jekyll does not
+# load it as a real event. Quote a value only when it needs it (it contains a
+# colon or is empty).
+
+type: meetup              # meetup (default), online, or bootcamp
+number: 92                # the meetup number; omit for a bootcamp
+date: 2026-01-20          # yyyy-mm-dd
+host: blip                # key of a file in _data/hosts/ (omit when type is online)
+title: My meetup title
+
+# Optional. A recording for the whole meetup, shown as a Video in the left column.
+# Works on any event; it is the usual way to attach the video for an online meetup.
+# youtube: https://youtu.be/xxxxxxxxxxx
+
+# Optional. Co-hosts / partners, each a key of a file in _data/partners/.
+# partners:
+#   - 0xoposec
+
+agenda:
+  # Item types: intro, talk, break, openspace, qa, networking, wrapup.
+  - type: intro
+  - type: talk
+    title: The talk title
+    abstract: >
+      One or more paragraphs describing the talk. Use a folded block (>) and
+      separate paragraphs with a blank line.
+    speakers:
+      - name: Jane Doe
+        image: m092_janedoe.jpg   # file in assets/images/speakers/ (m<number>_<firstlast>.jpg); speaker_icon.png if none
+        twitter: janedoe          # handle only, no @ (optional)
+        linkedin: janedoe         # profile slug — the part after /in/ — NOT the full URL (optional)
+        github: janedoe           # handle only (optional)
+        bio: >
+          Short speaker bio, as a prose paragraph.
+    slides: https://speakerdeck.com/...   # slide deck URL (optional)
+  - type: qa
+  - type: wrapup
+
+# Variants:
+# - Online meetup: set "type: online", drop "host", and put the recording in
+#   the top-level "youtube" field. It renders as "Meetup Online #N".
+# - Bootcamp: set "type: bootcamp" and omit "number"; it renders a plain title
+#   with no "Meetup #" (used for the Global DevOps Bootcamps).
