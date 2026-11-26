@@ -1,0 +1,33 @@
+type: meetup
+number: 16
+date: 2018-05-16
+host: i2s
+title: Testing travel guide to Continuous Delivery
+agenda:
+  - type: intro
+  - type: talk
+    title: Testing travel guide to continuous delivery
+    abstract: >
+      Continuous Delivery is a major trend in tech industry, but we cannot compromise quality for
+      speed. Companies need to adapt their delivery process for such a frequent release schedule.
+      André will show his point of view about this and this meetup will be hosted by I2S.
+    speakers:
+      - name: André Carmo
+        image: m016_andrecarmo.png
+        twitter: atmcarmo
+        linkedin: andrecarmo
+        bio: >
+          André is a Senior Infrastructure Engineer at Farfetch, after being a Test Automation Lead.
+
+
+          He has been helping the Farfetch tech team to have better continuous delivery by spreading
+          the word about test automation, by developing testing tools and frameworks, and by
+          implementing complex but simple to use pipelines for continuous delivery.
+
+
+          With 5+ years of experience in software testing, he was also a software developer in the
+          past. He is very happy to learn new things from new people.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup16-testing-travel-guide-to-continuous-delivery-by-andre-carmo
+  - type: break
+  - type: openspace
+  - type: wrapup

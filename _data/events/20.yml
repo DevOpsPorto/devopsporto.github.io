@@ -1,0 +1,28 @@
+type: meetup
+number: 20
+date: 2018-09-13
+host: farfetch-boavista
+title: Bits and coins
+agenda:
+  - type: intro
+  - type: talk
+    title: Monitoring Digital Money
+    abstract: >
+      Handling digital money requires careful and thoughtful processes. In this talk we explore how
+      the risks, dangers and gotchas of blockchain-based applications can be tackled successfully
+      through dashboards, log monitoring, alerting, post mortems and custom APIs.
+    speakers:
+      - name: Rui Marinho
+        image: m020_ruimarinho.jpg
+        twitter: ruipmarinho
+        linkedin: ruipmarinho
+        github: ruimarinho
+        bio: >
+          Rui is a software engineer by day, a security engineer by night and a network engineer on
+          weekends. This blend of interests has allowed him to plan and build large-scale
+          infrastructure at Uphold where he serves as Co-CTO. In 2008 he co-founded Seegno, a digital
+          agency focused on bootstrapping technology products. He has a Masters Degree in Engineering
+          from Universidade do Minho, Portugal.
+  - type: break
+  - type: openspace
+  - type: wrapup

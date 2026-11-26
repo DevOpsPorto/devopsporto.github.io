@@ -1,0 +1,38 @@
+type: meetup
+number: 14
+date: 2018-03-22
+host: jumia
+title: "Databases on containers: from myth to uber-performance"
+agenda:
+  - type: intro
+  - type: talk
+    title: "Databases on containers: from myth to uber-performance"
+    abstract: >
+      This meetup will be around Databases on containers and will be hosted by Jumia Porto Tech
+      Center.
+
+
+      At Jumia all databases are running on containers. From MariaDB topologies to Couchbase
+      cross-datacenter clusters. From Riak S2 to elasticsearch (also mongodb, just don't tell anyone).
+      It's common knowledge that containers are not good for containers due to network impacts but
+      mainly I/O persistence and performance. They broke all the rules and automated everything. They
+      use Consul to do the service discovery and Fabio for TCP load balancing. At MariaDB level they
+      also use Orchestrator to manage the replication topologies and have automated master discovery
+      embedded into the container being reported to Consul and pointed out to external services via
+      Fabio.
+
+
+      Our invited speaker, Tiago Caxias, will show how to get the best of both together.
+    speakers:
+      - name: Tiago Caxias
+        image: m014_tiagocaxias.png
+        twitter: tcx__
+        linkedin: tiagocaxias
+        bio: >
+          Tiago is passionate about systems' architecture and a huge fan of the "simplicity is
+          prerequisite for reliability" motto. You may find him delving into databases, infrastructure
+          or distributed systems. If you want to get on his good side buy him a weiss beer or tell him
+          that functional languages should rule the world!
+  - type: openspace
+  - type: break
+  - type: wrapup

@@ -1,0 +1,39 @@
+type: meetup
+number: 22
+date: 2018-11-27
+host: talkdesk
+title: Build Automation in a DevOps way!
+agenda:
+  - type: intro
+  - type: talk
+    title: Build Automation in a DevOps way!
+    abstract: >
+      Do you still configure your builds manually through a User Interface?
+
+
+      In the past years, Infrastructure as Code has become a new normal, especially with the advent of
+      new technologies like Puppet, Chef or Docker.
+
+
+      This practice made the Operations teams to adopt common development practices to manage their
+      infrastructure. Strangely, the Continuous Integration processes continue to be manually
+      configured.
+
+
+      In this session we will explore the Build as Code concept and we will use Cake
+      (http://cakebuild.net), a build automation solution based on C#, to help us.
+    speakers:
+      - name: Guilherme Ferreira
+        image: m022_guilhermeferreira.jpg
+        linkedin: gsferreira
+        github: gsferreira
+        twitter: gsferreira
+        bio: >
+          Software Architect @ NumbersBelieve (he also acted as a Software Developer and Scrum
+          Master). Focuses on Web Development using technologies as ASP.NET MVC, Microsoft Azure and
+          Web API. Organiser of NetPonto Community. A football fan. Addicted to coffee and a foodie (a
+          geek who cooks).
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup22-build-automation-in-a-devops-way-by-guilherme-ferreira
+  - type: break
+  - type: openspace
+  - type: wrapup
