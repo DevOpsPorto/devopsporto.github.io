@@ -1,0 +1,99 @@
+type: meetup
+number: 19
+date: 2018-08-01
+host: blip
+title: "DevOps Porto and Python Porto: Summer Talks"
+agenda:
+  - type: intro
+  - type: talk
+    title: "Infrastructure as Code: a DevOps enabling tool"
+    abstract: >
+      With the appearance of DevOps, a product's lifecycle stops being about separate stages
+      conducted by independent teams. It transitioned to a continuous process carried out by teams
+      sharing knowledge, thoughts, opinions, and tools. IaC tools allow infrastructure deployment and
+      configuration management through code, proving themselves as a strong link element between devs
+      and ops.
+    speakers:
+      - name: Diana Martins
+        image: m019_dianamartins.jpg
+        linkedin: dianacmartins
+        bio: Software Engineer and DevOps enthusiast
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup19-infrastructure-as-code-a-devops-enabling-tool-by-diana-martins
+  - type: talk
+    title: Behind machine learning
+    abstract: A linear regression and a neuronal network will be implemented using nothing but Python.
+    speakers:
+      - name: Ricardo Cruz
+        image: m019_ricardocruz.png
+        github: rpmcruz
+        bio: >
+          I do research on machine learning and computer vision.
+          <a href="https://rpmcruz.github.io/" target="_blank">https://rpmcruz.github.io/</a>
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup19-behind-machine-learning-by-ricardo-cruz
+  - type: talk
+    title: GUI programming on Python with Tkinter
+    abstract: >
+      One of most overlooked packages from The Python Standard Library is tkinter and it's child ttk.
+      Tkinter allows us to build graphic user interfaces without adding external dependencies, and
+      with a bit of care, it allows for a good user experience. While learning Python programming, I
+      have been exploring tkinter/ttk as a tool for building user-friendly graphical interfaces. I
+      would like to share that experience and some of the insights that have arisen during that
+      process. Tkinter may not be able to replace a native GUI toolkit, but can certainly be an
+      important addition to any developers toolbox, both for personal use, or for bridging our code to
+      less technical users.
+    speakers:
+      - name: Victor Domingos
+        image: m019_vitordomingos.jpg
+        twitter: victordomingos
+        linkedin: victordomingos
+        bio: >
+          I was born in 1981 in Arcos de Valdevez and at the moment I live in Braga. I completed a 5
+          years degree in Psychology at University of Minho by 2005 and, throughout my life, I have
+          always been engaged into learning something. I work as an Apple Product Professional at
+          Promais. I started learning Python about 2 years ago and most of that time I have been
+          exploring the possibilities of Python/tkinter for building Mac-friendly graphical user
+          interfaces.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup19-gui-programming-on-python-with-tkinter-by-vitor-domingos
+  - type: break
+  - type: talk
+    title: Speed CI with Gitlab CI and Docker
+    abstract: >
+      Short description of Gitlab CI and you can get it running and building. From building, test and
+      deploy, the example is on kubernetes.
+    speakers:
+      - name: Alfredo Palhares
+        image: m019_alfredopalhares.jpg
+        bio: Lead DevOps Engineer @ Prozis, Fitness and Outdoors entusiast.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup19-speed-ci-with-gitlab-ci-and-docker-by-alfredo-palhares
+  - type: talk
+    title: Needle in a haystack – a DevOps story
+    abstract: >
+      What are the main challenges about recruiting in IT? What do recruiters search for when hiring
+      for DevOps roles? At this point, we are all used to hearing about how the labor market is
+      becoming more dynamic and fast-paced. Companies look for top notch engineers for their teams –
+      recruit, hire, retain, let go. Rewind and repeat. We are dealing with people, companies and
+      their circumstances - and this scenario can change very quickly. There is never a perfect fit;
+      but what can we do to be as close as possible to that?
+    speakers:
+      - name: Ana Maria Heleno
+        image: m019_anamariaheleno.jpg
+        linkedin: anamariaheleno
+        bio: Talent Acquisition Specialist @ Natixis in Portugal
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup19-needle-in-a-haystack-a-devops-story-by-ana-maria-heleno
+  - type: talk
+    title: Python as a tool for experimenting
+    abstract: >
+      In an agile and lean world, when you need to get the fastest feedback for your buck, you need a
+      tool that can accelerate your software development and create an MVP in days. That's where
+      Python can come in. This talk will be focused on how to create an MVP quickly with Python and
+      how to put in production as fast as possible, with concrete example from Tonic App.
+    speakers:
+      - name: Leonid Kholkine
+        image: m019_leonidkholkine.jpg
+        twitter: leonidkho
+        linkedin: kholkine
+        bio: >
+          Graduated in Computer Engineering, I've started my career as a freelance developer, worked
+          on several web and VoIP projects. Currently I'm the Head of Engineering at Tonic App.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup19-python-as-a-tool-for-experimenting-by-leonid-kholkine
+  - type: wrapup

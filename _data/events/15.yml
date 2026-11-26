@@ -1,0 +1,49 @@
+type: meetup
+number: 15
+date: 2018-04-18
+host: faro
+title: Acceptance Testing for Continuous Delivery
+youtube: https://youtu.be/WN11hT-AX-4
+agenda:
+  - type: intro
+  - type: talk
+    title: Acceptance Testing for Continuous Delivery
+    abstract: >
+      This time around we will be hosting Dave Farley (@davefarley77), the well known thought leader
+      and co-author of the seminal book
+      <a href="https://martinfowler.com/books/continuousDelivery.html" target="_blank">"Continuous Delivery"</a>
+      and the <a href="https://www.reactivemanifesto.org/" target="_blank">Reactive Manifesto</a>.
+
+
+      Writing and maintaining a suite of acceptance tests that can give you a high level of confidence
+      in the behaviour and configuration of your system is a complex task. In this talk Dave will
+      describe approaches to acceptance testing that allow teams to: work quickly and effectively;
+      build excellent functional coverage for complex enterprise-scale systems; manage and maintain
+      those tests in the face of change, and of evolution in both the codebase and the understanding
+      of the business problem.
+
+
+      This talk will answer the following questions, and more: How do you fail fast? How do you make
+      your testing scalable? How do you isolate test cases from one-another? How do you maintain a
+      working body of tests when you radically change the interface to your system?
+    speakers:
+      - name: David Farley
+        image: m015_davefarley.jpg
+        twitter: davefarley77
+        linkedin: dave-farley-a67927
+        bio: >
+          Founder and director of Continuous Delivery Ltd, Dave is a thought-leader in the field of
+          Continuous Delivery, DevOps and Software Development and works as an independent consultant
+          and trainer. Dave is co-author of the Jolt-award winning book 'Continuous Delivery' and the
+          'Reactive Manifesto'. He is also a regular conference speaker and well known blogger.
+
+
+          Dave has been having fun with computers for over 30 years. During that period he has worked
+          on most types of software. Dave's focus in recent years has been in the field of low
+          latency computing, developing high performance software for the finance industry. You can
+          find out more about his thoughts at his blog at
+          <a href="http://www.davefarley.net/" target="_blank">http://www.davefarley.net/</a>.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup15-acceptance-testing-for-continuous-delivery-by-dave-farley
+  - type: openspace
+  - type: break
+  - type: wrapup
