@@ -1,0 +1,35 @@
+type: meetup
+number: 8
+date: 2017-09-12
+host: critical-software
+title: Quality Return (from holidays)
+agenda:
+  - type: intro
+  - type: talk
+    title: Is QA dying in the DevOps world?
+    abstract: >
+      As organizations are moving towards agile development and, ultimately, Continuous Delivery,
+      does it make sense to have the quality responsibility in the hands of a QA team? But does that
+      mean that organization won't need QA professionals once they work on a complete CD environment?
+      These are the kinds of doubts that organizations have these days. The QA work is changing and
+      this means being able and willing to improve the test approach instead of focusing on executing
+      the tests. This change will lead to a QA evolution.
+
+
+      Our invited speaker Marta Torneiro will answer some of these questions and explore the QA
+      challenges that organizations have to face nowadays.
+    speakers:
+      - name: Marta Torneiro
+        image: m008_martatorneiro.jpg
+        linkedin: martatorneiro
+        bio: >
+          Marta has been working in Quality Assurance for almost 4 years, currently as QA Team Lead @
+          Hostelworld. She always has been an enthusiast about process improvement and about learning
+          new methodologies, frameworks or techniques that can help development teams to always have
+          "Quality" in mind and as a core value. She truly believes that what makes possible to
+          deliver a reliable and relevant system or product is to focus on Quality, in a continuous
+          way.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup8-is-qa-dying-in-the-devops-world-by-marta-torneiro
+  - type: break
+  - type: openspace
+  - type: wrapup
