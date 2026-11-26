@@ -3,6 +3,7 @@ number: 49
 date: 2022-02-22
 host: online
 title: Fifteen minutes or bust
+youtube: https://www.youtube.com/watch?v=twca1NkoI5Q
 agenda:
   - type: intro
   - type: talk
@@ -24,6 +25,5 @@ agenda:
           tooling to engineers in the era of distributed systems. Charity is the co-author of
           Database Reliability Engineering (O'Reilly), and is devoted to creating a world where every
           engineer is on call and nobody thinks on call sucks.
-    youtube: https://www.youtube.com/watch?v=twca1NkoI5Q
   - type: qa
   - type: wrapup

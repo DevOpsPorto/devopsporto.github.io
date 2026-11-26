@@ -3,6 +3,7 @@ number: 50
 date: 2022-03-31
 host: online
 title: Are Platform teams the next DevOps?
+youtube: https://youtu.be/YGqgSB85Zpo
 agenda:
   - type: intro
   - type: talk
@@ -30,7 +31,6 @@ agenda:
           interactions, delivery practices and accelerating flow. Manuel is also a LinkedIn
           instructor on
           <a href="https://www.linkedin.com/learning/devops-foundations-accelerating-continuous-delivery-in-the-enterprise">Continuous Delivery</a>.
-    youtube: https://youtu.be/YGqgSB85Zpo
   - type: qa
   - type: talk
     title: Accelerating large engineering organisations with Internal Platforms

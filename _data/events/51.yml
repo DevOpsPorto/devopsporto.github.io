@@ -3,6 +3,7 @@ number: 51
 date: 2022-04-20
 host: online
 title: DORA metrics
+youtube: https://youtu.be/uQtktPNLu3Y
 agenda:
   - type: intro
   - type: talk
@@ -24,6 +25,5 @@ agenda:
           Zup (IT Consultant), Nuveo (Computer Vision), Escola Mais (EdTech), Akamai (CDN) e
           StackPath (CDN). Colaborou com projetos Open Source como Pydantic, PostgreSQL, Debian e
           Hoursec.
-    youtube: https://youtu.be/uQtktPNLu3Y
   - type: qa
   - type: wrapup

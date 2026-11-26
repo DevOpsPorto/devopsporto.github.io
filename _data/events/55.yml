@@ -3,6 +3,7 @@ number: 55
 date: 2022-09-09
 host: feup
 title: "DevOps Research for Professionals: from Tools to Best Practices"
+youtube: https://youtu.be/QCo7XQ4IWBY
 agenda:
   - type: intro
   - type: talk
@@ -52,6 +53,5 @@ agenda:
           Tiago Maia is a Master in Software Engineering by the Faculty of Engineering of the
           University of Porto. He is currently working for Farfetch and his main interests orbitate
           around cloud architectures and service meshes.
-    youtube: https://youtu.be/QCo7XQ4IWBY
   - type: qa
   - type: wrapup

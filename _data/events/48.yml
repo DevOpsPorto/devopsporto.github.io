@@ -3,6 +3,7 @@ number: 48
 date: 2022-01-25
 host: online
 title: GitOps and Progressive Delivery
+youtube: https://www.youtube.com/watch?v=w9GesvLUybc
 agenda:
   - type: intro
   - type: talk
@@ -30,6 +31,5 @@ agenda:
           of Things. He's currently the Chapter Lead for Data Engineering and SRE at ANOVA, helping
           build a Cloud-Native IIoT Platform for a diverse set of markets: Industrial Gas, Rail,
           Energy, Oil & Gas, Water/Wastewater, and other industries.
-    youtube: https://www.youtube.com/watch?v=w9GesvLUybc
   - type: qa
   - type: wrapup
