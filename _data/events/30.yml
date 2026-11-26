@@ -1,0 +1,49 @@
+type: "meetup"
+number: 30
+date: 2019-08-08
+host: euronext
+title: "DevOps Porto and Python Porto: Summer Talks"
+agenda:
+  - type: intro
+  - type: talk
+    title: Localizing your app. Traps and pitfalls
+    speakers:
+      - name: Roman Imankulov
+        linkedin: roman-imankulov-91076144
+        twitter: rdotpy
+        github: imankulov
+    slides: https://speakerdeck.com/devopsporto/localizing-your-app-traps-and-pitfalls-by-roman-imankulov
+  - type: talk
+    title: 10 Minutes away from Performance
+    speakers:
+      - name: William Mendes
+        github: william-mendes
+        linkedin: william-mendes
+    slides: https://speakerdeck.com/devopsporto/10-minutes-away-from-performance-by-william-mendes
+  - type: talk
+    title: Gitlab CI with Python
+    speakers:
+      - name: André Gomes
+    slides: https://speakerdeck.com/devopsporto/cd-with-python-by-andre-alexandre-gomes
+  - type: break
+  - type: talk
+    title: Applying DevOps to SQL Database development
+    speakers:
+      - name: Rodrigo Soares
+        twitter: RodFontesSoares
+        linkedin: rodrigofontessoares
+    slides: https://speakerdeck.com/devopsporto/applying-devops-to-sql-database-development-by-rodrigo-soares
+  - type: talk
+    title: Fullstack Data Science - From Data Processing Pipeline using Luigi to Serverless Backend Architecture using AWS Lambda Functions
+    speakers:
+      - name: Arian Pasquali
+        github: arianpasquali
+        linkedin: arianpasquali
+    slides: https://speakerdeck.com/devopsporto/fullstack-data-science-by-arian-pasquali
+  - type: talk
+    title: The unsung hero of Python Programming - Documentation
+    speakers:
+      - name: Brett Drury
+        linkedin: brett-drury-18249a
+    slides: https://speakerdeck.com/devopsporto/the-unsung-hero-of-python-programming-documentation-by-brett-drury
+  - type: wrapup

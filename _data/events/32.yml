@@ -1,0 +1,29 @@
+type: "meetup"
+number: 32
+date: 2019-10-10
+host: critical-techworks
+title: Kubernetes around the globe
+agenda:
+  - type: intro
+  - type: talk
+    title: "K8s in AWS: Europe, US and The Great Wall"
+    abstract: >
+      For the last year and a half, our invited speaker João Peixoto, have been working in DevOps
+      teams developing solutions to be instantiated in Kubernetes cluster on AWS in there different
+      regions: Frankfurt, North Virginia and Beijing. He's going to talk about the struggle to
+      instantiate an enterprise grade Kubernetes cluster in AWS and all the tools that enable his team
+      to do DevOps in a production environment.
+    speakers:
+      - name: João Peixoto
+        image: m032_joaopeixoto.jpeg
+        linkedin: peixotojoao
+        bio: >
+          João is a person that was always passionate about software development and he really enjoy
+          to work on new technologies. In fifteen years of professional experience he was fortunate to
+          work on some of the top Portuguese companies in three different business areas (software
+          development, telecommunications, power distribution) which allowed him to acquire a very
+          rich and diverse set of technical skills and be familiar with different software development
+          processes.
+    slides: https://speakerdeck.com/devopsporto/k8s-in-aws-europe-us-and-the-great-wall-of-china
+  - type: break
+  - type: wrapup

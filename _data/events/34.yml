@@ -1,0 +1,46 @@
+type: "meetup"
+number: 34
+date: 2019-12-10
+host: selina
+title: Freelance and Remote - is it possible in DevOps?
+agenda:
+  - type: intro
+  - type: talk
+    title: Freelance and Remote - is it possible in DevOps?
+    abstract: >
+      Remote and freelance work is on the rise, and DevOps is no exception. Or is it? Today we gather
+      4 people with very different freelance / remote experiences to talk about the greener grass but
+      also the ugly holes of this way of working.
+    speakers:
+      - name: Cláudio Freitas
+        linkedin: cláudio-freitas-39a36889
+        bio: >
+          Cláudio is a Systems Administrator/DevOps/SRE and all those fancy words that people use to
+          describe guys that work on Systems. He started working in IT from a young age and has been
+          in the game for around 12 years. From Helpdesk to Systems Engineer he has been working as a
+          freelancer in the SRE/DevOps/Systems area.
+      - name: Jochem Doolaard
+        linkedin: jochemdoolaard
+        bio: >
+          Jochem Doolaard is a Leadership Trainer and Facilitator who helps professionals thrive in
+          work and life. After 8 years advising finance & procurement teams in Unilever, extensive
+          world travel and coaching young athletes, he is now running a social learning network for
+          professionals; Dreambuildrs. A vision to go beyond modern education; believing in purpose,
+          growth, community and realizing big dreams.
+      - name: Miguel Coquet
+        linkedin: miguelcoquet
+        twitter: mcoquet
+        bio: >
+          Trained Software Engineer, designing, developing and maintaining software at all levels of
+          the stack remotely for a decade, running a fully remote company with a fully remote team for
+          the last 2. Currently building awesome things with select clients @ Cavaco & Coquet.
+      - name: Miguel David
+        linkedin: migueldavid
+        twitter: desfocado
+        bio: >
+          Miguel started his career in big multinational institutions (Infineon, ESA, Rackspace) doing
+          Operations and Linux Systems Administration only to fall in love with smaller companies and
+          startups working in the chasm of Development and Operations. He currently is working @
+          Harvest migrating workloads to Google Kubernetes Engine.
+    slides: https://speakerdeck.com/devopsporto/freelance-and-remote-is-it-possible-in-devops
+  - type: break

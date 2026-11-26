@@ -1,0 +1,23 @@
+type: "meetup"
+number: 29
+date: 2019-07-18
+host: farfetch-boavista
+title: Docker Anatomy
+agenda:
+  - type: intro
+  - type: talk
+    title: Docker Anatomy
+    abstract: >
+      A pragmatic look into containers, what they are, how they work, and what that means for you.
+    speakers:
+      - name: João Silva
+        image: m029_joaosilva.jpg
+        twitter: joaocruzsilva
+        linkedin: joão-silva-b7839176
+        bio: >
+          João Silva has a background in Electrical Engineering and Networking with a special space in
+          his heart for IoT devices. Has worked for big and small companies doing SRE-related
+          thingies. Works mostly in CI/CD stuff at Farfetch nowadays.
+  - type: break
+  - type: openspace
+  - type: wrapup

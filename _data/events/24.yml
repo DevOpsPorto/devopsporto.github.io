@@ -1,0 +1,32 @@
+type: "meetup"
+number: 24
+date: 2019-02-19
+host: xing
+title: Hello 2019 we are back!
+agenda:
+  - type: intro
+  - type: talk
+    title: "UXIDevOps: The Trojan Horse for Implementing a DevOps Culture"
+    abstract: >
+      As companies grow, the need for a DevOps Mindset that shapes its processes from scratch is
+      essential. Not having this culture and centralizing it to a single team or putting it too late
+      into action can be catastrophic for an organization as it walks towards fully automated
+      processes.
+
+
+      On this talk we will not only talk about "The DevOps way of life" but how we can achieve a
+      perfect synchronization between all of the areas inside a company so that automation becomes a
+      creed and not so much of an imposed rule by the bosses while we keep in mind the UX and UI of
+      it for the people involved, with some practical examples along the way.
+
+
+      It's DevOps or Nothing.
+    speakers:
+      - name: Domingos Da Silva
+        image: m024_domingossilva.jpg
+        linkedin: domingos-da-silva
+        twitter: DomLinkgos
+        bio: Lead Infrastructure Engineer at Farfetch.
+    slides: https://speakerdeck.com/devopsporto/devopsporto-meetup24-uxidevops-the-trojan-horse-for-implementing-a-devops-culture-by-domingos-da-silva
+  - type: break
+  - type: wrapup

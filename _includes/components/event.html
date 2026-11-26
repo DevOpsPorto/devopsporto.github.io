@@ -4,7 +4,9 @@
   {% assign title = talks | map: "title" | join: " // " %}
 {% endif %}
 
-{% if include.event.host == "online" %}
+{% if include.event.type == "bootcamp" %}
+  {% include components/eventTitle.html title=title %}
+{% elsif include.event.host == "online" %}
   {% include components/meetuponlinetitle.html number=include.event.number title=title %}
 {% else %}
   {% include components/meetuptitle.html number=include.event.number title=title %}

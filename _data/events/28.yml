@@ -1,0 +1,24 @@
+type: "meetup"
+number: 28
+date: 2019-06-19
+host: talkdesk
+title: DevOps in a small team/company
+agenda:
+  - type: intro
+  - type: talk
+    title: DevOps in a small team/company
+    abstract: >
+      An overview of work done to bring DevOps practices into a small team. Many talks cover work on
+      big teams/companies and there's less talk on leaner practices.
+    speakers:
+      - name: Vitor Pereira
+        image: m028_vitorpereira.jpg
+        linkedin: vitorhugopereira
+        bio: >
+          Vitor is an experienced Senior Software Engineer with a demonstrated history of working in
+          banking, insurance and online retail industries. Skilled in C#, ASP.NET MVC, WebServices,
+          REST, SOAP, integration and continuous delivery tools.
+    slides: https://speakerdeck.com/devopsporto/company-by-vitor-pereira
+  - type: break
+  - type: openspace
+  - type: wrapup

@@ -1,0 +1,33 @@
+type: "bootcamp"
+date: 2019-06-15
+host: devscope
+title: Global DevOps Bootcamp 2019 @ DevOps Porto
+agenda:
+  - type: intro
+  - type: talk
+    title: Global DevOps Bootcamp 2019 @ DevOps Porto
+    abstract: >
+      Global DevOps Bootcamp is a global event that will be held on Saturday June 15th and is all
+      about DevOps on the Microsoft Stack. Centrally organized by Xpirit and Solidify and offered to
+      you by DevOps Porto and Devscope. During this 1-day event we will join (Microsoft) DevOps
+      communities all around the world to talk, learn and play with DevOps concepts. The goals: DevOps
+      in general, insights into where we are heading when it comes to DevOps and new technologies, and
+      getting people's hands dirty playing with all the good Microsoft DevOps stuff.
+
+
+      This year's theme will be 'You build it, you run away it!'. We will kick off with an
+      introduction of a well-known authority in the DevOps space, followed by a keynote from the local
+      partner about where we are heading with DevOps.
+
+
+      This time the event is all about the 'run' part of DevOps. It will help you understand the latest
+      DevOps trends and insights in modern technologies. You will learn about the concept of Detect,
+      Respond, Recover. By means of production like scenarios and disruptions you will learn to
+      overcome several challenges and experience how to not only build a solution but also run it as a
+      true DevOps team would. It is an amazing combination between getting your hands dirty and sharing
+      experience and knowledge around Azure and DevOps practices with other community members.
+
+
+      Of course you won't be on your own. During the day you will be supported and guided by local
+      experts who are active in the Microsoft Community.
+  - type: wrapup
