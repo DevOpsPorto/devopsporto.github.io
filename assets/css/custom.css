@@ -17,6 +17,12 @@
  img.width-is-128 {
     width:128px
 }
+ .columns.event-columns > .column {
+     display: flex;
+}
+ .columns.event-columns > .column > .box {
+     width: 100%;
+}
  .topsponsor{
      background-color: white;
      color:black;
