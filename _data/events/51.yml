@@ -1,7 +1,6 @@
-type: "meetup"
+type: "online"
 number: 51
 date: 2022-04-20
-host: online
 title: DORA metrics
 youtube: https://youtu.be/uQtktPNLu3Y
 agenda:

@@ -1,7 +1,6 @@
-type: "meetup"
+type: "online"
 number: 44
 date: 2021-04-22
-host: online
 title: Microservices [EN]
 youtube: https://youtu.be/Gyw0TIzQGRw
 agenda:

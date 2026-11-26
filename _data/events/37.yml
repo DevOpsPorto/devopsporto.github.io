@@ -1,7 +1,6 @@
-type: "meetup"
+type: "online"
 number: 37
 date: 2020-07-23
-host: online
 title: Monitoring
 youtube: https://youtu.be/NTRA8qLGIUU
 agenda:

@@ -1,7 +1,6 @@
-type: "meetup"
+type: "online"
 number: 42
 date: 2021-02-04
-host: online
 title: Bootstrapping SRE [EN]
 youtube: https://youtu.be/BWJG4iXWj-8
 agenda:

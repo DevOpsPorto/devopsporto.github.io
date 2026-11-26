@@ -1,7 +1,6 @@
-type: "meetup"
+type: "online"
 number: 48
 date: 2022-01-25
-host: online
 title: GitOps and Progressive Delivery
 youtube: https://www.youtube.com/watch?v=w9GesvLUybc
 agenda:

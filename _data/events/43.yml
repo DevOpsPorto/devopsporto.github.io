@@ -1,7 +1,6 @@
-type: "meetup"
+type: "online"
 number: 43
 date: 2021-04-15
-host: online
 title: Kubernetes path to Production [PT]
 youtube: https://youtu.be/xDDa5apeQBY
 agenda:

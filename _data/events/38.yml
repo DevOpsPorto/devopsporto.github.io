@@ -1,7 +1,6 @@
-type: "meetup"
+type: "online"
 number: 38
 date: 2020-08-06
-host: online
 title: DataOps - DevOps Porto & DSPT
 youtube: https://youtu.be/dTRq6l-xdpg
 agenda:
