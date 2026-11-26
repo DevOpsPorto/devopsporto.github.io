@@ -8,7 +8,7 @@ layout: default
         <div class="box">
             <h1 class="title">Join the discussion</h1>
             <div class="content">
-                {% assign slack = site.data.social | where: "title", "Slack" | first %}The community is regularly present in Slack, so get on there ASAP and join in on the conversation. Get your invite <a href="{{ slack.url }}">here</a>
+                {% assign slack = site.data.social | where: "title", "Slack" | first %}The community is regularly present in Slack, so get on there ASAP and join in on the conversation. Get your invite <a href="{{ slack.url }}">here</a>.
             </div>
         </div>
     </div>
