@@ -32,10 +32,11 @@ layout: default
 {% assign keys = keys | sort | reverse %}
 {% assign years = years | uniq | sort | reverse %}
 
-<nav class="content yearNav" aria-label="Jump to year">
-  <div class="buttons">
+<nav class="yearNav" aria-label="Jump to year">
+  <span class="yearNav-label">Jump to a year</span>
+  <div class="yearNav-years">
     {% for year in years %}
-      <a class="button is-primary is-light" href="#year-{{ year }}">{{ year }}</a>
+      <a class="yearNav-btn" href="#year-{{ year }}">{{ year }}</a>
     {% endfor %}
   </div>
 </nav>

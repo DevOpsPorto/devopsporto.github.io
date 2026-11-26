@@ -14,6 +14,41 @@
  .calenderItem {
      padding-top: 20px;
 }
+ .yearNav {
+     margin: 2rem 0 2.5rem;
+     padding: 1.25rem 1.5rem;
+     background-color: #f6f8fa;
+     border: 1px solid #e1e4e8;
+     border-radius: 8px;
+}
+ .yearNav-label {
+     display: block;
+     margin-bottom: 0.75rem;
+     font-size: 0.7rem;
+     font-weight: 700;
+     letter-spacing: 0.08em;
+     text-transform: uppercase;
+     color: #7a7a7a;
+}
+ .yearNav-years {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 0.5rem;
+}
+ .yearNav-btn {
+     display: inline-block;
+     padding: 0.35rem 0.9rem;
+     font-weight: 600;
+     color: #009e88;
+     background-color: #fff;
+     border: 1px solid #00d1b2;
+     border-radius: 999px;
+     transition: background-color 0.15s ease, color 0.15s ease;
+}
+ .yearNav-btn:hover, .yearNav-btn:focus {
+     color: #fff;
+     background-color: #00d1b2;
+}
  img.width-is-128 {
     width:128px
 }
