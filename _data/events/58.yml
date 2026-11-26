@@ -1,0 +1,43 @@
+type: "meetup"
+number: 58
+date: 2022-12-14
+host: cocus
+title: Cloud Cost Optimization // Jupyter notebooks for automation & knowledge sharing
+agenda:
+  - type: intro
+  - type: talk
+    title: Cloud Cost Optimization
+    abstract: >
+      Cloud computing is great. Providers do the heavy lifting of data center operations like
+      racking, stacking, cabling, powering servers, and ensuring that all their services are
+      delivered in the most reliable way. It allows companies to minimize infrastructure up-front
+      costs and provides burst computing capability. But cloud costs can escalate rapidly due to poor
+      practices. This presentation will give some actionable insights on how to optimize cloud
+      computing costs.
+    speakers:
+      - name: João Fraga
+        image: m058_joaofraga.png
+        bio: >
+          João Fraga is a DevOps Engineer working at Cocus. He has been using the public cloud to run
+          production workloads for 6 years. He's a Certified Kubernetes Administrator, AWS Certified
+          Sysops Administrator, and AWS Certified Solutions Architect – Associate. Among his hobbies,
+          he enjoys reading about the history of computing and tinkering with IoT devices.
+  - type: qa
+  - type: talk
+    title: Using Jupyter Notebooks for automation and knowledge sharing
+    abstract: >
+      Jupyter is a very well-known tool in the data science and machine learning communities, but its
+      flexibility to hold text and runnable code together in the same document allows its usage in
+      many different scenarios. In this talk, we will discuss how we have been using this tool to
+      automate DevOps tasks and in doing so how we enabled sharing of knowledge on DevOps topics
+      within our team.
+    speakers:
+      - name: Jader Meros
+        image: m058_jadermedeiros.png
+        bio: >
+          Jader Meros is an AWS DevOps at Cocus, graduated in Computer Science and with a master's
+          thesis on Software Engineering. He has been working with cloud solutions in the Tourism
+          Industry for the last two years as QA Automation and DevOps, but he had also previous
+          experiences in the Communication Industry and in Federal Justice Sector.
+  - type: qa
+  - type: wrapup

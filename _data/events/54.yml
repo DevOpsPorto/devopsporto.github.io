@@ -1,0 +1,22 @@
+type: "meetup"
+number: 54
+date: 2022-07-25
+host: critical-techworks
+title: Safely Shipping Lots of Logs
+agenda:
+  - type: intro
+  - type: talk
+    title: Safely Shipping Lots of Logs
+    abstract: >
+      Our Kubernetes PaaS had a high volume of logs and we did not have a lot of interest in paying
+      Cloudwatch fees for them. So we teamed up with some ElasticSearch gurus to send our logs their
+      way. You won't believe what happened next! (not clickbait)
+    speakers:
+      - name: David Barreiro
+        image: m054_davidbarreiro.jpg
+        bio: >
+          David Barreiro started his career in SAP and eventually made a career change to Cloud
+          development where he found his vocation in DevOps. He is currently an IT Paladin (DevOps) @
+          Critical Techworks. He will share with us how to safely ship lots of logs.
+  - type: qa
+  - type: wrapup

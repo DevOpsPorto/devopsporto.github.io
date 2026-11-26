@@ -4,17 +4,26 @@
   {% assign title = talks | map: "title" | join: " // " %}
 {% endif %}
 
-{% include components/meetuptitle.html
-  number=include.event.number
-  title=title
-%}
+{% if include.event.host == "online" %}
+  {% include components/meetuponlinetitle.html number=include.event.number title=title %}
+{% else %}
+  {% include components/meetuptitle.html number=include.event.number title=title %}
+{% endif %}
 
-<div class="columns content">
+<div class="columns content event-columns">
   <div class="column is-one-third">
     <div class="box">
       <h3>{{ include.event.date }}</h3>
       {% include components/eventAgenda.html agenda=include.event.agenda  %}
-      {% include components/eventHost.html host=include.event.host  %}
+      {% unless include.event.host == "online" %}
+        {% include components/eventHost.html host=include.event.host  %}
+      {% endunless %}
+      {% if include.event.youtube %}
+      <h3>Video</h3>
+      <figure class="image">
+        <a href="{{ include.event.youtube }}" target="_blank"><img class="width-is-128" alt="DevOpsPorto YouTube" src="assets/images/hosts/youtube.png" /></a>
+      </figure>
+      {% endif %}
     </div>
   </div>
   <div class="column is-auto">
