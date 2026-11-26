@@ -1,4 +1,5 @@
-<a class="button is-small" href="https://www.linkedin.com/in/{{ include.handle }}" target="_blank">
+{% if include.handle contains "linkedin.com" %}{% assign linkedinUrl = include.handle %}{% else %}{% assign linkedinUrl = include.handle | prepend: "https://www.linkedin.com/in/" %}{% endif %}
+<a class="button is-small" href="{{ linkedinUrl }}" target="_blank">
     <span class="icon">
       <i class="fa fa-linkedin-square"></i>
     </span>

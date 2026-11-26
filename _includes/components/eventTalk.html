@@ -26,8 +26,8 @@
 </article>
 {% endfor %}
 
+{% if include.talk.slides or include.talk.youtube %}
 <article class="media">
-    {% if include.talk.slides or include.talk.youtube %}
     <div class="media-content">
         <div class="content">
             {% if include.talk.slides %}
@@ -40,5 +40,5 @@
             {% endif %}
         </div>
     </div>
-    {% endif %}
 </article>
+{% endif %}
