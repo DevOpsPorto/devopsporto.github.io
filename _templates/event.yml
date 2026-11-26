@@ -27,13 +27,13 @@ agenda:
       separate paragraphs with a blank line.
     speakers:
       - name: Jane Doe
-        image: m092_janedoe.jpg   # file in assets/images/speakers/, optional
-        twitter: janedoe          # optional
-        linkedin: janedoe         # optional
-        github: janedoe           # optional
+        image: m092_janedoe.jpg   # file in assets/images/speakers/ (m<number>_<firstlast>.jpg); speaker_icon.png if none
+        twitter: janedoe          # handle only, no @ (optional)
+        linkedin: janedoe         # profile slug — the part after /in/ — NOT the full URL (optional)
+        github: janedoe           # handle only (optional)
         bio: >
-          Short speaker bio.
-    slides: https://speakerdeck.com/...   # optional
+          Short speaker bio, as a prose paragraph.
+    slides: https://speakerdeck.com/...   # slide deck URL (optional)
   - type: qa
   - type: wrapup
 
