@@ -1,3 +1,20 @@
+@media screen and (max-width: 768px) {
+     .nav {
+         height: auto;
+         flex-wrap: wrap;
+    }
+     .nav-menu.nav-right {
+         display: flex;
+         position: static;
+         flex-basis: 100%;
+         justify-content: center;
+         flex-wrap: wrap;
+         box-shadow: none;
+    }
+     .nav-menu.nav-right .nav-item {
+         border-top: none;
+    }
+}
 .google-maps {
      position: relative;
      padding-bottom: 40%;
