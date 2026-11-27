@@ -38,7 +38,10 @@
          min-width: 0;
     }
 }
-.content {
+.hero.is-primary .subtitle {
+     margin-top: 0.75rem;
+}
+ .content {
      overflow-wrap: break-word;
 }
  .content img {
