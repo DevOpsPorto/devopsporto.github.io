@@ -1,3 +1,8 @@
+@media screen and (max-width: 999px) {
+     .container {
+         width: auto;
+    }
+}
 @media screen and (max-width: 768px) {
      .nav {
          height: auto;
@@ -14,8 +19,22 @@
      .nav-menu.nav-right .nav-item {
          border-top: none;
     }
+     .columns.event-columns > .column {
+         float: none;
+         min-width: 0;
+    }
+     .media-content {
+         min-width: 0;
+    }
 }
-.google-maps {
+.content {
+     overflow-wrap: anywhere;
+}
+ .content img {
+     max-width: 100%;
+     height: auto;
+}
+ .google-maps {
      position: relative;
      padding-bottom: 40%;
      height: 0;
