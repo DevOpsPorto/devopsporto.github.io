@@ -8,6 +8,10 @@
          height: auto;
          flex-wrap: wrap;
     }
+     .nav-left {
+         flex-basis: 100%;
+         justify-content: center;
+    }
      .nav-menu.nav-right {
          display: flex;
          position: static;
@@ -23,12 +27,19 @@
          float: none;
          min-width: 0;
     }
+     .media {
+         flex-direction: column;
+    }
+     .media-left {
+         margin-right: 0;
+         margin-bottom: 1rem;
+    }
      .media-content {
          min-width: 0;
     }
 }
 .content {
-     overflow-wrap: anywhere;
+     overflow-wrap: break-word;
 }
  .content img {
      max-width: 100%;
