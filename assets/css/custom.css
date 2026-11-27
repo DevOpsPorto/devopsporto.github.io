@@ -1,4 +1,62 @@
-.google-maps {
+@media screen and (max-width: 999.98px) {
+     .container {
+         width: auto;
+    }
+     .main-content {
+         padding-left: 1.5rem;
+         padding-right: 1.5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+     .nav {
+         height: auto;
+         flex-wrap: wrap;
+    }
+     .nav-left {
+         flex-basis: 100%;
+         justify-content: center;
+    }
+     .nav-menu.nav-right {
+         display: flex;
+         position: static;
+         flex-basis: 100%;
+         justify-content: center;
+         flex-wrap: wrap;
+         box-shadow: none;
+    }
+     .nav-menu.nav-right .nav-item {
+         border-top: none;
+    }
+     .columns.event-columns > .column {
+         float: none;
+         min-width: 0;
+    }
+     .media {
+         flex-direction: column;
+    }
+     .media-left {
+         margin-right: 0;
+         margin-bottom: 1rem;
+    }
+     .media-content {
+         min-width: 0;
+    }
+}
+.hero.is-primary .subtitle {
+     margin-top: 0.75rem;
+}
+ .main-content .hero-body {
+     padding-left: 0;
+     padding-right: 0;
+}
+ .content {
+     overflow-wrap: break-word;
+}
+ .content img {
+     max-width: 100%;
+     height: auto;
+}
+ .google-maps {
      position: relative;
      padding-bottom: 40%;
      height: 0;
@@ -72,48 +130,4 @@
  .columns.event-columns > .column > .box {
      width: 100%;
 }
- .topsponsor{
-     background-color: white;
-     color:black;
-     border-radius: 10px;
-     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-     text-align: center;
-}
- .topsponsor img{
-     max-width: 100%;
-}
- .sponsor{
-     background-color: white;
-     color:black;
-    /*border-radius: 10px;
-    */
-    /*box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-    */
-     text-align: center;
-}
- .sponsor img{
-     max-height: 100px;
-     max-width: 90%;
-     margin: 0 5%;
-}
- .sponsor .columns{
-     margin-bottom:50px;
-}
- .sponsor .columns .box div.column{
-     margin:auto;
-     text-align:center;
-}
- .image.is-96x128 {
-     height: 96px;
-     width: 128px;
-}
- .dateColumn{
-     width:90px;
-}
- .eventTitleColumn{
-     min-width:150px;
-}
- .eventLocationColumn{
-     min-width:150px;
-}
- 
+
